@@ -10,7 +10,7 @@ void init_pose(Pose *pose, float x, float y, float z, float roll, float pitch, f
     pose->yaw = yaw;
 }
 
-void update_pose(Pose *pose, float dx, float dy, float dz, float droll, float dpitch, float dyaw) {
+void update_pose(Pose *pose, float dx, float dy, float dz, float droll, float dpitch, float dyaw) { // Update pose with deltas.
     pose->x += dx;
     pose->y += dy;
     pose->z += dz;
