@@ -10,12 +10,12 @@ MPU6050 mpu6050;
 void app_main(){
     init_drone();
     
-    xTaskCreate(get_imu_data, "Get IMU Data", 2048, NULL, 5, NULL);
-    xTaskCreate(sensor_fusion, "Sensor Fusion", 2048, NULL, 5, NULL);
-    xTaskCreate(pid_controllers, "PID Controllers", 2048, NULL, 5, NULL);
-    xTaskCreate(motor_control, "Motor Control", 2048, NULL, 5, NULL);
-    xTaskCreate(check_safety, "Check Safety", 2048, NULL, 5, NULL);
-    xTaskCreate(send_data_to_pi, "Send Data to Pi", 2048, NULL, 5, NULL);
+    xTaskCreate(get_imu_data, "Get IMU Data", 2048, NULL, 8, NULL);
+    xTaskCreate(sensor_fusion, "Sensor Fusion", 2048, NULL, 8, NULL);
+    xTaskCreate(pid_controllers, "PID Controllers", 2048, NULL, 8, NULL);
+    xTaskCreate(motor_control, "Motor Control", 2048, NULL, 10, NULL);
+    xTaskCreate(check_safety, "Check Safety", 2048, NULL, 6, NULL);
+    xTaskCreate(send_data_to_pi, "Send Data to Pi", 2048, NULL, 6, NULL);
 }
 
 void init_drone(){
