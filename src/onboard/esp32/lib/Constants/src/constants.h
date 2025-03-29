@@ -1,11 +1,36 @@
 #ifndef CONSTANTS_C
 #define CONSTANTS_C
+// PID Constants:
+#define THRUST_KP 1.0
+#define THRUST_KI 1.0
+#define THRUST_KD 1.0
+#define YAW_KP 1.0
+#define YAW_KI 1.0
+#define YAW_KD 1.0
+#define ROLL_KP 1.0
+#define ROLL_KI 1.0
+#define ROLL_KD 1.0
+#define PITCH_KP 1.0
+#define PITCH_KI 1.0
+#define PITCH_KD 1.0
+#define POSITION_ROLL_KP 1.0
+#define POSITION_ROLL_KI 1.0
+#define POSITION_ROLL_KD 1.0
+#define POSITION_PITCH_KP 1.0
+#define POSITION_PITCH_KI 1.0
+#define POSITION_PITCH_KD 1.0
 
-#define Kp 1.0
-#define Ki 1.0
-#define Kd 1.0
+// Motor control constants:
 #define PWM_MIN 1000
-#define PWM_MAX 2000
+#define PWM_MAX 2000 // This number can be changed to articially limit the max motor speed in an attmept to current limit.
+
+// Acceptable Error Tolerance:
+#define X_ERROR_TOLERANCE 0.1f // 10cm
+#define Y_ERROR_TOLERANCE 0.1f // 10cm
+#define Z_ERROR_TOLERANCE 0.1f // 10cm
+#define ROLL_ERROR_TOLERANCE 0.1f // 10 degrees
+#define PITCH_ERROR_TOLERANCE 0.1f // 10 degrees
+#define YAW_ERROR_TOLERANCE 0.1f // 10 degrees
 
 // All Pinouts:
 
@@ -52,4 +77,6 @@
 
 // ESP32 to RPi Comms Pins:
 
+// Miscellaneous Constants:
+#define PI_FLOAT 3.1415927f
 #endif // CONSTANTS_C

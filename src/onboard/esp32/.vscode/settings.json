@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "pose.h": "c",
+        "pid_controller.h": "c"
+    }
+}
