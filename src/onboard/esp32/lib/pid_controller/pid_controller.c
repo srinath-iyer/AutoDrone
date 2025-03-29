@@ -16,7 +16,7 @@ void init_pid_controller(PIDController* pid_controller, float KP, float KI, floa
     pid_controller->max_output = PWM_MAX;
 }
 
-float compute_pid(PIDController* pid_controller, float error){
+float calculate_pid(PIDController* pid_controller, float error){
     pid_controller->error = error;
     pid_controller->integral += pid_controller->error * pid_controller->dt;
     pid_controller->derivative = (pid_controller->error - pid_controller->previous_error) / pid_controller->dt;

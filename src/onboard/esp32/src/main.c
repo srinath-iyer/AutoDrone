@@ -12,14 +12,23 @@
 #include <sensor_fusion.h>
 #include "constants.h"
 #include <safeties.h>
-#
+
 
 // Global Objects:
 MPU6050 mpu6050;
 PIDController thrust_pid, yaw_pid, roll_pid, pitch_pid, position_roll_pid, position_pitch_pid;
 Pose pose; // Current pose of the drone.
+
+// Forward Declarations:
+void sensors_and_controls();
+void check_safety();
+void send_pose_to_pi();
+void correct_pose();
+void check_for_enable();
+void init_drone();
 float thrust_error, yaw_error, roll_error, pitch_error, position_roll_pid_error, position_pitch_pid_error; // Errors for PID controllers.
 Pose setpoint; // Setpoint for the drone.
+
 
 // State:
 bool is_enabled = false;
@@ -72,13 +81,14 @@ void sensors_and_controls(){
     Pose local_pose_error = get_local_error_to_setpoint(&pose, &setpoint, cos_yaw, sin_yaw); 
 
     // Provide position errors, output is roll and pitch angles for the drone.
-    float position_roll_output = calculate_pid(&position_roll_pid, local_pose_error.x);
-    float position_pitch_output = calculate_pid(&position_pitch_pid, local_pose_error.y);
-    //
-    float thrust_output = calculate_pid(&thrust_pid, thrust_error);
-    float yaw_output = calculate_pid(&yaw_pid, yaw_error);
-    float roll_output = calculate_pid(&roll_pid, roll_error);
-    float pitch_error = calculate_pid(&pitch_pid, pitch_error);
+    setpoint.roll = calculate_pid(&position_roll_pid, local_pose_error.x);
+    setpoint.pitch = calculate_pid(&position_pitch_pid, local_pose_error.y);
+    
+    float yaw_error = 0; // Needs to have some trig in it.
+    float thrust_output = calculate_pid(&thrust_pid, setpoint.z-pose.z); // Thrust error is in the z direction.
+    float yaw_output = calculate_pid(&yaw_pid, yaw_error); // Yaw error is thr angle between the 
+    float roll_output = calculate_pid(&roll_pid, setpoint.roll-pose.roll);
+    float pitch_error = calculate_pid(&pitch_pid, setpoint.pitch-pose.pitch);
     
     // Motor Mixing Algo:
 
