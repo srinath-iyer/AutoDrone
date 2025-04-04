@@ -11,7 +11,17 @@ This directory contains the source code and configuration files for the ESP32 mo
 - **`config.h`**: Configuration constants and macros for the project.
 
 ### `lib/`
-- **`constants.h`**: Constant values, 
+
+`lib/` contains custom libraries and files.
+- **`constants`**: Constant values
+- **`motor_driver`**: Sending PWM signals to motors
+- **`motor_mixing`**: 
+- **`mpu6050`**:
+- **`pid_controller`**:
+- **`pose`**:
+- **`safeties`**:
+- **`sensor_fusion`**:
+
 
 ### `test/`
 - **`test_main.c`**: Unit tests for the main application logic.
@@ -21,8 +31,11 @@ This directory contains the source code and configuration files for the ESP32 mo
 
 ## Getting Started with PlatformIO and this Project
 
+### Drivers:
+- If you haven't worked with microcontrollers before, you first need to download [this](https://www.silabs.com/developer-tools/usb-to-uart-bridge-vcp-drivers) driver. This will allow you to connect to an ESP32 and communicate over USB.
+
 ### PlatformIO Setup:
-- If yoiu haven't worked with microcontrollers 
+
 
 ## License
 

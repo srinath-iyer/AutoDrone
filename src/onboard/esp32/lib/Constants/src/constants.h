@@ -74,6 +74,10 @@
 #define GYRO_SENSITIVITY_OUTPUT (float)131 // 65.5, 131, 262
 
 // Motor PWM Pins:
+#define FRONT_RIGHT_MOTOR_PIN GPIO_
+#define FRONT_LEFT_MOTOR_PIN GPIO_
+#define BACK_RIGHT_MOTOR_PIN GPIO_
+#define BACK_LEFT_MOTOR_PIN GPIO_
 
 // ESP32 to RPi Comms Pins:
 
