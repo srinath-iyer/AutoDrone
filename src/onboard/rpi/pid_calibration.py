@@ -1,5 +1,3 @@
-"random change delete later"
-
 import tkinter as tk
 from tkinter import ttk, scrolledtext
 from matplotlib.figure import Figure
@@ -21,6 +19,7 @@ class DronePIDTuner:
         self.master.config(bg="#f0f0f0")
         
         # UART configuration
+        # TODO: Adapt this for RPi to ESP32 UART Pin Connections
         self.uart_port = "COM3"  # Change to appropriate port
         self.uart_baudrate = 115200
         self.uart_connected = False
