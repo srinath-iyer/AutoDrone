@@ -19,12 +19,14 @@ class DronePIDTuner:
         self.master.config(bg="#f0f0f0")
         
         # UART configuration
+        # TODO: Change for RPI to ESP32 UART Pins
         self.uart_port = "COM3"  # Change to appropriate port
         self.uart_baudrate = 115200
         self.uart_connected = False
         self.serial_conn = None
         
         # Operation mode
+        # TODO: Get rid of simulation mode
         self.simulation_mode = True  # Set to False to use real UART
         
         # Data storage
@@ -34,7 +36,7 @@ class DronePIDTuner:
         self.yaw_data = np.zeros(100)
         self.thrust_data = np.zeros(100)
         
-        # Create queues for thread-safe communication
+        # Create queues for thread-safe communication --> Explanation: queue.Queue() is a thread-safe because it has built-in locking.
         self.imu_data_queue = queue.Queue()
         self.command_queue = queue.Queue()
         self.log_queue = queue.Queue()  # Queue for log messages
@@ -51,6 +53,7 @@ class DronePIDTuner:
         self.setup_gui()
         
         # Redirect print statements to our custom log
+        #TODO: This is so dumb. Get rid of it. Print to terminal, no need for log within a log.
         self.original_stdout = sys.stdout
         sys.stdout = self
         
@@ -97,21 +100,22 @@ class DronePIDTuner:
         plot_frame.pack(side=tk.TOP, fill=tk.BOTH, expand=True, padx=0, pady=5)
         
         # Log display at the bottom
+        #TODO: Delete this.
         log_frame = ttk.LabelFrame(right_frame, text="System Logs")
         log_frame.pack(side=tk.BOTTOM, fill=tk.BOTH, expand=False, padx=0, pady=5)
         
         # Create PID controls for each axis
-        self.pid_sliders = {}
+        self.pid_inputs = {}
         self.pid_labels = {}
         
         for i, axis in enumerate(["roll", "pitch", "yaw", "thrust"]):
             axis_frame = ttk.LabelFrame(left_frame, text=f"{axis.capitalize()} PID")
             axis_frame.grid(row=i, column=0, padx=10, pady=5, sticky="ew")
             
-            self.pid_sliders[axis] = {}
+            self.pid_inputs[axis] = {}
             self.pid_labels[axis] = {}
             
-            # P, I, D sliders for each axis
+            # P, I, D inputs for each axis
             for j, pid_type in enumerate(["P", "I", "D"]):
                 ttk.Label(axis_frame, text=f"{pid_type}:").grid(row=j, column=0, padx=5, pady=2)
                 
@@ -120,20 +124,20 @@ class DronePIDTuner:
                 self.pid_labels[axis][pid_type] = value_var
                 ttk.Label(axis_frame, textvariable=value_var, width=5).grid(row=j, column=1, padx=5, pady=2)
                 
-                # Slider
-                slider = ttk.Scale(
-                    axis_frame, 
-                    from_=0.0, 
-                    to=5.0, 
-                    value=self.pid_values[axis][pid_type],
-                    orient=tk.HORIZONTAL,
-                    length=200,
-                    command=lambda value, a=axis, p=pid_type: self.update_pid(a, p, value)
+                # Numerical Input
+                input = ttk.Entry(
+                    axis_frame,
+                    textvariable=value_var,
+                    width=5,
+                    validate="key", # Callback function to validate input after every keystroke.
+                    validatecommand=(self.master.register(lambda value: value.replace('.', '', 1).isdigit()), '%P')
+
                 )
-                slider.grid(row=j, column=2, padx=5, pady=2)
-                self.pid_sliders[axis][pid_type] = slider
+                input.grid(row=j, column=2, padx=5, pady=2)
+                self.pid_inputs[axis][pid_type] = input
         
         # Add connection status and control buttons
+        #TODO: Read/Edit from here on down.
         control_frame = ttk.Frame(left_frame)
         control_frame.grid(row=len(self.pid_values), column=0, padx=10, pady=10, sticky="ew")
         
@@ -500,7 +504,7 @@ class DronePIDTuner:
         self.pid_labels[axis][pid_type].set(f"{value:.2f}")
         
         # Update slider (without triggering the callback)
-        slider = self.pid_sliders[axis][pid_type]
+        slider = self.pid_inputs[axis][pid_type]
         slider.set(value)
             
     def update_plots(self):
