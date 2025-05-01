@@ -2,6 +2,7 @@
 #include "constants.h"
 #include "driver/i2c.h"
 #include "mpu6050.h"
+#include "driver/gpio.h"
 
 void init_mpu6050_converted_data(MPU6050 *mpu6050) {
     mpu6050->accel_x = 0.0;
@@ -14,6 +15,11 @@ void init_mpu6050_converted_data(MPU6050 *mpu6050) {
 }
 
 void init_mpu6050() {
+    gpio_reset_pin(2);
+    gpio_set_direction(2, GPIO_MODE_OUTPUT);
+    gpio_set_level(2, 1);
+    vTaskDelay(pdMS_TO_TICKS(1000));  // Delay 500 ms
+    gpio_set_level(2, 0);
     i2c_master_init();
     wake_up_mpu6050();
     set_sample_rate(MPU6050_SAMPLE_RATE);
@@ -24,6 +30,9 @@ void wake_up_mpu6050(){
     esp_err_t ret = write_mpu6050(PWR_MGMT_1_REG, data);
     if (ret == ESP_OK) {
         printf("MPU6050 woken up successfully.\n");
+        gpio_set_level(2, 1);
+        vTaskDelay(pdMS_TO_TICKS(100));  // Delay 500 ms
+        gpio_set_level(2, 0);
     } else {
         printf("Failed to wake up MPU6050.\n");
     }
@@ -34,7 +43,7 @@ void i2c_master_init() {
     conf.mode = I2C_MODE_MASTER;
     conf.sda_io_num = ESP32_I2C_MASTER_SDA;
     conf.sda_pullup_en = GPIO_PULLUP_ENABLE;
-    conf.scl_io_num = ESP32_I2C_MASTER_SLC;
+    conf.scl_io_num = ESP32_I2C_MASTER_SCL;
     conf.scl_pullup_en = GPIO_PULLUP_ENABLE;
     conf.master.clk_speed = ESP32_I2C_MASTER_FREQ_HZ;
     i2c_param_config(ESP32_I2C_MASTER_NUM, &conf);
