@@ -152,12 +152,6 @@ class DronePIDTuner:
         sim_check.grid(row=0, column=0, padx=5, pady=5, sticky="w")
         
         # Connection status and button
-        self.conn_status_var = tk.StringVar(value="Disconnected")
-        status_label = ttk.Label(control_frame, textvariable=self.conn_status_var, foreground="red")
-        status_label.grid(row=1, column=0, padx=5, pady=5)
-        
-        self.connect_button = ttk.Button(control_frame, text="Connect", command=self.toggle_connection)
-        self.connect_button.grid(row=1, column=1, padx=5, pady=5)
         
         # Send all PIDs button
         send_all_button = ttk.Button(control_frame, text="Send All PIDs", command=self.send_all_pids)
