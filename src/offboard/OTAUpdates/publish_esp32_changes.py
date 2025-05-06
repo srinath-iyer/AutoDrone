@@ -6,6 +6,7 @@ import http.server
 import ssl
 import threading
 import time
+import socket
 
 FIRMWARE_PATH = "AutoDrone/src/onboard/esp32/.pio/build/esp32dev/firmware.bin"
 CERT_PATH = "cert.pem"
@@ -15,8 +16,13 @@ PORT = 8080
 def build_firmware():
     print("[*] Building firmware...")
 
-    subprocess.run(["cd", "AutoDrone/src/onboard/esp32"], check=True)
-    subprocess.run(["pio", "run"], check=True)
+    build_dir = "src/onboard/esp32"
+    subprocess.run(["pio", "run"], cwd=build_dir, check=True)
+
+def get_ip():
+    hostname = socket.gethostname()
+    local_ip = socket.gethostbyname(hostname)
+    return local_ip
 
 def start_https_server():
     print("[*] Starting HTTPS server on port", PORT)
@@ -32,12 +38,13 @@ def start_https_server():
 
 def main():
     build_firmware()
+    local_ip = get_ip()
     
     # Start HTTPS server in a thread so your terminal isn't blocked
     thread = threading.Thread(target=start_https_server, daemon=True)
     thread.start()
     
-    print(f"[*] HTTPS server hosting {FIRMWARE_PATH} at https://<your_ip>:{PORT}/")
+    print(f"[*] HTTPS server hosting {FIRMWARE_PATH} at https://{local_ip}:{PORT}/")
     print("[*] Trigger OTA update from ESP32 now.")
     
     try:
