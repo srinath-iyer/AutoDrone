@@ -26,14 +26,19 @@ def get_ip():
 
 def start_https_server():
     print("[*] Starting HTTPS server on port", PORT)
-    os.chdir("build")
-    
+    SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+    FIRMWARE_PATH = os.path.join(SCRIPT_DIR, "..", "..", "onboard", "esp32", ".pio", "build", "esp32dev", "firmware.bin")
+    FIRMWARE_PATH = os.path.abspath(FIRMWARE_PATH)
+
+    firmware_dir = os.path.dirname(FIRMWARE_PATH)
+    os.chdir(firmware_dir)
+
     handler = http.server.SimpleHTTPRequestHandler
     httpd = http.server.HTTPServer(("0.0.0.0", PORT), handler)
-    httpd.socket = ssl.wrap_socket(httpd.socket,
-                                   certfile=CERT_PATH,
-                                   keyfile=KEY_PATH,
-                                   server_side=True)
+    context = ssl.SSLContext(ssl.PROTOCOL_TLS_SERVER)
+    context.load_cert_chain(certfile=CERT_PATH, keyfile=KEY_PATH)
+    httpd.socket = context.wrap_socket(httpd.socket, server_side=True)
+
     httpd.serve_forever()
 
 def main():

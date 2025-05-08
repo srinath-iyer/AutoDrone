@@ -3,6 +3,7 @@
         "pose.h": "c",
         "pid_controller.h": "c",
         "mpu6050.h": "c",
-        "constants.h": "c"
+        "constants.h": "c",
+        "esp_netif.h": "c"
     }
 }
