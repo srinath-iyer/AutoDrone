@@ -12,8 +12,8 @@
 
 static const char *TAG = "OTA";
 
-extern const uint8_t cert_pem_start[] asm("_binary_cert_pem_start");
-extern const uint8_t cert_pem_end[]   asm("_binary_cert_pem_end");
+// extern const uint8_t cert_pem_start[] asm("_binary_cert_pem_start");
+// extern const uint8_t cert_pem_end[]   asm("_binary_cert_pem_end");
 
 void wifi_init(void) {
     esp_netif_init();
@@ -43,17 +43,22 @@ void wifi_init(void) {
 
 void ota_task(void *pvParameter) {
     ESP_LOGI(TAG, "Starting OTA...");
+
+    const char *hostname = get_hostname();
     char url_str[128] = "https://";
-    char *hostname = get_hostname();
     strncat(url_str, hostname, sizeof(url_str) - strlen(url_str) - 1);
     strncat(url_str, ":8080/firmware.bin", sizeof(url_str) - strlen(url_str) - 1);
 
+    esp_http_client_config_t http_config = {
+        .url = url_str,
+        .cert_pem = NULL, //(const char *)cert_pem_start,
+        .skip_cert_common_name_check = true,
+        .transport_type = HTTP_TRANSPORT_OVER_SSL,
+        .timeout_ms = 10000,
+    };
+
     esp_https_ota_config_t ota_config = {
-        .http_config = {
-            .url = url_str,
-            .cert_pem = (char *)cert_pem_start,
-            .timeout_ms = 10000,
-        },
+        .http_config = &http_config
     };
 
     esp_err_t ret = esp_https_ota(&ota_config);
@@ -63,7 +68,16 @@ void ota_task(void *pvParameter) {
     } else {
         ESP_LOGE(TAG, "OTA failed: %s", esp_err_to_name(ret));
     }
+
     vTaskDelete(NULL);
+}
+
+void ota_task_forever(void *pvParameter) {
+    while (1) {
+        printf("Starting OTA task...\n");
+        ota_task(NULL);
+        vTaskDelay(pdMS_TO_TICKS(10000));  // Retry every 60 seconds
+    }
 }
 
 
