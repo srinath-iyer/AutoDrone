@@ -3,6 +3,7 @@
 #include "freertos/task.h"
 #include "driver/ledc.h"
 #include "esp_err.h"
+#include "driver/gpio.h"
 
 // ── USER CONFIG ────────────────────────────────────────────────────────────────
 // Change these to the GPIOs wired to your ESC signal wires:
@@ -129,8 +130,31 @@ static void motor_sweep_task(void *arg){
     vTaskDelete(NULL);
 }
 
+// ESC Calibration Task
+// static void motor_sweep_task(void *arg){
+//     printf("Motor set to 2000.\n");
+//     set_motor_speed(2, 2000); // Start motor 1 at minimum speed
+//     printf("Button: %d\n", gpio_get_level(23));
+//     while(gpio_get_level(23)==0){
+//         // Wait for the switch to be pressed
+//         vTaskDelay(pdMS_TO_TICKS(100)); // Check every 100 ms
+//     }
+//     printf("Switch pressed, stopping motor.\n");
+//     set_motor_speed(2, 1000); // Stop motor 1
+//     vTaskDelete(NULL); // Delete the task after stopping the motor
+// }
+
+
+
 void app_main(void)
 {
     ledc_init_output();
+    gpio_config_t io_conf = {
+        .pin_bit_mask = (1ULL << 23),
+        .mode = GPIO_MODE_INPUT,
+        .intr_type = GPIO_INTR_DISABLE
+    };
+    gpio_config(&io_conf);
+    
     xTaskCreate(motor_sweep_task, "motor_sweep", 4096, NULL, 5, NULL);
 }
