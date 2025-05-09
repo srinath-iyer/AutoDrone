@@ -76,7 +76,7 @@ void sensors_and_controls(){
     printf("Sensors and Controls Task Started!\n");
     while(true){
         TickType_t last_wake_time = xTaskGetTickCount();
-        update_mpu6050_measurements(&mpu6050);
+        mpu6050_read_all(&mpu6050);
         print_mpu6050_data(&mpu6050); // Print the data to the console for debugging.
         // Add sensor fusion and update pose function call here
         
@@ -102,7 +102,7 @@ void sensors_and_controls(){
         // Motor Control:
         
         // Log or print_mpu6050_data(&mpu6050);
-        vTaskDelayUntil(&last_wake_time, pdMS_TO_TICKS(20)); // Trying 500 Hz.
+        vTaskDelayUntil(&last_wake_time, pdMS_TO_TICKS(20)); // Trying 50 Hz.
     }
 }
 
@@ -213,9 +213,9 @@ void check_for_enable(){
 // void mpu6050_read_accel(int16_t *accel_x, int16_t *accel_y, int16_t *accel_z) {
 //     uint8_t data[6];
 //     ESP_ERROR_CHECK(mpu6050_read_bytes(MPU6050_ACCEL_XOUT_H, data, 6));
-//     *accel_x = (int16_t)(data[0] << 8 | data[1]);
-//     *accel_y = (int16_t)(data[2] << 8 | data[3]);
-//     *accel_z = (int16_t)(data[4] << 8 | data[5]);
+//     *accel_x = (int16_t)(data[0] << 8 | data[1])/ ACCEL_SENSITIVITY_OUTPUT * 9.81;
+//     *accel_y = (int16_t)(data[2] << 8 | data[3])/ ACCEL_SENSITIVITY_OUTPUT * 9.81;
+//     *accel_z = (int16_t)(data[4] << 8 | data[5])/ ACCEL_SENSITIVITY_OUTPUT * 9.81;
 // }
 
 // void app_main() {
