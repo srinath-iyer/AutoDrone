@@ -173,15 +173,15 @@ void mpu6050_read_all(MPU6050 *mpu6050)
     #define TO_INT16(h,l)  ((int16_t)(((uint16_t)(h) << 8) | (l)))
 
     // Raw accel
-    int16_t raw_ax = TO_INT16(data[0], data[1]);
-    int16_t raw_ay = TO_INT16(data[2], data[3]);
+    int16_t raw_ax = TO_INT16(data[2], data[3]); //flipped to make sure motor mixing algorithm works
+    int16_t raw_ay = TO_INT16(data[0], data[1]);
     int16_t raw_az = TO_INT16(data[4], data[5]);
     // Raw temp
     int16_t raw_temp = TO_INT16(data[6], data[7]);
     // Raw gyro
-    int16_t raw_gx = TO_INT16(data[8], data[9]);
-    int16_t raw_gy = TO_INT16(data[10], data[11]);
-    int16_t raw_gz = TO_INT16(data[12], data[13]);
+    int16_t raw_gx = -1 * TO_INT16(data[10], data[11]); //flipped for motor mixing
+    int16_t raw_gy = TO_INT16(data[8], data[9]);
+    int16_t raw_gz = TO_INT16(data[12], data[13]); //yaw
 
     // Convert to m/s²
     mpu6050->accel_x = (float) (raw_ax / ACCEL_SENSITIVITY_OUTPUT) * 9.81;
