@@ -202,39 +202,20 @@ class DronePIDTuner:
             
         # Format: "SET_PID,axis,type,value"
         command = f"SET_PID,{axis},{pid_type},{value:.2f}"
+        self.Comms.send_command(command)
         self.command_queue.put(command)
         self.log(f"Sending command: {command}")
         return True
         
     def send_all_pids(self):
         """Send all current PID values"""
-        if not self.uart_connected:
-            self.log("Not connected to ESP32")
-            return
+
             
         self.log("Sending all PID values to ESP32...")
         for axis in self.pid_values:
             for pid_type in self.pid_values[axis]:
                 value = self.pid_values[axis][pid_type]
                 self.send_pid_command(axis, pid_type, value)
-    
-            
-    def uart_communication_loop(self):
-        """UART communication thread - handles both simulation and real mode"""
-        buffer = ""  # For real hardware mode
-        try:
-            # --- READ DATA FROM ESP32 ---
-            if self.serial_conn.in_waiting > 0:
-                new_data = self.serial_conn.read(self.serial_conn.in_waiting).decode('utf-8', errors='replace')
-                buffer += new_data
-                
-                # Process complete lines
-                while '\n' in buffer:
-                    line, buffer = buffer.split('\n', 1)
-                    self.process_imu_data(line.strip())
-            
-                    
-                time.sleep(0.01)  # Small delay to prevent CPU hogging
         
                 
     def process_imu_data(self, data_line):
@@ -308,9 +289,9 @@ class DronePIDTuner:
     def update_plots(self):
         if self.uart_connected:
             # Process any available IMU data
-            while not self.imu_data_queue.empty():
+            while not self.Comms.rx_queue.empty():
                 try:
-                    imu_data = self.imu_data_queue.get_nowait()
+                    imu_data = self.Comms.rx_queue.get_nowait()
                     
                     # Update data arrays (shift old data left)
                     self.roll_data = np.roll(self.roll_data, -1)
@@ -326,7 +307,7 @@ class DronePIDTuner:
 
                     self.log()
                     
-                    self.imu_data_queue.task_done()
+                    self.Comms.rx_queue.task_done()
                 except queue.Empty:
                     break
                     

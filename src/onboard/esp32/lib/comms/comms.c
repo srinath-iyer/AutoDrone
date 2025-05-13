@@ -52,7 +52,7 @@ static void handle_uart_data(int len, uint8_t *data)
     data[len] = '\0';  // Null-terminate
     ESP_LOGI(TAG, "Received: %s", (char *)data);
     char *str = (char *)data;
-    
+
     if (strncmp(str, "/e-stop", 7) == 0) {
         ESP_LOGW(TAG, "EMERGENCY STOP TRIGGERED!");
         emergency_stop = true;  // Set the emergency stop flag
@@ -65,9 +65,9 @@ static void handle_uart_data(int len, uint8_t *data)
         if (sscanf(str + 2, "%u,%f,%f,%f,%f,%f,%f", &t, &x, &y, &z, &yaw, &pitch, &roll) == 7) {
             ESP_LOGI(TAG, "State Update -> t: %u, x: %.2f, y: %.2f, z: %.2f, yaw: %.2f, pitch: %.2f, roll: %.2f",
                         t, x, y, z, yaw, pitch, roll);
-            Pose *new_pose;
-            init_pose(*new_pose, t, x, y, z, roll, pitch, yaw);
-            xQueueSend(pose_queue, new_pose, pdMS_TO_TICKS(2)); // Send the new pose/IMU reading to the pose queue
+            Pose new_pose;
+            init_pose(&new_pose, t, x, y, z, roll, pitch, yaw);
+            xQueueSend(pose_queue, &new_pose, pdMS_TO_TICKS(2)); // Send the new pose/IMU reading to the pose queue
         }
         else {
             ESP_LOGW(TAG, "Malformed state message: %s", str);
@@ -79,9 +79,9 @@ static void handle_uart_data(int len, uint8_t *data)
         float x, y, z;
         if (sscanf(str + 6, "%f,%f,%f", &x, &y, &z) == 3) {
             ESP_LOGI(TAG, "Move Command -> x: %.2f, y: %.2f, z: %.2f", x, y, z);
-            Pose *new_setpoint;
-            init_pose(*new_setpoint, t, x, y, z, roll, pitch, yaw);
-            xQueueSend(command_queue, new_setpoint, pdMS_TO_TICKS(2)); // Send the new setpoint to the command queue
+            Pose new_setpoint;
+            init_pose(&new_setpoint, 0, x, y, z, 0, 0, 0);
+            xQueueSend(command_queue, &new_setpoint, pdMS_TO_TICKS(2)); // Send the new setpoint to the command queue
             
         } else {
             ESP_LOGW(TAG, "Malformed /move/ command: %s", str);
@@ -139,7 +139,7 @@ void uart_event_task(void *pvParameters)
 }
 
 void send_state_to_pi(Pose pose, uint_32_t timestamp) { // Timestamp uses esp_timer_get_time(). In the future, state will also include voltage.
-    char state_message[] = "S"
+    char state_message[] = "S";
     sprintf(state_message, "S:%u:%f,%f,%f,%f,%f,%f", timestamp, pose.x, pose.y, pose.z, pose.roll, pose.pitch, pose.yaw);
     uart_write_bytes(UART_NUM, state_message, strlen(state_message));
     printf("Sending pose to Raspberry Pi: ");

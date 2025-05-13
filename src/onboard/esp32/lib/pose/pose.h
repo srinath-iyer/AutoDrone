@@ -18,4 +18,6 @@ void update_pose(Pose *pose, uint32_t updated_timestamp, float dx, float dy, flo
 Pose get_local_error_to_setpoint(Pose *global, Pose *setpoint, float cos_yaw, float sin_yaw);
 void print_pose(const Pose *pose);
 
+extern volatile Pose pose; // Global drone pose.
+extern volatile Pose setpoint; // Global setpoint pose.
 #endif // POSE_H
