@@ -57,6 +57,7 @@ static void handle_uart_data(int len, uint8_t *data)
         ESP_LOGW(TAG, "EMERGENCY STOP TRIGGERED!");
         emergency_stop = true;  // Set the emergency stop flag
         // TODO: Stop motors, trigger fail-safe, etc.
+        // Issue URL: https://github.com/srinath-iyer/AutoDrone/issues/7
         return;
     }
 
