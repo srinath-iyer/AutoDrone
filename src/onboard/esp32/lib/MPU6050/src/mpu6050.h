@@ -31,6 +31,7 @@ void set_gyro_sensitivity(uint8_t sensitivity);
 // Call these functions multiple times in main.c:
 void update_mpu6050_measurements(MPU6050 *mpu6050);
 void print_mpu6050_data(MPU6050 *mpu6050);
-
+esp_err_t mpu6050_read_bytes(uint8_t reg_addr, uint8_t *data, size_t length);
+void mpu6050_read_all(MPU6050 *mpu6050);
 
 #endif
