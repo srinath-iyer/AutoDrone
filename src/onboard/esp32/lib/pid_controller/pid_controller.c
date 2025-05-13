@@ -12,8 +12,8 @@ void init_pid_controller(PIDController* pid_controller, float KP, float KI, floa
     pid_controller->derivative = 0;
     pid_controller->previous_error = 0;
     pid_controller->dt = 0;
-    pid_controller->min_ouput = PWM_MIN;
-    pid_controller->max_output = PWM_MAX;
+    pid_controller->min_ouput = MIN_PULSE_US;
+    pid_controller->max_output = MAX_PULSE_US;
 }
 
 float calculate_pid(PIDController* pid_controller, float error){

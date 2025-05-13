@@ -21,8 +21,30 @@
 #define POSITION_PITCH_KD 1.0
 
 // Motor control constants:
-#define PWM_MIN 1000
-#define PWM_MAX 2000 // This number can be changed to articially limit the max motor speed in an attmept to current limit.
+
+// ── USER CONFIG ────────────────────────────────────────────────────────────────
+// Change these to the GPIOs wired to your ESC signal wires:
+#define MOTOR1_GPIO    4
+#define MOTOR2_GPIO    5
+#define MOTOR3_GPIO    18
+#define MOTOR4_GPIO    19
+
+// ESCs expect ~50 Hz, pulses of 1–2 ms out of 20 ms → duty = 5%–10%
+#define PWM_FREQUENCY_HZ   50
+#define MIN_PULSE_US     1000    // 1 ms
+#define MAX_PULSE_US     2000    // 2 ms
+
+// LEDC configuration
+#define LEDC_TIMER              LEDC_TIMER_0
+#define LEDC_MODE               LEDC_HIGH_SPEED_MODE
+#define LEDC_DUTY_RES           LEDC_TIMER_13_BIT  // 13‑bit resolution (0–8191)
+#define LEDC_MAX_DUTY           ((1 << 13) - 1)    // 8191
+
+// Which LEDC channels to use for each motor
+#define MOTOR1_CH               LEDC_CHANNEL_0
+#define MOTOR2_CH               LEDC_CHANNEL_1
+#define MOTOR3_CH               LEDC_CHANNEL_2
+#define MOTOR4_CH               LEDC_CHANNEL_3
 
 // Acceptable Error Tolerance:
 #define X_ERROR_TOLERANCE 0.1f // 10cm
