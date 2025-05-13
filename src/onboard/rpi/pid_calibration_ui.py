@@ -24,7 +24,7 @@ class DronePIDTuner:
         
         # UART configuration
         self.Comms = OnboardComms()
-        self.Comms.listen_loop()
+        # self.Comms.listen_loop()
         self.Comms.test_signal()
         self.sent_log_queue = queue.Queue() # This is a queue that logs all commands sent to the ESP32. They will be timestamped strings and written to a file 
 
@@ -201,7 +201,7 @@ class DronePIDTuner:
             return False
             
         # Format: "SET_PID,axis,type,value"
-        command = f"/pid/{axis}/{self.pid_values[axis]["P"]:.2f},{self.pid_values[axis]["I"]:.2f},{self.pid_values[axis]["D"]:.2f}"
+        command = f"/pid/{axis}/{self.pid_values[axis]['P']:.2f},{self.pid_values[axis]['I']:.2f},{self.pid_values[axis]['D']:.2f}"
         self.Comms.send_command(command)
         self.command_queue.put(command)
         self.log(f"Sending command: {command}")
