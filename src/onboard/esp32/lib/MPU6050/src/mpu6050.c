@@ -215,7 +215,7 @@ void mpu6050_read_all(MPU6050 *mpu6050)
     mpu6050->accel_y = (raw_ay / ACCEL_SENSITIVITY_OUTPUT) * 9.81;
     mpu6050->accel_z = (raw_az / ACCEL_SENSITIVITY_OUTPUT) * 9.81;
 
-    // Convert to °C (per datasheet: Temp = raw/340 + 36.53)
+    // Convert to °C (per datasheet: Temp = raw/340 + 3s6.53)
     mpu6050->temp    = (raw_temp / 340.0f) + 36.53f;
 
     // Convert to °/s

@@ -1,0 +1,2704 @@
+15:03:41.090 > xxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀��xx␀�xxxxx��␀�x��␀019 12:21:46
+15:03:41.094 > 
+15:03:41.094 > rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:03:41.099 > configsip: 0, SPIWP:0xee
+15:03:41.101 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:03:41.108 > mode:DIO, clock div:2
+15:03:41.110 > load:0x3fff0030,len:6276
+15:03:41.112 > load:0x40078000,len:15716
+15:03:41.114 > load:0x40080400,len:4
+15:03:41.116 > ho 8 tail 4 room 4
+15:03:41.118 > load:0x40080404,len:3860
+15:03:41.121 > entry 0x40080634
+15:03:41.124 > I (31) boot: ESP-IDF 5.4.0 2nd stage bootloader
+15:03:41.128 > I (31) boot: compile time May  9 2025 16:23:34
+15:03:41.132 > I (31) boot: Multicore bootloader
+15:03:41.135 > I (32) boot: chip revision: v3.1
+15:03:41.138 > I (35) boot.esp32: SPI Speed      : 40MHz
+15:03:41.142 > I (39) boot.esp32: SPI Mode       : DIO
+15:03:41.146 > I (42) boot.esp32: SPI Flash Size : 4MB
+15:03:41.149 > I (46) boot: Enabling RNG early entropy source...
+15:03:41.154 > I (51) boot: Partition Table:
+15:03:41.156 > I (53) boot: ## Label            Usage          Type ST Offset   Length
+15:03:41.163 > I (59) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+15:03:41.169 > I (66) boot:  1 phy_init         RF data          01 01 0000f000 00001000
+15:03:41.176 > I (72) boot:  2 factory          factory app      00 00 00010000 00100000
+15:03:41.182 > I (79) boot: End of partition table
+15:03:41.185 > I (82) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0b36ch ( 45932) map
+15:03:41.197 > I (106) esp_image: segment 1: paddr=0001b394 vaddr=3ff80000 size=0001ch (    28) load
+15:03:41.205 > I (106) esp_image: segment 2: paddr=0001b3b8 vaddr=3ffb0000 size=02390h (  9104) load
+15:03:41.213 > I (113) esp_image: segment 3: paddr=0001d750 vaddr=40080000 size=028c8h ( 10440) load
+15:03:41.220 > I (121) esp_image: segment 4: paddr=00020020 vaddr=400d0020 size=16ae0h ( 92896) map
+15:03:41.247 > I (156) esp_image: segment 5: paddr=00036b08 vaddr=400828c8 size=0b8fch ( 47356) load
+15:03:41.273 > I (182) boot: Loaded app from partition at offset 0x10000
+15:03:41.278 > I (182) boot: Disabling RNG early entropy source...
+15:03:41.285 > I (192) cpu_start: Multicore app
+15:03:41.292 > I (200) cpu_start: Pro cpu start user code
+15:03:41.296 > I (200) cpu_start: cpu freq: 160000000 Hz
+15:03:41.299 > I (201) app_init: Application information:
+15:03:41.303 > I (201) app_init: Project name:     controls
+15:03:41.307 > I (205) app_init: App version:      bb0d269-dirty
+15:03:41.311 > I (209) app_init: Compile time:     May  9 2025 16:22:31
+15:03:41.317 > I (214) app_init: ELF file SHA256:  ff880882c...
+15:03:41.321 > I (218) app_init: ESP-IDF:          5.4.0
+15:03:41.325 > I (222) efuse_init: Min chip rev:     v0.0
+15:03:41.329 > I (226) efuse_init: Max chip rev:     v3.99 
+15:03:41.333 > I (230) efuse_init: Chip rev:         v3.1
+15:03:41.336 > I (234) heap_init: Initializing. RAM available for dynamic allocation:
+15:03:41.343 > I (240) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM
+15:03:41.348 > I (245) heap_init: At 3FFB2DA8 len 0002D258 (180 KiB): DRAM
+15:03:41.353 > I (250) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM
+15:03:41.359 > I (256) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM
+15:03:41.364 > I (261) heap_init: At 4008E1C4 len 00011E3C (71 KiB): IRAM
+15:03:41.369 > I (268) spi_flash: detected chip: generic
+15:03:41.373 > I (270) spi_flash: flash io: dio
+15:03:41.376 > W (273) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`
+15:03:41.386 > I (283) main_task: Started on CPU0
+15:03:41.389 > I (286) main_task: Calling app_main()
+15:03:42.381 > MPU6050 date intialized!
+15:03:42.882 > i2c_master_init() done!
+15:03:43.882 > Failed to wake up MPU6050.
+15:03:44.883 > Failed to set sample rate.
+15:03:44.885 > Sensors and Controls Task Started!
+15:03:44.888 > Tasks createdI (3790) main_task: Returned from app_main()
+15:03:45.883 > ESP_ERROR_CHECK failed: esp_err_t 0x107 (ESP_ERR_TIMEOUT) at 0x400d140d
+15:03:45.889 > file: "lib/MPU6050/src/mpu6050.c" line 197
+15:03:45.893 > func: mpu6050_read_all
+15:03:45.895 > expression: mpu6050_read_bytes(0x3B, data, sizeof(data))
+15:03:45.900 > 
+15:03:45.900 > abort() was called at PC 0x40086937 on core 0
+15:03:45.904 > 
+15:03:45.904 > 
+15:03:45.904 > Backtrace: 0x400827c5:0x3ffb5380 0x40086941:0x3ffb53a0 0x4008ca89:0x3ffb53c0 0x40086937:0x3ffb5430 0x400d140d:0x3ffb5460 0x400d1073:0x3ffb54a0 0x40087341:0x3ffb54e0
+15:03:45.919 > 
+15:03:45.919 > 
+15:03:45.919 > 
+15:03:45.919 > 
+15:03:45.919 > ELF file SHA256: ff880882c
+15:03:45.922 > 
+15:03:45.922 > Rebooting...
+15:03:45.924 > ets Jul 29 2019 12:21:46
+15:03:45.926 > 
+15:03:45.926 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:03:45.931 > configsip: 0, SPIWP:0xee
+15:03:45.933 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:03:45.940 > mode:DIO, clock div:2
+15:03:45.942 > load:0x3fff0030,len:6276
+15:03:45.944 > load:0x40078000,len:15716
+15:03:45.947 > load:0x40080400,len:4
+15:03:45.948 > ho 8 tail 4 room 4
+15:03:45.950 > load:0x40080404,len:3860
+15:03:45.952 > entry 0x40080634
+15:03:45.956 > I (31) boot: ESP-IDF 5.4.0 2nd stage bootloader
+15:03:45.960 > I (31) boot: compile time May  9 2025 16:23:34
+15:03:45.964 > I (31) boot: Multicore bootloader
+15:03:45.967 > I (32) boot: chip revision: v3.1
+15:03:45.970 > I (35) boot.esp32: SPI Speed      : 40MHz
+15:03:45.974 > I (39) boot.esp32: SPI Mode       : DIO
+15:03:45.978 > I (42) boot.esp32: SPI Flash Size : 4MB
+15:03:45.981 > I (46) boot: Enabling RNG early entropy source...
+15:03:45.985 > I (50) boot: Partition Table:
+15:03:45.988 > I (53) boot: ## Label            Usage          Type ST Offset   Length
+15:03:45.995 > I (59) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+15:03:46.001 > I (66) boot:  1 phy_init         RF data          01 01 0000f000 00001000
+15:03:46.008 > I (72) boot:  2 factory          factory app      00 00 00010000 00100000
+15:03:46.014 > I (79) boot: End of partition table
+15:03:46.017 > I (82) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0b36ch ( 45932) map
+15:03:46.030 > I (105) esp_image: segment 1: paddr=0001b394 vaddr=3ff80000 size=0001ch (    28) load
+15:03:46.037 > I (106) esp_image: segment 2: paddr=0001b3b8 vaddr=3ffb0000 size=02390h (  9104) load
+15:03:46.045 > I (113) esp_image: segment 3: paddr=0001d750 vaddr=40080000 size=028c8h ( 10440) load
+15:03:46.052 > I (121) esp_image: segment 4: paddr=00020020 vaddr=400d0020 size=16ae0h ( 92896) map
+15:03:46.080 > I (156) esp_image: segment 5: paddr=00036b08 vaddr=400828c8 size=0b8fch ( 47356) load
+15:03:46.105 > I (181) boot: Loaded app from partition at offset 0x10000
+15:03:46.110 > I (182) boot: Disabling RNG early entropy source...
+15:03:46.117 > I (192) cpu_start: Multicore app
+15:03:46.124 > I (200) cpu_start: Pro cpu start user code
+15:03:46.128 > I (200) cpu_start: cpu freq: 160000000 Hz
+15:03:46.131 > I (200) app_init: Application information:
+15:03:46.135 > I (200) app_init: Project name:     controls
+15:03:46.139 > I (204) app_init: App version:      bb0d269-dirty
+15:03:46.144 > I (209) app_init: Compile time:     May  9 2025 16:22:31
+15:03:46.149 > I (214) app_init: ELF file SHA256:  ff880882c...
+15:03:46.153 > I (218) app_init: ESP-IDF:          5.4.0
+15:03:46.157 > I (222) efuse_init: Min chip rev:     v0.0
+15:03:46.161 > I (226) efuse_init: Max chip rev:     v3.99 
+15:03:46.165 > I (230) efuse_init: Chip rev:         v3.1
+15:03:46.168 > I (234) heap_init: Initializing. RAM available for dynamic allocation:
+15:03:46.175 > I (240) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM
+15:03:46.180 > I (245) heap_init: At 3FFB2DA8 len 0002D258 (180 KiB): DRAM
+15:03:46.185 > I (250) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM
+15:03:46.190 > I (256) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM
+15:03:46.196 > I (261) heap_init: At 4008E1C4 len 00011E3C (71 KiB): IRAM
+15:03:46.201 > I (268) spi_flash: detected chip: generic
+15:03:46.205 > I (270) spi_flash: flash io: dio
+15:03:46.208 > W (273) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`
+15:03:46.218 > I (283) main_task: Started on CPU0
+15:03:46.221 > I (286) main_task: Calling app_main()
+15:03:47.212 > MPU6050 date intialized!
+15:03:47.713 > i2c_master_init() done!
+15:03:48.713 > Failed to wake up MPU6050.
+15:03:49.713 > Failed to set sample rate.
+15:03:49.716 > Sensors and Controls Task Started!
+15:03:49.719 > Tasks createdI (3789) main_task: Returned from app_main()
+15:03:50.714 > ESP_ERROR_CHECK failed: esp_err_t 0x107 (ESP_ERR_TIMEOUT) at 0x400d140d
+15:03:50.720 > file: "lib/MPU6050/src/mpu6050.c" line 197
+15:03:50.724 > func: mpu6050_read_all
+15:03:50.726 > expression: mpu6050_read_bytes(0x3B, data, sizeof(data))
+15:03:50.731 > 
+15:03:50.732 > abort() was called at PC 0x40086937 on core 0
+15:03:50.735 > 
+15:03:50.736 > 
+15:03:50.736 > Backtrace: 0x400827c5:0x3ffb5380 0x40086941:0x3ffb53a0 0x4008ca89:0x3ffb53c0 0x40086937:0x3ffb5430 0x400d140d:0x3ffb5460 0x400d1073:0x3ffb54a0 0x40087341:0x3ffb54e0
+15:03:50.750 > 
+15:03:50.751 > 
+15:03:50.751 > 
+15:03:50.751 > 
+15:03:50.751 > ELF file SHA256: ff880882c
+15:03:50.753 > 
+15:03:50.754 > Rebooting...
+15:03:50.755 > ets Jul 29 2019 12:21:46
+15:03:50.758 > 
+15:03:50.758 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:03:50.763 > configsip: 0, SPIWP:0xee
+15:03:50.765 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:03:50.771 > mode:DIO, clock div:2
+15:03:50.772 > load:0x3fff0030,len:6276
+15:03:50.775 > load:0x40078000,len:15716
+15:03:50.777 > load:0x40080400,len:4
+15:03:50.779 > ho 8 tail 4 room 4
+15:03:50.781 > load:0x40080404,len:3860
+15:03:50.783 > entry 0x40080634
+15:03:50.786 > I (31) boot: ESP-IDF 5.4.0 2nd stage bootloader
+15:03:50.791 > I (31) boot: compile time May  9 2025 16:23:34
+15:03:50.795 > I (31) boot: Multicore bootloader
+15:03:50.798 > I (32) boot: chip revision: v3.1
+15:03:50.801 > I (35) boot.esp32: SPI Speed      : 40MHz
+15:03:50.805 > I (39) boot.esp32: SPI Mode       : DIO
+15:03:50.808 > I (42) boot.esp32: SPI Flash Size : 4MB
+15:03:50.812 > I (46) boot: Enabling RNG early entropy source...
+15:03:50.816 > I (50) boot: Partition Table:
+15:03:50.819 > I (53) boot: ## Label            Usage          Type ST Offset   Length
+15:03:50.825 > I (59) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+15:03:50.832 > I (66) boot:  1 phy_init         RF data          01 01 0000f000 00001000
+15:03:50.838 > I (72) boot:  2 factory          factory app      00 00 00010000 00100000
+15:03:50.845 > I (79) boot: End of partition table
+15:03:50.848 > I (82) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0b36ch ( 45932) map
+15:03:50.860 > I (105) esp_image: segment 1: paddr=0001b394 vaddr=3ff80000 size=0001ch (    28) load
+15:03:50.868 > I (106) esp_image: segment 2: paddr=0001b3b8 vaddr=3ffb0000 size=02390h (  9104) load
+15:03:50.875 > I (113) esp_image: segment 3: paddr=0001d750 vaddr=40080000 size=028c8h ( 10440) load
+15:03:50.883 > I (121) esp_image: segment 4: paddr=00020020 vaddr=400d0020 size=16ae0h ( 92896) map
+15:03:50.911 > I (156) esp_image: segment 5: paddr=00036b08 vaddr=400828c8 size=0b8fch ( 47356) load
+15:03:50.936 > I (181) boot: Loaded app from partition at offset 0x10000
+15:03:50.942 > I (182) boot: Disabling RNG early entropy source...
+15:03:50.948 > I (192) cpu_start: Multicore app
+15:03:50.956 > I (200) cpu_start: Pro cpu start user code
+15:03:50.959 > I (200) cpu_start: cpu freq: 160000000 Hz
+15:03:50.963 > I (200) app_init: Application information:
+15:03:50.967 > I (200) app_init: Project name:     controls
+15:03:50.971 > I (204) app_init: App version:      bb0d269-dirty
+15:03:50.975 > I (209) app_init: Compile time:     May  9 2025 16:22:31
+15:03:50.980 > I (214) app_init: ELF file SHA256:  ff880882c...
+15:03:50.985 > I (218) app_init: ESP-IDF:          5.4.0
+15:03:50.988 > I (222) efuse_init: Min chip rev:     v0.0
+15:03:50.992 > I (226) efuse_init: Max chip rev:     v3.99 
+15:03:50.996 > I (230) efuse_init: Chip rev:         v3.1
+15:03:51.000 > I (234) heap_init: Initializing. RAM available for dynamic allocation:
+15:03:51.006 > I (240) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM
+15:03:51.011 > I (245) heap_init: At 3FFB2DA8 len 0002D258 (180 KiB): DRAM
+15:03:51.017 > I (250) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM
+15:03:51.022 > I (256) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM
+15:03:51.028 > I (261) heap_init: At 4008E1C4 len 00011E3C (71 KiB): IRAM
+15:03:51.033 > I (268) spi_flash: detected chip: generic
+15:03:51.037 > I (270) spi_flash: flash io: dio
+15:03:51.039 > W (273) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`
+15:03:51.049 > I (283) main_task: Started on CPU0
+15:03:51.052 > I (286) main_task: Calling app_main()
+15:03:52.043 > MPU6050 date intialized!
+15:03:52.545 > i2c_master_init() done!
+15:03:53.545 > Failed to wake up MPU6050.
+15:03:54.545 > Failed to set sample rate.
+15:03:54.548 > Sensors and Controls Task Started!
+15:03:54.551 > Tasks createdI (3789) main_task: Returned from app_main()
+15:03:55.545 > ESP_ERROR_CHECK failed: esp_err_t 0x107 (ESP_ERR_TIMEOUT) at 0x400d140d
+15:03:55.551 > file: "lib/MPU6050/src/mpu6050.c" line 197
+15:03:55.555 > func: mpu6050_read_all
+15:03:55.557 > expression: mpu6050_read_bytes(0x3B, data, sizeof(data))
+15:03:55.562 > 
+15:03:55.562 > abort() was called at PC 0x40086937 on core 0
+15:03:55.566 > 
+15:03:55.567 > 
+15:03:55.567 > Backtrace: 0x400827c5:0x3ffb5380 0x40086941:0x3ffb53a0 0x4008ca89:0x3ffb53c0 0x40086937:0x3ffb5430 0x400d140d:0x3ffb5460 0x400d1073:0x3ffb54a0 0x40087341:0x3ffb54e0
+15:03:55.581 > 
+15:03:55.581 > 
+15:03:55.581 > 
+15:03:55.581 > 
+15:03:55.582 > ELF file SHA256: ff880882c
+15:03:55.584 > 
+15:03:55.584 > Rebooting...
+15:03:55.586 > ets Jul 29 2019 12:21:46
+15:03:55.588 > 
+15:03:55.588 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:03:55.593 > configsip: 0, SPIWP:0xee
+15:03:55.596 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:03:55.602 > mode:DIO, clock div:2
+15:03:55.604 > load:0x3fff0030,len:6276
+15:03:55.606 > load:0x40078000,len:15716
+15:03:55.609 > load:0x40080400,len:4
+15:03:55.611 > ho 8 tail 4 room 4
+15:03:55.612 > load:0x40080404,len:3860
+15:03:55.614 > entry 0x40080634
+15:03:55.618 > I (31) boot: ESP-IDF 5.4.0 2nd stage bootloader
+15:03:55.622 > I (31) boot: compile time May  9 2025 16:23:34
+15:03:55.626 > I (31) boot: Multicore bootloader
+15:03:55.630 > I (32) boot: chip revision: v3.1
+15:03:55.633 > I (35) boot.esp32: SPI Speed      : 40MHz
+15:03:55.636 > I (39) boot.esp32: SPI Mode       : DIO
+15:03:55.640 > I (42) boot.esp32: SPI Flash Size : 4MB
+15:03:55.643 > I (46) boot: Enabling RNG early entropy source...
+15:03:55.648 > I (50) boot: Partition Table:
+15:03:55.650 > I (53) boot: ## Label            Usage          Type ST Offset   Length
+15:03:55.657 > I (59) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+15:03:55.664 > I (66) boot:  1 phy_init         RF data          01 01 0000f000 00001000
+15:03:55.670 > I (72) boot:  2 factory          factory app      00 00 00010000 00100000
+15:03:55.676 > I (79) boot: End of partition table
+15:03:55.680 > I (82) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0b36ch ( 45932) map
+15:03:55.691 > I (105) esp_image: segment 1: paddr=0001b394 vaddr=3ff80000 size=0001ch (    28) load
+15:03:55.699 > I (106) esp_image: segment 2: paddr=0001b3b8 vaddr=3ffb0000 size=02390h (  9104) load
+15:03:55.706 > I (113) esp_image: segment 3: paddr=0001d750 vaddr=40080000 size=028c8h ( 10440) load
+15:03:55.714 > I (121) esp_image: segment 4: paddr=00020020 vaddr=400d0020 size=16ae0h ( 92896) map
+15:03:55.743 > I (156) esp_image: segment 5: paddr=00036b08 vaddr=400828c8 size=0b8fch ( 47356) load
+15:03:55.768 > I (181) boot: Loaded app from partition at offset 0x10000
+15:03:55.773 > I (182) boot: Disabling RNG early entropy source...
+15:03:55.780 > I (192) cpu_start: Multicore app
+15:03:55.787 > I (200) cpu_start: Pro cpu start user code
+15:03:55.791 > I (200) cpu_start: cpu freq: 160000000 Hz
+15:03:55.794 > I (200) app_init: Application information:
+15:03:55.798 > I (200) app_init: Project name:     controls
+15:03:55.802 > I (204) app_init: App version:      bb0d269-dirty
+15:03:55.806 > I (209) app_init: Compile time:     May  9 2025 16:22:31
+15:03:55.811 > I (214) app_init: ELF file SHA256:  ff880882c...
+15:03:55.816 > I (218) app_init: ESP-IDF:          5.4.0
+15:03:55.820 > I (222) efuse_init: Min chip rev:     v0.0
+15:03:55.824 > I (226) efuse_init: Max chip rev:     v3.99 
+15:03:55.828 > I (230) efuse_init: Chip rev:         v3.1
+15:03:55.831 > I (234) heap_init: Initializing. RAM available for dynamic allocation:
+15:03:55.837 > I (240) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM
+15:03:55.842 > I (245) heap_init: At 3FFB2DA8 len 0002D258 (180 KiB): DRAM
+15:03:55.848 > I (250) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM
+15:03:55.853 > I (256) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM
+15:03:55.859 > I (261) heap_init: At 4008E1C4 len 00011E3C (71 KiB): IRAM
+15:03:55.864 > I (268) spi_flash: detected chip: generic
+15:03:55.868 > I (270) spi_flash: flash io: dio
+15:03:55.871 > W (273) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`
+15:03:55.881 > I (283) main_task: Started on CPU0
+15:03:55.884 > I (286) main_task: Calling app_main()
+15:03:56.875 > MPU6050 date intialized!
+15:03:57.376 > i2c_master_init() done!
+15:03:58.376 > Failed to wake up MPU6050.
+15:03:59.376 > Failed to set sample rate.
+15:03:59.378 > Sensors and Controls Task Started!
+15:03:59.382 > Tasks createdI (3789) main_task: Returned from app_main()
+15:04:00.377 > ESP_ERROR_CHECK failed: esp_err_t 0x107 (ESP_ERR_TIMEOUT) at 0x400d140d
+15:04:00.383 > file: "lib/MPU6050/src/mpu6050.c" line 197
+15:04:00.387 > func: mpu6050_read_all
+15:04:00.389 > expression: mpu6050_read_bytes(0x3B, data, sizeof(data))
+15:04:00.393 > 
+15:04:00.393 > abort() was called at PC 0x40086937 on core 0
+15:04:00.398 > 
+15:04:00.398 > 
+15:04:00.398 > Backtrace: 0x400827c5:0x3ffb5380 0x40086941:0x3ffb53a0 0x4008ca89:0x3ffb53c0 0x40086937:0x3ffb5430 0x400d140d:0x3ffb5460 0x400d1073:0x3ffb54a0 0x40087341:0x3ffb54e0
+15:04:00.412 > 
+15:04:00.413 > 
+15:04:00.413 > 
+15:04:00.413 > 
+15:04:00.413 > ELF file SHA256: ff880882c
+15:04:00.416 > 
+15:04:00.416 > Rebooting...
+15:04:00.417 > ets Jul 29 2019 12:21:46
+15:04:00.419 > 
+15:04:00.420 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:04:00.425 > configsip: 0, SPIWP:0xee
+15:04:00.427 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:04:00.433 > mode:DIO, clock div:2
+15:04:00.435 > load:0x3fff0030,len:6276
+15:04:00.438 > load:0x40078000,len:15716
+15:04:00.440 > load:0x40080400,len:4
+15:04:00.442 > ho 8 tail 4 room 4
+15:04:00.444 > load:0x40080404,len:3860
+15:04:00.446 > entry 0x40080634
+15:04:00.449 > I (31) boot: ESP-IDF 5.4.0 2nd stage bootloader
+15:04:00.454 > I (31) boot: compile time May  9 2025 16:23:34
+15:04:00.458 > I (31) boot: Multicore bootloader
+15:04:00.461 > I (32) boot: chip revision: v3.1
+15:04:00.464 > I (35) boot.esp32: SPI Speed      : 40MHz
+15:04:00.468 > I (39) boot.esp32: SPI Mode       : DIO
+15:04:00.471 > I (42) boot.esp32: SPI Flash Size : 4MB
+15:04:00.475 > I (46) boot: Enabling RNG early entropy source...
+15:04:00.479 > I (50) boot: Partition Table:
+15:04:00.482 > I (53) boot: ## Label            Usage          Type ST Offset   Length
+15:04:00.488 > I (59) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+15:04:00.495 > I (66) boot:  1 phy_init         RF data          01 01 0000f000 00001000
+15:04:00.501 > I (72) boot:  2 factory          factory app      00 00 00010000 00100000
+15:04:00.508 > I (79) boot: End of partition table
+15:04:00.511 > I (82) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0b36ch ( 45932) map
+15:04:00.523 > I (105) esp_image: segment 1: paddr=0001b394 vaddr=3ff80000 size=0001ch (    28) load
+15:04:00.531 > I (106) esp_image: segment 2: paddr=0001b3b8 vaddr=3ffb0000 size=02390h (  9104) load
+15:04:00.537 > I (113) esp_image: segment 3: paddr=0001d750 vaddr=40080000 size=028c8h ( 10440) load
+15:04:00.546 > I (121) esp_image: segment 4: paddr=00020020 vaddr=400d0020 size=16ae0h ( 92896) map
+15:04:00.574 > I (156) esp_image: segment 5: paddr=00036b08 vaddr=400828c8 size=0b8fch ( 47356) load
+15:04:00.599 > I (181) boot: Loaded app from partition at offset 0x10000
+15:04:00.604 > I (182) boot: Disabling RNG early entropy source...
+15:04:00.611 > I (192) cpu_start: Multicore app
+15:04:00.618 > I (200) cpu_start: Pro cpu start user code
+15:04:00.622 > I (200) cpu_start: cpu freq: 160000000 Hz
+15:04:00.626 > I (200) app_init: Application information:
+15:04:00.630 > I (200) app_init: Project name:     controls
+15:04:00.634 > I (204) app_init: App version:      bb0d269-dirty
+15:04:00.637 > I (209) app_init: Compile time:     May  9 2025 16:22:31
+15:04:00.643 > I (214) app_init: ELF file SHA256:  ff880882c...
+15:04:00.647 > I (218) app_init: ESP-IDF:          5.4.0
+15:04:00.650 > I (222) efuse_init: Min chip rev:     v0.0
+15:04:00.655 > I (226) efuse_init: Max chip rev:     v3.99 
+15:04:00.659 > I (230) efuse_init: Chip rev:         v3.1
+15:04:00.662 > I (234) heap_init: Initializing. RAM available for dynamic allocation:
+15:04:00.669 > I (240) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM
+15:04:00.674 > I (245) heap_init: At 3FFB2DA8 len 0002D258 (180 KiB): DRAM
+15:04:00.679 > I (250) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM
+15:04:00.685 > I (256) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM
+15:04:00.690 > I (261) heap_init: At 4008E1C4 len 00011E3C (71 KiB): IRAM
+15:04:00.695 > I (268) spi_flash: detected chip: generic
+15:04:00.699 > I (270) spi_flash: flash io: dio
+15:04:00.702 > W (273) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`
+15:04:00.712 > I (283) main_task: Started on CPU0
+15:04:00.715 > I (286) main_task: Calling app_main()
+15:04:01.707 > MPU6050 date intialized!
+15:04:02.207 > i2c_master_init() done!
+15:04:03.208 > Failed to wake up MPU6050.
+15:04:04.208 > Failed to set sample rate.
+15:04:04.210 > Sensors and Controls Task Started!
+15:04:04.213 > Tasks createdI (3790) main_task: Returned from app_main()
+15:04:05.208 > ESP_ERROR_CHECK failed: esp_err_t 0x107 (ESP_ERR_TIMEOUT) at 0x400d140d
+15:04:05.215 > file: "lib/MPU6050/src/mpu6050.c" line 197
+15:04:05.219 > func: mpu6050_read_all
+15:04:05.221 > expression: mpu6050_read_bytes(0x3B, data, sizeof(data))
+15:04:05.226 > 
+15:04:05.226 > abort() was called at PC 0x40086937 on core 0
+15:04:05.230 > 
+15:04:05.230 > 
+15:04:05.230 > Backtrace: 0x400827c5:0x3ffb5380 0x40086941:0x3ffb53a0 0x4008ca89:0x3ffb53c0 0x40086937:0x3ffb5430 0x400d140d:0x3ffb5460 0x400d1073:0x3ffb54a0 0x40087341:0x3ffb54e0
+15:04:05.245 > 
+15:04:05.245 > 
+15:04:05.245 > 
+15:04:05.245 > 
+15:04:05.245 > ELF file SHA256: ff880882c
+15:04:05.248 > 
+15:04:05.248 > Rebooting...
+15:04:05.250 > ets Jul 29 2019 12:21:46
+15:04:05.252 > 
+15:04:05.252 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:04:05.257 > configsip: 0, SPIWP:0xee
+15:04:05.259 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:04:05.266 > mode:DIO, clock div:2
+15:04:05.268 > load:0x3fff0030,len:6276
+15:04:05.270 > load:0x40078000,len:15716
+15:04:05.272 > load:0x40080400,len:4
+15:04:05.274 > ho 8 tail 4 room 4
+15:04:05.276 > load:0x40080404,len:3860
+15:04:05.278 > entry 0x40080634
+15:04:05.282 > I (31) boot: ESP-IDF 5.4.0 2nd stage bootloader
+15:04:05.286 > I (31) boot: compile time May  9 2025 16:23:34
+15:04:05.290 > I (31) boot: Multicore bootloader
+15:04:05.293 > I (32) boot: chip revision: v3.1
+15:04:05.296 > I (35) boot.esp32: SPI Speed      : 40MHz
+15:04:05.300 > I (39) boot.esp32: SPI Mode       : DIO
+15:04:05.304 > I (42) boot.esp32: SPI Flash Size : 4MB
+15:04:05.307 > I (46) boot: Enabling RNG early entropy source...
+15:04:05.312 > I (50) boot: Partition Table:
+15:04:05.313 > I (53) boot: ## Label            Usage          Type ST Offset   Length
+15:04:05.320 > I (59) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+15:04:05.326 > I (66) boot:  1 phy_init         RF data          01 01 0000f000 00001000
+15:04:05.333 > I (72) boot:  2 factory          factory app      00 00 00010000 00100000
+15:04:05.339 > I (79) boot: End of partition table
+15:04:05.342 > I (82) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0b36ch ( 45932) map
+15:04:05.355 > I (105) esp_image: segment 1: paddr=0001b394 vaddr=3ff80000 size=0001ch (    28) load
+15:04:05.362 > I (106) esp_image: segment 2: paddr=0001b3b8 vaddr=3ffb0000 size=02390h (  9104) load
+15:04:05.370 > I (113) esp_image: segment 3: paddr=0001d750 vaddr=40080000 size=028c8h ( 10440) load
+15:04:05.377 > I (121) esp_image: segment 4: paddr=00020020 vaddr=400d0020 size=16ae0h ( 92896) map
+15:04:05.405 > I (156) esp_image: segment 5: paddr=00036b08 vaddr=400828c8 size=0b8fch ( 47356) load
+15:04:05.431 > I (181) boot: Loaded app from partition at offset 0x10000
+15:04:05.436 > I (182) boot: Disabling RNG early entropy source...
+15:04:05.443 > I (192) cpu_start: Multicore app
+15:04:05.450 > I (200) cpu_start: Pro cpu start user code
+15:04:05.454 > I (200) cpu_start: cpu freq: 160000000 Hz
+15:04:05.458 > I (200) app_init: Application information:
+15:04:05.461 > I (200) app_init: Project name:     controls
+15:04:05.465 > I (204) app_init: App version:      bb0d269-dirty
+15:04:05.470 > I (209) app_init: Compile time:     May  9 2025 16:22:31
+15:04:05.475 > I (214) app_init: ELF file SHA256:  ff880882c...
+15:04:05.479 > I (218) app_init: ESP-IDF:          5.4.0
+15:04:05.483 > I (222) efuse_init: Min chip rev:     v0.0
+15:04:05.487 > I (226) efuse_init: Max chip rev:     v3.99 
+15:04:05.491 > I (230) efuse_init: Chip rev:         v3.1
+15:04:05.495 > I (234) heap_init: Initializing. RAM available for dynamic allocation:
+15:04:05.501 > I (240) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM
+15:04:05.506 > I (245) heap_init: At 3FFB2DA8 len 0002D258 (180 KiB): DRAM
+15:04:05.511 > I (250) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM
+15:04:05.517 > I (256) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM
+15:04:05.522 > I (261) heap_init: At 4008E1C4 len 00011E3C (71 KiB): IRAM
+15:04:05.527 > I (268) spi_flash: detected chip: generic
+15:04:05.531 > I (270) spi_flash: flash io: dio
+15:04:05.534 > W (273) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`
+15:04:05.544 > I (283) main_task: Started on CPU0
+15:04:05.547 > I (286) main_task: Calling app_main()
+15:04:06.538 > MPU6050 date intialized!
+15:04:07.039 > i2c_master_init() done!
+15:04:08.040 > Failed to wake up MPU6050.
+15:04:09.039 > Failed to set sample rate.
+15:04:09.042 > Sensors and Controls Task Started!
+15:04:09.045 > Tasks createdI (3789) main_task: Returned from app_main()
+15:04:10.039 > ESP_ERROR_CHECK failed: esp_err_t 0x107 (ESP_ERR_TIMEOUT) at 0x400d140d
+15:04:10.046 > file: "lib/MPU6050/src/mpu6050.c" line 197
+15:04:10.049 > func: mpu6050_read_all
+15:04:10.051 > expression: mpu6050_read_bytes(0x3B, data, sizeof(data))
+15:04:10.056 > 
+15:04:10.057 > abort() was called at PC 0x40086937 on core 0
+15:04:10.061 > 
+15:04:10.061 > 
+15:04:10.061 > Backtrace: 0x400827c5:0x3ffb5380 0x40086941:0x3ffb53a0 0x4008ca89:0x3ffb53c0 0x40086937:0x3ffb5430 0x400d140d:0x3ffb5460 0x400d1073:0x3ffb54a0 0x40087341:0x3ffb54e0
+15:04:10.075 > 
+15:04:10.076 > 
+15:04:10.076 > 
+15:04:10.076 > 
+15:04:10.076 > ELF file SHA256: ff880882c
+15:04:10.078 > 
+15:04:10.079 > Rebooting...
+15:04:10.081 > ets Jul 29 2019 12:21:46
+15:04:10.083 > 
+15:04:10.083 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:04:10.088 > configsip: 0, SPIWP:0xee
+15:04:10.090 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:04:10.096 > mode:DIO, clock div:2
+15:04:10.098 > load:0x3fff0030,len:6276
+15:04:10.101 > load:0x40078000,len:15716
+15:04:10.103 > load:0x40080400,len:4
+15:04:10.105 > ho 8 tail 4 room 4
+15:04:10.107 > load:0x40080404,len:3860
+15:04:10.109 > entry 0x40080634
+15:04:10.112 > I (31) boot: ESP-IDF 5.4.0 2nd stage bootloader
+15:04:10.117 > I (31) boot: compile time May  9 2025 16:23:34
+15:04:10.121 > I (31) boot: Multicore bootloader
+15:04:10.124 > I (32) boot: chip revision: v3.1
+15:04:10.127 > I (35) boot.esp32: SPI Speed      : 40MHz
+15:04:10.131 > I (39) boot.esp32: SPI Mode       : DIO
+15:04:10.134 > I (42) boot.esp32: SPI Flash Size : 4MB
+15:04:10.138 > I (46) boot: Enabling RNG early entropy source...
+15:04:10.142 > I (50) boot: Partition Table:
+15:04:10.145 > I (53) boot: ## Label            Usage          Type ST Offset   Length
+15:04:10.151 > I (59) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+15:04:10.158 > I (66) boot:  1 phy_init         RF data          01 01 0000f000 00001000
+15:04:10.164 > I (72) boot:  2 factory          factory app      00 00 00010000 00100000
+15:04:10.171 > I (79) boot: End of partition table
+15:04:10.174 > I (82) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0b36ch ( 45932) map
+15:04:10.186 > I (105) esp_image: segment 1: paddr=0001b394 vaddr=3ff80000 size=0001ch (    28) load
+15:04:10.194 > I (106) esp_image: segment 2: paddr=0001b3b8 vaddr=3ffb0000 size=02390h (  9104) load
+15:04:10.201 > I (113) esp_image: segment 3: paddr=0001d750 vaddr=40080000 size=028c8h ( 10440) load
+15:04:10.209 > I (121) esp_image: segment 4: paddr=00020020 vaddr=400d0020 size=16ae0h ( 92896) map
+15:04:10.237 > I (156) esp_image: segment 5: paddr=00036b08 vaddr=400828c8 size=0b8fch ( 47356) load
+15:04:10.262 > I (181) boot: Loaded app from partition at offset 0x10000
+15:04:10.267 > I (182) boot: Disabling RNG early entropy source...
+15:04:10.274 > I (192) cpu_start: Multicore app
+15:04:10.281 > I (200) cpu_start: Pro cpu start user code
+15:04:10.285 > I (200) cpu_start: cpu freq: 160000000 Hz
+15:04:10.289 > I (200) app_init: Application information:
+15:04:10.293 > I (200) app_init: Project name:     controls
+15:04:10.297 > I (204) app_init: App version:      bb0d269-dirty
+15:04:10.301 > I (209) app_init: Compile time:     May  9 2025 16:22:31
+15:04:10.306 > I (214) app_init: ELF file SHA256:  ff880882c...
+15:04:10.311 > I (218) app_init: ESP-IDF:          5.4.0
+15:04:10.314 > I (222) efuse_init: Min chip rev:     v0.0
+15:04:10.318 > I (226) efuse_init: Max chip rev:     v3.99 
+15:04:10.322 > I (230) efuse_init: Chip rev:         v3.1
+15:04:10.326 > I (234) heap_init: Initializing. RAM available for dynamic allocation:
+15:04:10.332 > I (240) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM
+15:04:10.337 > I (245) heap_init: At 3FFB2DA8 len 0002D258 (180 KiB): DRAM
+15:04:10.343 > I (250) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM
+15:04:10.348 > I (256) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM
+15:04:10.353 > I (261) heap_init: At 4008E1C4 len 00011E3C (71 KiB): IRAM
+15:04:10.359 > I (268) spi_flash: detected chip: generic
+15:04:10.362 > I (270) spi_flash: flash io: dio
+15:04:10.365 > W (273) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`
+15:04:10.375 > I (283) main_task: Started on CPU0
+15:04:10.378 > I (286) main_task: Calling app_main()
+15:04:11.370 > MPU6050 date intialized!
+15:04:11.871 > i2c_master_init() done!
+15:04:12.872 > Failed to wake up MPU6050.
+15:04:13.872 > Failed to set sample rate.
+15:04:13.874 > Sensors and Controls Task Started!
+15:04:13.877 > Tasks createdI (3790) main_task: Returned from app_main()
+15:04:14.872 > ESP_ERROR_CHECK failed: esp_err_t 0x107 (ESP_ERR_TIMEOUT) at 0x400d140d
+15:04:14.878 > file: "lib/MPU6050/src/mpu6050.c" line 197
+15:04:14.882 > func: mpu6050_read_all
+15:04:14.884 > expression: mpu6050_read_bytes(0x3B, data, sizeof(data))
+15:04:14.889 > 
+15:04:14.889 > abort() was called at PC 0x40086937 on core 0
+15:04:14.893 > 
+15:04:14.893 > 
+15:04:14.894 > Backtrace: 0x400827c5:0x3ffb5380 0x40086941:0x3ffb53a0 0x4008ca89:0x3ffb53c0 0x40086937:0x3ffb5430 0x400d140d:0x3ffb5460 0x400d1073:0x3ffb54a0 0x40087341:0x3ffb54e0
+15:04:14.908 > 
+15:04:14.908 > 
+15:04:14.909 > 
+15:04:14.909 > 
+15:04:14.909 > ELF file SHA256: ff880882c
+15:04:14.911 > 
+15:04:14.911 > Rebooting...
+15:04:14.913 > ets Jul 29 2019 12:21:46
+15:04:14.915 > 
+15:04:14.915 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:04:14.920 > configsip: 0, SPIWP:0xee
+15:04:14.923 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:04:14.929 > mode:DIO, clock div:2
+15:04:14.931 > load:0x3fff0030,len:6276
+15:04:14.933 > load:0x40078000,len:15716
+15:04:14.936 > load:0x40080400,len:4
+15:04:14.937 > ho 8 tail 4 room 4
+15:04:14.939 > load:0x40080404,len:3860
+15:04:14.941 > entry 0x40080634
+15:04:14.945 > I (31) boot: ESP-IDF 5.4.0 2nd stage bootloader
+15:04:14.949 > I (31) boot: compile time May  9 2025 16:23:34
+15:04:14.953 > I (31) boot: Multicore bootloader
+15:04:14.957 > I (32) boot: chip revision: v3.1
+15:04:14.959 > I (35) boot.esp32: SPI Speed      : 40MHz
+15:04:14.963 > I (39) boot.esp32: SPI Mode       : DIO
+15:04:14.967 > I (42) boot.esp32: SPI Flash Size : 4MB
+15:04:14.970 > I (46) boot: Enabling RNG early entropy source...
+15:04:14.975 > I (50) boot: Partition Table:
+15:04:14.978 > I (53) boot: ## Label            Usage          Type ST Offset   Length
+15:04:14.984 > I (59) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+15:04:14.990 > I (66) boot:  1 phy_init         RF data          01 01 0000f000 00001000
+15:04:14.997 > I (72) boot:  2 factory          factory app      00 00 00010000 00100000
+15:04:15.003 > I (79) boot: End of partition table
+15:04:15.007 > I (82) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0b36ch ( 45932) map
+15:04:15.018 > I (105) esp_image: segment 1: paddr=0001b394 vaddr=3ff80000 size=0001ch (    28) load
+15:04:15.026 > I (106) esp_image: segment 2: paddr=0001b3b8 vaddr=3ffb0000 size=02390h (  9104) load
+15:04:15.034 > I (113) esp_image: segment 3: paddr=0001d750 vaddr=40080000 size=028c8h ( 10440) load
+15:04:15.041 > I (121) esp_image: segment 4: paddr=00020020 vaddr=400d0020 size=16ae0h ( 92896) map
+15:04:15.069 > I (156) esp_image: segment 5: paddr=00036b08 vaddr=400828c8 size=0b8fch ( 47356) load
+15:04:15.095 > I (181) boot: Loaded app from partition at offset 0x10000
+15:04:15.100 > I (182) boot: Disabling RNG early entropy source...
+15:04:15.106 > I (192) cpu_start: Multicore app
+15:04:15.113 > I (200) cpu_start: Pro cpu start user code
+15:04:15.117 > I (200) cpu_start: cpu freq: 160000000 Hz
+15:04:15.121 > I (200) app_init: Application information:
+15:04:15.125 > I (200) app_init: Project name:     controls
+15:04:15.129 > I (204) app_init: App version:      bb0d269-dirty
+15:04:15.133 > I (209) app_init: Compile time:     May  9 2025 16:22:31
+15:04:15.138 > I (214) app_init: ELF file SHA256:  ff880882c...
+15:04:15.142 > I (218) app_init: ESP-IDF:          5.4.0
+15:04:15.146 > I (222) efuse_init: Min chip rev:     v0.0
+15:04:15.150 > I (226) efuse_init: Max chip rev:     v3.99 
+15:04:15.154 > I (230) efuse_init: Chip rev:         v3.1
+15:04:15.158 > I (234) heap_init: Initializing. RAM available for dynamic allocation:
+15:04:15.164 > I (240) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM
+15:04:15.169 > I (245) heap_init: At 3FFB2DA8 len 0002D258 (180 KiB): DRAM
+15:04:15.174 > I (250) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM
+15:04:15.180 > I (256) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM
+15:04:15.185 > I (261) heap_init: At 4008E1C4 len 00011E3C (71 KiB): IRAM
+15:04:15.191 > I (268) spi_flash: detected chip: generic
+15:04:15.195 > I (270) spi_flash: flash io: dio
+15:04:15.197 > W (273) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`
+15:04:15.207 > I (283) main_task: Started on CPU0
+15:04:15.210 > I (286) main_task: Calling app_main()
+15:04:16.203 > MPU6050 date intialized!
+15:04:16.704 > i2c_master_init() done!
+15:04:17.703 > Failed to wake up MPU6050.
+15:04:18.704 > Failed to set sample rate.
+15:04:18.706 > Sensors and Controls Task Started!
+15:04:18.710 > Tasks createdI (3790) main_task: Returned from app_main()
+15:04:19.704 > ESP_ERROR_CHECK failed: esp_err_t 0x107 (ESP_ERR_TIMEOUT) at 0x400d140d
+15:04:19.710 > file: "lib/MPU6050/src/mpu6050.c" line 197
+15:04:19.714 > func: mpu6050_read_all
+15:04:19.717 > expression: mpu6050_read_bytes(0x3B, data, sizeof(data))
+15:04:19.722 > 
+15:04:19.722 > abort() was called at PC 0x40086937 on core 0
+15:04:19.726 > 
+15:04:19.726 > 
+15:04:19.726 > Backtrace: 0x400827c5:0x3ffb5380 0x40086941:0x3ffb53a0 0x4008ca89:0x3ffb53c0 0x40086937:0x3ffb5430 0x400d140d:0x3ffb5460 0x400d1073:0x3ffb54a0 0x40087341:0x3ffb54e0
+15:04:19.741 > 
+15:04:19.741 > 
+15:04:19.741 > 
+15:04:19.741 > 
+15:04:19.741 > ELF file SHA256: ff880882c
+15:04:19.744 > 
+15:04:19.744 > Rebooting...
+15:04:19.745 > ets Jul 29 2019 12:21:46
+15:04:19.748 > 
+15:04:19.748 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:04:19.753 > configsip: 0, SPIWP:0xee
+15:04:19.754 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:04:19.761 > mode:DIO, clock div:2
+15:04:19.763 > load:0x3fff0030,len:6276
+15:04:19.765 > load:0x40078000,len:15716
+15:04:19.768 > load:0x40080400,len:4
+15:04:19.770 > ho 8 tail 4 room 4
+15:04:19.771 > load:0x40080404,len:3860
+15:04:19.774 > entry 0x40080634
+15:04:19.777 > I (31) boot: ESP-IDF 5.4.0 2nd stage bootloader
+15:04:19.781 > I (31) boot: compile time May  9 2025 16:23:34
+15:04:19.785 > I (31) boot: Multicore bootloader
+15:04:19.788 > I (32) boot: chip revision: v3.1
+15:04:19.791 > I (35) boot.esp32: SPI Speed      : 40MHz
+15:04:19.794 > I (39) boot.esp32: SPI Mode       : DIO
+15:04:19.799 > I (42) boot.esp32: SPI Flash Size : 4MB
+15:04:19.803 > I (46) boot: Enabling RNG early entropy source...
+15:04:19.807 > I (50) boot: Partition Table:
+15:04:19.810 > I (53) boot: ## Label            Usage          Type ST Offset   Length
+15:04:19.816 > I (59) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+15:04:19.822 > I (66) boot:  1 phy_init         RF data          01 01 0000f000 00001000
+15:04:19.829 > I (72) boot:  2 factory          factory app      00 00 00010000 00100000
+15:04:19.835 > I (79) boot: End of partition table
+15:04:19.838 > I (82) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0b36ch ( 45932) map
+15:04:19.851 > I (105) esp_image: segment 1: paddr=0001b394 vaddr=3ff80000 size=0001ch (    28) load
+15:04:19.858 > I (106) esp_image: segment 2: paddr=0001b3b8 vaddr=3ffb0000 size=02390h (  9104) load
+15:04:19.866 > I (113) esp_image: segment 3: paddr=0001d750 vaddr=40080000 size=028c8h ( 10440) load
+15:04:19.873 > I (121) esp_image: segment 4: paddr=00020020 vaddr=400d0020 size=16ae0h ( 92896) map
+15:04:19.901 > I (156) esp_image: segment 5: paddr=00036b08 vaddr=400828c8 size=0b8fch ( 47356) load
+15:04:19.927 > I (181) boot: Loaded app from partition at offset 0x10000
+15:04:19.931 > I (182) boot: Disabling RNG early entropy source...
+15:04:19.939 > I (192) cpu_start: Multicore app
+15:04:19.946 > I (200) cpu_start: Pro cpu start user code
+15:04:19.950 > I (200) cpu_start: cpu freq: 160000000 Hz
+15:04:19.953 > I (200) app_init: Application information:
+15:04:19.957 > I (200) app_init: Project name:     controls
+15:04:19.961 > I (204) app_init: App version:      bb0d269-dirty
+15:04:19.965 > I (209) app_init: Compile time:     May  9 2025 16:22:31
+15:04:19.971 > I (214) app_init: ELF file SHA256:  ff880882c...
+15:04:19.975 > I (218) app_init: ESP-IDF:          5.4.0
+15:04:19.978 > I (222) efuse_init: Min chip rev:     v0.0
+15:04:19.982 > I (226) efuse_init: Max chip rev:     v3.99 
+15:04:19.986 > I (230) efuse_init: Chip rev:         v3.1
+15:04:19.989 > I (234) heap_init: Initializing. RAM available for dynamic allocation:
+15:04:19.997 > I (240) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM
+15:04:20.002 > I (245) heap_init: At 3FFB2DA8 len 0002D258 (180 KiB): DRAM
+15:04:20.007 > I (250) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM
+15:04:20.012 > I (256) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM
+15:04:20.018 > I (261) heap_init: At 4008E1C4 len 00011E3C (71 KiB): IRAM
+15:04:20.023 > I (268) spi_flash: detected chip: generic
+15:04:20.026 > I (270) spi_flash: flash io: dio
+15:04:20.029 > W (273) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`
+15:04:20.039 > I (283) main_task: Started on CPU0
+15:04:20.042 > I (286) main_task: Calling app_main()
+15:04:21.033 > MPU6050 date intialized!
+15:04:21.535 > i2c_master_init() done!
+15:04:22.535 > Failed to wake up MPU6050.
+15:04:23.535 > Failed to set sample rate.
+15:04:23.538 > Sensors and Controls Task Started!
+15:04:23.541 > Tasks createdI (3789) main_task: Returned from app_main()
+15:04:24.535 > ESP_ERROR_CHECK failed: esp_err_t 0x107 (ESP_ERR_TIMEOUT) at 0x400d140d
+15:04:24.541 > file: "lib/MPU6050/src/mpu6050.c" line 197
+15:04:24.545 > func: mpu6050_read_all
+15:04:24.547 > expression: mpu6050_read_bytes(0x3B, data, sizeof(data))
+15:04:24.552 > 
+15:04:24.552 > abort() was called at PC 0x40086937 on core 0
+15:04:24.556 > 
+15:04:24.557 > 
+15:04:24.557 > Backtrace: 0x400827c5:0x3ffb5380 0x40086941:0x3ffb53a0 0x4008ca89:0x3ffb53c0 0x40086937:0x3ffb5430 0x400d140d:0x3ffb5460 0x400d1073:0x3ffb54a0 0x40087341:0x3ffb54e0
+15:04:24.571 > 
+15:04:24.571 > 
+15:04:24.572 > 
+15:04:24.572 > 
+15:04:24.572 > ELF file SHA256: ff880882c
+15:04:24.574 > 
+15:04:24.575 > Rebooting...
+15:04:24.577 > ets Jul 29 2019 12:21:46
+15:04:24.579 > 
+15:04:24.579 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:04:24.584 > configsip: 0, SPIWP:0xee
+15:04:24.586 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:04:24.592 > mode:DIO, clock div:2
+15:04:24.594 > load:0x3fff0030,len:6276
+15:04:24.596 > load:0x40078000,len:15716
+15:04:24.599 > load:0x40080400,len:4
+15:04:24.601 > ho 8 tail 4 room 4
+15:04:24.603 > load:0x40080404,len:3860
+15:04:24.605 > entry 0x40080634
+15:04:24.608 > I (31) boot: ESP-IDF 5.4.0 2nd stage bootloader
+15:04:24.613 > I (31) boot: compile time May  9 2025 16:23:34
+15:04:24.617 > I (31) boot: Multicore bootloader
+15:04:24.620 > I (32) boot: chip revision: v3.1
+15:04:24.623 > I (35) boot.esp32: SPI Speed      : 40MHz
+15:04:24.626 > I (39) boot.esp32: SPI Mode       : DIO
+15:04:24.630 > I (42) boot.esp32: SPI Flash Size : 4MB
+15:04:24.634 > I (46) boot: Enabling RNG early entropy source...
+15:04:24.638 > I (50) boot: Partition Table:
+15:04:24.641 > I (53) boot: ## Label            Usage          Type ST Offset   Length
+15:04:24.647 > I (59) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+15:04:24.654 > I (66) boot:  1 phy_init         RF data          01 01 0000f000 00001000
+15:04:24.660 > I (72) boot:  2 factory          factory app      00 00 00010000 00100000
+15:04:24.667 > I (79) boot: End of partition table
+15:04:24.670 > I (82) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0b36ch ( 45932) map
+15:04:24.682 > I (105) esp_image: segment 1: paddr=0001b394 vaddr=3ff80000 size=0001ch (    28) load
+15:04:24.689 > I (106) esp_image: segment 2: paddr=0001b3b8 vaddr=3ffb0000 size=02390h (  9104) load
+15:04:24.697 > I (113) esp_image: segment 3: paddr=0001d750 vaddr=40080000 size=028c8h ( 10440) load
+15:04:24.705 > I (121) esp_image: segment 4: paddr=00020020 vaddr=400d0020 size=16ae0h ( 92896) map
+15:04:24.732 > I (156) esp_image: segment 5: paddr=00036b08 vaddr=400828c8 size=0b8fch ( 47356) load
+15:04:24.757 > I (181) boot: Loaded app from partition at offset 0x10000
+15:04:24.763 > I (182) boot: Disabling RNG early entropy source...
+15:04:24.769 > I (192) cpu_start: Multicore app
+15:04:24.776 > I (200) cpu_start: Pro cpu start user code
+15:04:24.780 > I (200) cpu_start: cpu freq: 160000000 Hz
+15:04:24.784 > I (200) app_init: Application information:
+15:04:24.788 > I (200) app_init: Project name:     controls
+15:04:24.792 > I (204) app_init: App version:      bb0d269-dirty
+15:04:24.796 > I (209) app_init: Compile time:     May  9 2025 16:22:31
+15:04:24.801 > I (214) app_init: ELF file SHA256:  ff880882c...
+15:04:24.805 > I (218) app_init: ESP-IDF:          5.4.0
+15:04:24.809 > I (222) efuse_init: Min chip rev:     v0.0
+15:04:24.813 > I (226) efuse_init: Max chip rev:     v3.99 
+15:04:24.817 > I (230) efuse_init: Chip rev:         v3.1
+15:04:24.821 > I (234) heap_init: Initializing. RAM available for dynamic allocation:
+15:04:24.827 > I (240) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM
+15:04:24.832 > I (245) heap_init: At 3FFB2DA8 len 0002D258 (180 KiB): DRAM
+15:04:24.838 > I (250) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM
+15:04:24.843 > I (256) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM
+15:04:24.849 > I (261) heap_init: At 4008E1C4 len 00011E3C (71 KiB): IRAM
+15:04:24.854 > I (268) spi_flash: detected chip: generic
+15:04:24.857 > I (270) spi_flash: flash io: dio
+15:04:24.860 > W (273) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`
+15:04:24.870 > I (283) main_task: Started on CPU0
+15:04:24.874 > I (286) main_task: Calling app_main()
+15:04:25.864 > MPU6050 date intialized!
+15:04:26.366 > i2c_master_init() done!
+15:04:27.146 > Failed to wake up MPU6050.
+15:04:27.149 > Failed to set sample rate.
+15:04:27.151 > Sensors and Controls Task Started!
+15:04:27.154 > ESP_ERROR_CHECK failed: esp_err_t 0xffffffff (ESP_FAIL) at 0x400d140d
+15:04:27.160 > file: "lib/MPU6050/src/mpu6050.c" line 197
+15:04:27.164 > func: mpu6050_read_all
+15:04:27.166 > expression: mpu6050_read_bytes(0x3B, data, sizeof(data))
+15:04:27.171 > 
+15:04:27.171 > abort() was called at PC 0x40086937 on core 0
+15:04:27.175 > 
+15:04:27.175 > 
+15:04:27.176 > Backtrace: 0x400827c5:0x3ffb5380 0x40086941:0x3ffb53a0 0x4008ca89:0x3ffb53c0 0x40086937:0x3ffb5430 0x400d140d:0x3ffb5460 0x400d1073:0x3ffb54a0 0x40087341:0x3ffb54e0
+15:04:27.190 > 
+15:04:27.191 > 
+15:04:27.191 > 
+15:04:27.191 > 
+15:04:27.191 > ELF file SHA256: ff880882c
+15:04:27.193 > 
+15:04:27.193 > Rebooting...
+15:04:27.195 > ets Jul 29 2019 12:21:46
+15:04:27.197 > 
+15:04:27.197 > rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+15:04:27.202 > configsip: 0, SPIWP:0xee
+15:04:27.205 > clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+15:04:27.211 > mode:DIO, clock div:2
+15:04:27.213 > load:0x3fff0030,len:6276
+15:04:27.216 > load:0x40078000,len:15716
+15:04:27.218 > load:0x40080400,len:4
+15:04:27.220 > ho 8 tail 4 room 4
+15:04:27.221 > load:0x40080404,len:3860
+15:04:27.224 > entry 0x40080634
+15:04:27.227 > I (31) boot: ESP-IDF 5.4.0 2nd stage bootloader
+15:04:27.231 > I (31) boot: compile time May  9 2025 16:23:34
+15:04:27.236 > I (31) boot: Multicore bootloader
+15:04:27.239 > I (32) boot: chip revision: v3.1
+15:04:27.242 > I (35) boot.esp32: SPI Speed      : 40MHz
+15:04:27.245 > I (39) boot.esp32: SPI Mode       : DIO
+15:04:27.249 > I (42) boot.esp32: SPI Flash Size : 4MB
+15:04:27.253 > I (46) boot: Enabling RNG early entropy source...
+15:04:27.257 > I (50) boot: Partition Table:
+15:04:27.260 > I (53) boot: ## Label            Usage          Type ST Offset   Length
+15:04:27.266 > I (59) boot:  0 nvs              WiFi data        01 02 00009000 00006000
+15:04:27.272 > I (66) boot:  1 phy_init         RF data          01 01 0000f000 00001000
+15:04:27.278 > I (72) boot:  2 factory          factory app      00 00 00010000 00100000
+15:04:27.285 > I (79) boot: End of partition table
+15:04:27.289 > I (82) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0b36ch ( 45932) map
+15:04:27.301 > I (105) esp_image: segment 1: paddr=0001b394 vaddr=3ff80000 size=0001ch (    28) load
+15:04:27.308 > I (106) esp_image: segment 2: paddr=0001b3b8 vaddr=3ffb0000 size=02390h (  9104) load
+15:04:27.315 > I (113) esp_image: segment 3: paddr=0001d750 vaddr=40080000 size=028c8h ( 10440) load
+15:04:27.323 > I (121) esp_image: segment 4: paddr=00020020 vaddr=400d0020 size=16ae0h ( 92896) map
+15:04:27.352 > I (156) esp_image: segment 5: paddr=00036b08 vaddr=400828c8 size=0b8fch ( 47356) load
+15:04:27.377 > I (181) boot: Loaded app from partition at offset 0x10000
+15:04:27.382 > I (182) boot: Disabling RNG early entropy source...
+15:04:27.388 > I (192) cpu_start: Multicore app
+15:04:27.396 > I (200) cpu_start: Pro cpu start user code
+15:04:27.399 > I (200) cpu_start: cpu freq: 160000000 Hz
+15:04:27.403 > I (200) app_init: Application information:
+15:04:27.407 > I (200) app_init: Project name:     controls
+15:04:27.411 > I (204) app_init: App version:      bb0d269-dirty
+15:04:27.416 > I (209) app_init: Compile time:     May  9 2025 16:22:31
+15:04:27.421 > I (214) app_init: ELF file SHA256:  ff880882c...
+15:04:27.425 > I (218) app_init: ESP-IDF:          5.4.0
+15:04:27.428 > I (222) efuse_init: Min chip rev:     v0.0
+15:04:27.432 > I (226) efuse_init: Max chip rev:     v3.99 
+15:04:27.436 > I (230) efuse_init: Chip rev:         v3.1
+15:04:27.440 > I (234) heap_init: Initializing. RAM available for dynamic allocation:
+15:04:27.446 > I (240) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM
+15:04:27.452 > I (245) heap_init: At 3FFB2DA8 len 0002D258 (180 KiB): DRAM
+15:04:27.457 > I (250) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM
+15:04:27.462 > I (256) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM
+15:04:27.468 > I (261) heap_init: At 4008E1C4 len 00011E3C (71 KiB): IRAM
+15:04:27.473 > I (268) spi_flash: detected chip: generic
+15:04:27.476 > I (270) spi_flash: flash io: dio
+15:04:27.480 > W (273) i2c: This driver is an old driver, please migrate your application code to adapt `driver/i2c_master.h`
+15:04:27.489 > I (283) main_task: Started on CPU0
+15:04:27.492 > I (286) main_task: Calling app_main()
+15:04:28.484 > MPU6050 date intialized!
+15:04:28.985 > i2c_master_init() done!
+15:04:28.987 > MPU6050 woken up successfully.
+15:04:29.086 > Sample rate set successfully.
+15:04:29.087 > Sensors and Controls Task Started!
+15:04:29.090 > Tasks createdI (1889) main_task: Returned from app_main()
+15:04:29.095 > X: 0.392783, Y: 0.076641, Z: 10.190808
+15:04:29.105 > X: 0.196392, Y: 0.270637, Z: 10.329720
+15:04:29.126 > X: 0.366438, Y: 0.296982, Z: 10.346484
+15:04:29.146 > X: 0.136516, Y: 0.186812, Z: 10.339299
+15:04:29.166 > X: 0.196392, Y: 0.265847, Z: 10.394384
+15:04:29.186 > X: 0.438289, Y: 0.114961, Z: 10.293794
+15:04:29.206 > X: 0.311353, Y: 0.306563, Z: 10.281818
+15:04:29.226 > X: 0.296982, Y: 0.107776, Z: 10.265054
+15:04:29.246 > X: 0.052690, Y: 0.273032, Z: 11.637400
+15:04:29.266 > X: 0.467029, Y: 0.354463, Z: 9.807605
+15:04:29.286 > X: -0.035925, Y: 0.342488, Z: 9.934541
+15:04:29.305 > X: 0.440684, Y: 0.167651, Z: 10.140512
+15:04:29.326 > X: 0.421523, Y: 0.316143, Z: 10.418335
+15:04:29.346 > X: 0.098196, Y: 0.167651, Z: 10.526111
+15:04:29.366 > X: 0.126936, Y: 0.227527, Z: 10.090218
+15:04:29.386 > X: 0.265847, Y: 0.378413, Z: 10.351274
+15:04:29.406 > X: 0.342488, Y: 0.086221, Z: 10.384805
+15:04:29.426 > X: 0.421523, Y: 0.244292, Z: 10.044712
+15:04:29.446 > X: 0.423918, Y: 0.256267, Z: 10.334509
+15:04:29.465 > X: 0.158071, Y: 0.246687, Z: 10.312954
+15:04:29.486 > X: 0.340093, Y: 0.136516, Z: 10.238708
+15:04:29.505 > X: 0.126936, Y: 0.186812, Z: 10.461445
+15:04:29.526 > X: 0.268242, Y: 0.174836, Z: 10.279424
+15:04:29.546 > X: 0.479004, Y: 0.201182, Z: 10.308164
+15:04:29.566 > X: 0.301772, Y: 0.220342, Z: 10.267448
+15:04:29.586 > X: 0.186812, Y: 0.253872, Z: 10.257869
+15:04:29.606 > X: 0.150886, Y: 0.191602, Z: 10.396780
+15:04:29.626 > X: 0.325723, Y: 0.148491, Z: 10.305769
+15:04:29.646 > X: 0.155676, Y: 0.091011, Z: 10.255474
+15:04:29.666 > X: 0.210762, Y: 0.277822, Z: 10.310559
+15:04:29.686 > X: 0.268242, Y: 0.193997, Z: 10.284214
+15:04:29.706 > X: 0.158071, Y: 0.249082, Z: 10.272239
+15:04:29.726 > X: 0.268242, Y: 0.220342, Z: 10.387199
+15:04:29.746 > X: 0.316143, Y: 0.155676, Z: 10.291399
+15:04:29.766 > X: 0.313748, Y: 0.296982, Z: 10.320139
+15:04:29.786 > X: 0.347278, Y: 0.258662, Z: 10.332114
+15:04:29.806 > X: 0.352068, Y: 0.239502, Z: 10.456656
+15:04:29.825 > X: 0.301772, Y: 0.210762, Z: 10.236314
+15:04:29.846 > X: 0.186812, Y: 0.160466, Z: 10.262659
+15:04:29.865 > X: 0.285007, Y: 0.117356, Z: 10.255474
+15:04:29.886 > X: 0.270637, Y: 0.198787, Z: 10.212363
+15:04:29.906 > X: 0.129331, Y: 0.275427, Z: 10.329720
+15:04:29.926 > X: 0.313748, Y: 0.205972, Z: 10.336905
+15:04:29.946 > X: 0.191602, Y: 0.083826, Z: 10.221943
+15:04:29.966 > X: 0.239502, Y: 0.191602, Z: 10.329720
+15:04:29.986 > X: 0.275427, Y: 0.232317, Z: 10.315350
+15:04:30.006 > X: 0.141306, Y: 0.239502, Z: 10.250684
+15:04:30.026 > X: 0.325723, Y: 0.189207, Z: 10.320139
+15:04:30.046 > X: 0.387993, Y: 0.201182, Z: 10.310559
+15:04:30.067 > X: 0.354463, Y: 0.186812, Z: 10.370435
+15:04:30.086 > X: 0.332908, Y: 0.220342, Z: 10.269844
+15:04:30.106 > X: 0.443079, Y: 0.364043, Z: 10.389595
+15:04:30.126 > X: 0.067061, Y: 0.256267, Z: 10.245893
+15:04:30.146 > X: 0.273032, Y: 0.265847, Z: 10.358459
+15:04:30.166 > X: 0.435894, Y: 0.306563, Z: 10.293794
+15:04:30.186 > X: 0.201182, Y: 0.296982, Z: 10.368039
+15:04:30.206 > X: 0.337698, Y: 0.304167, Z: 10.360854
+15:04:30.226 > X: 0.344883, Y: 0.268242, Z: 10.274633
+15:04:30.246 > X: 0.289797, Y: 0.280217, Z: 10.277029
+15:04:30.266 > X: 0.330513, Y: 0.225132, Z: 10.255474
+15:04:30.285 > X: 0.237107, Y: 0.186812, Z: 10.298584
+15:04:30.306 > X: 0.337698, Y: 0.301772, Z: 10.296189
+15:04:30.326 > X: 0.179626, Y: 0.263452, Z: 10.260263
+15:04:30.346 > X: 0.344883, Y: 0.265847, Z: 10.274633
+15:04:30.366 > X: 0.143701, Y: 0.208367, Z: 10.296189
+15:04:30.386 > X: 0.280217, Y: 0.201182, Z: 10.363250
+15:04:30.407 > X: 0.134121, Y: 0.174836, Z: 10.284214
+15:04:30.426 > X: 0.102986, Y: 0.220342, Z: 10.293794
+15:04:30.446 > X: 0.383203, Y: 0.261057, Z: 10.300979
+15:04:30.466 > X: 0.419128, Y: 0.239502, Z: 10.245893
+15:04:30.486 > X: 0.574805, Y: 0.455054, Z: 10.298584
+15:04:30.505 > X: 0.177231, Y: 0.064666, Z: 10.432705
+15:04:30.526 > X: 0.316143, Y: 0.213157, Z: 10.341694
+15:04:30.545 > X: 0.304167, Y: 0.268242, Z: 10.248288
+15:04:30.567 > X: 0.311353, Y: 0.217947, Z: 10.336905
+15:04:30.586 > X: 0.452659, Y: 0.344883, Z: 10.315350
+15:04:30.606 > X: 0.332908, Y: 0.201182, Z: 10.300979
+15:04:30.625 > X: 0.165256, Y: 0.167651, Z: 10.322535
+15:04:30.646 > X: 0.285007, Y: 0.217947, Z: 10.300979
+15:04:30.666 > X: 0.320933, Y: 0.335303, Z: 10.207573
+15:04:30.686 > X: 0.385598, Y: 0.265847, Z: 10.197993
+15:04:30.706 > X: 0.337698, Y: 0.313748, Z: 10.229129
+15:04:30.726 > X: 0.285007, Y: 0.282612, Z: 10.312954
+15:04:30.746 > X: 0.359253, Y: 0.170046, Z: 10.380014
+15:04:30.766 > X: 0.241897, Y: 0.316143, Z: 10.312954
+15:04:30.786 > X: 0.347278, Y: 0.273032, Z: 10.320139
+15:04:30.806 > X: 0.397573, Y: 0.261057, Z: 10.250684
+15:04:30.826 > X: 0.311353, Y: 0.311353, Z: 10.255474
+15:04:30.846 > X: 0.201182, Y: 0.201182, Z: 10.274633
+15:04:30.866 > X: 0.220342, Y: 0.258662, Z: 10.293794
+15:04:30.886 > X: 0.335303, Y: 0.316143, Z: 10.300979
+15:04:30.905 > X: 0.313748, Y: 0.263452, Z: 10.370435
+15:04:30.925 > X: 0.086221, Y: 0.203577, Z: 10.387199
+15:04:30.945 > X: 0.354463, Y: 0.304167, Z: 10.248288
+15:04:30.966 > X: 0.373623, Y: 0.241897, Z: 10.300979
+15:04:30.986 > X: 0.287402, Y: 0.261057, Z: 10.281818
+15:04:31.006 > X: 0.438289, Y: 0.289797, Z: 10.245893
+15:04:31.025 > X: 0.239502, Y: 0.246687, Z: 10.267448
+15:04:31.045 > X: 0.131726, Y: 0.239502, Z: 10.324929
+15:04:31.066 > X: 0.258662, Y: 0.237107, Z: 10.284214
+15:04:31.086 > X: 0.277822, Y: 0.158071, Z: 10.363250
+15:04:31.106 > X: 0.340093, Y: 0.316143, Z: 10.195599
+15:04:31.126 > X: 0.287402, Y: 0.273032, Z: 10.260263
+15:04:31.146 > X: 0.217947, Y: 0.249082, Z: 10.372829
+15:04:31.166 > X: 0.201182, Y: 0.217947, Z: 10.332114
+15:04:31.186 > X: 0.380808, Y: 0.316143, Z: 10.389595
+15:04:31.206 > X: 0.304167, Y: 0.308958, Z: 10.219548
+15:04:31.226 > X: 0.335303, Y: 0.208367, Z: 10.214758
+15:04:31.246 > X: 0.455054, Y: 0.201182, Z: 10.018367
+15:04:31.266 > X: 0.213157, Y: 0.285007, Z: 10.322535
+15:04:31.285 > X: 0.215552, Y: 0.253872, Z: 10.341694
+15:04:31.305 > X: 0.227527, Y: 0.205972, Z: 10.332114
+15:04:31.326 > X: 0.304167, Y: 0.256267, Z: 10.229129
+15:04:31.345 > X: 0.249082, Y: 0.287402, Z: 10.322535
+15:04:31.366 > X: 0.378413, Y: 0.273032, Z: 10.305769
+15:04:31.387 > X: 0.294587, Y: 0.296982, Z: 10.188413
+15:04:31.407 > X: 0.325723, Y: 0.241897, Z: 10.315350
+15:04:31.426 > X: 0.275427, Y: 0.301772, Z: 10.324929
+15:04:31.446 > X: 0.318538, Y: 0.232317, Z: 10.298584
+15:04:31.466 > X: 0.294587, Y: 0.256267, Z: 10.281818
+15:04:31.486 > X: 0.277822, Y: 0.282612, Z: 10.274633
+15:04:31.506 > X: 0.237107, Y: 0.296982, Z: 10.368039
+15:04:31.525 > X: 0.253872, Y: 0.306563, Z: 10.396780
+15:04:31.546 > X: 0.287402, Y: 0.292192, Z: 10.332114
+15:04:31.567 > X: 0.138911, Y: 0.292192, Z: 10.296189
+15:04:31.587 > X: 0.344883, Y: 0.318538, Z: 10.298584
+15:04:31.606 > X: 0.275427, Y: 0.217947, Z: 10.289004
+15:04:31.626 > X: 0.134121, Y: 0.193997, Z: 10.241103
+15:04:31.646 > X: 0.447869, Y: 0.261057, Z: 10.277029
+15:04:31.665 > X: 0.452659, Y: 0.311353, Z: 10.224339
+15:04:31.685 > X: 0.285007, Y: 0.294587, Z: 10.368039
+15:04:31.706 > X: 0.201182, Y: 0.270637, Z: 10.272239
+15:04:31.727 > X: 0.383203, Y: 0.244292, Z: 10.262659
+15:04:31.746 > X: 0.263452, Y: 0.318538, Z: 10.317744
+15:04:31.766 > X: 0.399968, Y: 0.146096, Z: 10.217154
+15:04:31.786 > X: 0.292192, Y: 0.225132, Z: 10.279424
+15:04:31.805 > X: 0.330513, Y: 0.275427, Z: 10.265054
+15:04:31.826 > X: 0.292192, Y: 0.179626, Z: 10.226733
+15:04:31.846 > X: 0.270637, Y: 0.237107, Z: 10.267448
+15:04:31.866 > X: 0.131726, Y: 0.186812, Z: 10.298584
+15:04:31.886 > X: 0.177231, Y: 0.356858, Z: 10.396780
+15:04:31.906 > X: 0.294587, Y: 0.167651, Z: 10.174043
+15:04:31.925 > X: 0.261057, Y: 0.263452, Z: 10.365644
+15:04:31.946 > X: 0.320933, Y: 0.268242, Z: 10.257869
+15:04:31.966 > X: 0.335303, Y: 0.270637, Z: 10.284214
+15:04:31.986 > X: 0.225132, Y: 0.186812, Z: 10.303374
+15:04:32.006 > X: 0.354463, Y: 0.227527, Z: 10.391990
+15:04:32.026 > X: 0.390388, Y: 0.337698, Z: 10.351274
+15:04:32.046 > X: 0.320933, Y: 0.292192, Z: 10.197993
+15:04:32.065 > X: 0.253872, Y: 0.234712, Z: 10.217154
+15:04:32.087 > X: 0.241897, Y: 0.234712, Z: 10.310559
+15:04:32.106 > X: 0.316143, Y: 0.244292, Z: 10.238708
+15:04:32.125 > X: 0.376018, Y: 0.289797, Z: 10.284214
+15:04:32.146 > X: 0.344883, Y: 0.277822, Z: 10.272239
+15:04:32.166 > X: 0.273032, Y: 0.325723, Z: 10.267448
+15:04:32.186 > X: 0.373623, Y: 0.316143, Z: 10.214758
+15:04:32.206 > X: 0.227527, Y: 0.170046, Z: 10.317744
+15:04:32.226 > X: 0.397573, Y: 0.356858, Z: 10.293794
+15:04:32.247 > X: 0.294587, Y: 0.294587, Z: 10.312954
+15:04:32.265 > X: 0.306563, Y: 0.256267, Z: 10.224339
+15:04:32.285 > X: 0.361648, Y: 0.265847, Z: 10.231524
+15:04:32.305 > X: 0.304167, Y: 0.189207, Z: 10.281818
+15:04:32.326 > X: 0.385598, Y: 0.294587, Z: 10.296189
+15:04:32.346 > X: 0.383203, Y: 0.366438, Z: 10.289004
+15:04:32.366 > X: 0.091011, Y: 0.258662, Z: 10.423125
+15:04:32.387 > X: 0.387993, Y: 0.359253, Z: 10.279424
+15:04:32.406 > X: 0.373623, Y: 0.285007, Z: 10.202784
+15:04:32.426 > X: 0.280217, Y: 0.182021, Z: 10.394384
+15:04:32.446 > X: 0.402363, Y: 0.337698, Z: 10.262659
+15:04:32.466 > X: 0.258662, Y: 0.193997, Z: 10.303374
+15:04:32.485 > X: 0.210762, Y: 0.261057, Z: 10.341694
+15:04:32.506 > X: 0.596360, Y: 0.251477, Z: 10.150093
+15:04:32.526 > X: 0.261057, Y: 0.201182, Z: 10.097403
+15:04:32.546 > X: 0.524509, Y: 0.179626, Z: 10.183623
+15:04:32.567 > X: 0.265847, Y: 0.203577, Z: 10.224339
+15:04:32.587 > X: 0.038320, Y: 0.196392, Z: 10.449471
+15:04:32.606 > X: 0.330513, Y: 0.210762, Z: 10.339299
+15:04:32.626 > X: 0.217947, Y: 0.210762, Z: 10.262659
+15:04:32.646 > X: 0.526904, Y: 0.308958, Z: 10.236314
+15:04:32.666 > X: 0.416733, Y: 0.328118, Z: 10.296189
+15:04:32.686 > X: 0.280217, Y: 0.198787, Z: 10.291399
+15:04:32.706 > X: 0.380808, Y: 0.280217, Z: 10.224339
+15:04:32.725 > X: 0.277822, Y: 0.258662, Z: 10.317744
+15:04:32.746 > X: 0.335303, Y: 0.289797, Z: 10.274633
+15:04:32.766 > X: 0.308958, Y: 0.306563, Z: 10.358459
+15:04:32.786 > X: 0.265847, Y: 0.251477, Z: 10.238708
+15:04:32.806 > X: 0.409548, Y: 0.237107, Z: 10.233918
+15:04:32.826 > X: 0.356858, Y: 0.299377, Z: 10.339299
+15:04:32.846 > X: 0.239502, Y: 0.232317, Z: 10.245893
+15:04:32.866 > X: 0.261057, Y: 0.328118, Z: 10.303374
+15:04:32.887 > X: 0.354463, Y: 0.308958, Z: 10.281818
+15:04:32.906 > X: 0.263452, Y: 0.220342, Z: 10.300979
+15:04:32.927 > X: 0.258662, Y: 0.203577, Z: 10.324929
+15:04:32.946 > X: 0.158071, Y: 0.234712, Z: 10.370435
+15:04:32.966 > X: 0.251477, Y: 0.239502, Z: 10.243499
+15:04:32.986 > X: 0.241897, Y: 0.253872, Z: 10.336905
+15:04:33.006 > X: 0.390388, Y: 0.301772, Z: 10.372829
+15:04:33.026 > X: 0.304167, Y: 0.285007, Z: 10.286609
+15:04:33.046 > X: 0.138911, Y: 0.253872, Z: 10.332114
+15:04:33.065 > X: 0.308958, Y: 0.205972, Z: 10.250684
+15:04:33.087 > X: 0.261057, Y: 0.234712, Z: 10.432705
+15:04:33.107 > X: 0.167651, Y: 0.277822, Z: 10.315350
+15:04:33.126 > X: 0.347278, Y: 0.294587, Z: 10.353669
+15:04:33.145 > X: 0.347278, Y: 0.213157, Z: 10.336905
+15:04:33.165 > X: 0.368833, Y: 0.313748, Z: 10.327324
+15:04:33.186 > X: 0.296982, Y: 0.258662, Z: 10.226733
+15:04:33.206 > X: 0.174836, Y: 0.210762, Z: 10.286609
+15:04:33.226 > X: 0.364043, Y: 0.292192, Z: 10.320139
+15:04:33.247 > X: 0.385598, Y: 0.213157, Z: 10.370435
+15:04:33.266 > X: 0.217947, Y: 0.225132, Z: 10.212363
+15:04:33.286 > X: 0.222737, Y: 0.153281, Z: 10.279424
+15:04:33.306 > X: 0.129331, Y: 0.153281, Z: 10.303374
+15:04:33.326 > X: 0.301772, Y: 0.316143, Z: 10.363250
+15:04:33.346 > X: 0.354463, Y: 0.301772, Z: 10.281818
+15:04:33.366 > X: 0.280217, Y: 0.196392, Z: 10.233918
+15:04:33.387 > X: 0.273032, Y: 0.263452, Z: 10.315350
+15:04:33.407 > X: 0.205972, Y: 0.251477, Z: 10.346484
+15:04:33.427 > X: 0.143701, Y: 0.232317, Z: 10.298584
+15:04:33.446 > X: 0.244292, Y: 0.244292, Z: 10.351274
+15:04:33.466 > X: 0.285007, Y: 0.229922, Z: 10.380014
+15:04:33.486 > X: 0.261057, Y: 0.237107, Z: 10.289004
+15:04:33.506 > X: 0.301772, Y: 0.275427, Z: 10.332114
+15:04:33.526 > X: 0.287402, Y: 0.270637, Z: 10.303374
+15:04:33.546 > X: 0.361648, Y: 0.323328, Z: 10.348880
+15:04:33.567 > X: 0.356858, Y: 0.366438, Z: 10.334509
+15:04:33.587 > X: 0.270637, Y: 0.330513, Z: 10.320139
+15:04:33.606 > X: 0.270637, Y: 0.241897, Z: 10.293794
+15:04:33.626 > X: 0.340093, Y: 0.330513, Z: 10.324929
+15:04:33.646 > X: 0.217947, Y: 0.251477, Z: 10.332114
+15:04:33.665 > X: 0.352068, Y: 0.296982, Z: 10.262659
+15:04:33.686 > X: 0.409548, Y: 0.263452, Z: 10.322535
+15:04:33.706 > X: 0.431104, Y: 0.215552, Z: 10.272239
+15:04:33.726 > X: 0.311353, Y: 0.308958, Z: 10.291399
+15:04:33.746 > X: 0.225132, Y: 0.301772, Z: 10.312954
+15:04:33.766 > X: 0.330513, Y: 0.258662, Z: 10.289004
+15:04:33.786 > X: 0.292192, Y: 0.275427, Z: 10.293794
+15:04:33.806 > X: 0.158071, Y: 0.186812, Z: 10.372829
+15:04:33.826 > X: 0.193997, Y: 0.232317, Z: 10.272239
+15:04:33.846 > X: 0.244292, Y: 0.337698, Z: 10.308164
+15:04:33.866 > X: 0.253872, Y: 0.174836, Z: 10.200388
+15:04:33.886 > X: 0.328118, Y: 0.287402, Z: 10.202784
+15:04:33.906 > X: 0.167651, Y: 0.184417, Z: 10.305769
+15:04:33.926 > X: 0.275427, Y: 0.301772, Z: 10.238708
+15:04:33.946 > X: 0.318538, Y: 0.282612, Z: 10.310559
+15:04:33.966 > X: 0.320933, Y: 0.282612, Z: 10.363250
+15:04:33.985 > X: 0.395178, Y: 0.277822, Z: 10.289004
+15:04:34.005 > X: 0.253872, Y: 0.234712, Z: 10.363250
+15:04:34.025 > X: 0.270637, Y: 0.191602, Z: 10.272239
+15:04:34.046 > X: 0.285007, Y: 0.352068, Z: 10.351274
+15:04:34.066 > X: 0.258662, Y: 0.239502, Z: 10.334509
+15:04:34.086 > X: 0.275427, Y: 0.294587, Z: 10.317744
+15:04:34.106 > X: 0.241897, Y: 0.253872, Z: 10.320139
+15:04:34.126 > X: 0.299377, Y: 0.277822, Z: 10.327324
+15:04:34.146 > X: 0.232317, Y: 0.246687, Z: 10.391990
+15:04:34.166 > X: 0.225132, Y: 0.227527, Z: 10.351274
+15:04:34.186 > X: 0.222737, Y: 0.287402, Z: 10.248288
+15:04:34.206 > X: 0.189207, Y: 0.277822, Z: 10.336905
+15:04:34.225 > X: 0.280217, Y: 0.205972, Z: 10.277029
+15:04:34.245 > X: 0.356858, Y: 0.289797, Z: 10.336905
+15:04:34.266 > X: 0.277822, Y: 0.287402, Z: 10.250684
+15:04:34.286 > X: 0.229922, Y: 0.263452, Z: 10.279424
+15:04:34.306 > X: 0.179626, Y: 0.323328, Z: 10.329720
+15:04:34.325 > X: 0.229922, Y: 0.256267, Z: 10.353669
+15:04:34.346 > X: 0.258662, Y: 0.308958, Z: 10.296189
+15:04:34.366 > X: 0.280217, Y: 0.246687, Z: 10.356065
+15:04:34.386 > X: 0.251477, Y: 0.210762, Z: 10.279424
+15:04:34.407 > X: 0.285007, Y: 0.285007, Z: 10.401569
+15:04:34.426 > X: 0.222737, Y: 0.232317, Z: 10.281818
+15:04:34.446 > X: 0.215552, Y: 0.256267, Z: 10.229129
+15:04:34.466 > X: 0.227527, Y: 0.225132, Z: 10.265054
+15:04:34.486 > X: 0.280217, Y: 0.282612, Z: 10.356065
+15:04:34.506 > X: 0.201182, Y: 0.285007, Z: 10.324929
+15:04:34.526 > X: 0.325723, Y: 0.215552, Z: 10.308164
+15:04:34.546 > X: 0.210762, Y: 0.285007, Z: 10.262659
+15:04:34.567 > X: 0.280217, Y: 0.263452, Z: 10.272239
+15:04:34.587 > X: 0.273032, Y: 0.275427, Z: 10.365644
+15:04:34.606 > X: 0.213157, Y: 0.258662, Z: 10.351274
+15:04:34.626 > X: 0.249082, Y: 0.239502, Z: 10.336905
+15:04:34.646 > X: 0.352068, Y: 0.285007, Z: 10.341694
+15:04:34.666 > X: 0.189207, Y: 0.263452, Z: 10.277029
+15:04:34.686 > X: 0.222737, Y: 0.251477, Z: 10.363250
+15:04:34.706 > X: 0.366438, Y: 0.325723, Z: 10.250684
+15:04:34.726 > X: 0.208367, Y: 0.256267, Z: 10.238708
+15:04:34.746 > X: 0.285007, Y: 0.232317, Z: 10.255474
+15:04:34.766 > X: 0.311353, Y: 0.232317, Z: 10.176438
+15:04:34.786 > X: 0.258662, Y: 0.261057, Z: 10.255474
+15:04:34.806 > X: 0.234712, Y: 0.165256, Z: 10.255474
+15:04:34.826 > X: 0.246687, Y: 0.253872, Z: 10.253078
+15:04:34.846 > X: 0.186812, Y: 0.234712, Z: 10.260263
+15:04:34.866 > X: 0.174836, Y: 0.234712, Z: 10.377620
+15:04:34.886 > X: 0.323328, Y: 0.296982, Z: 10.205178
+15:04:34.907 > X: 0.263452, Y: 0.263452, Z: 10.183623
+15:04:34.926 > X: 0.249082, Y: 0.213157, Z: 10.406360
+15:04:34.946 > X: 0.440684, Y: 0.332908, Z: 10.289004
+15:04:34.966 > X: 0.356858, Y: 0.316143, Z: 10.229129
+15:04:34.986 > X: 0.184417, Y: 0.222737, Z: 10.293794
+15:04:35.006 > X: 0.428708, Y: 0.292192, Z: 10.255474
+15:04:35.026 > X: 0.294587, Y: 0.251477, Z: 10.336905
+15:04:35.046 > X: 0.352068, Y: 0.227527, Z: 10.344090
+15:04:35.067 > X: 0.249082, Y: 0.220342, Z: 10.289004
+15:04:35.086 > X: 0.138911, Y: 0.253872, Z: 10.279424
+15:04:35.105 > X: 0.196392, Y: 0.167651, Z: 10.281818
+15:04:35.126 > X: 0.354463, Y: 0.352068, Z: 10.310559
+15:04:35.146 > X: 0.258662, Y: 0.234712, Z: 10.305769
+15:04:35.166 > X: 0.361648, Y: 0.289797, Z: 10.312954
+15:04:35.186 > X: 0.342488, Y: 0.294587, Z: 10.245893
+15:04:35.206 > X: 0.340093, Y: 0.258662, Z: 10.229129
+15:04:35.227 > X: 0.155676, Y: 0.217947, Z: 10.300979
+15:04:35.246 > X: 0.170046, Y: 0.232317, Z: 10.346484
+15:04:35.265 > X: 0.201182, Y: 0.208367, Z: 10.186018
+15:04:35.286 > X: 0.368833, Y: 0.270637, Z: 10.245893
+15:04:35.306 > X: 0.306563, Y: 0.261057, Z: 10.260263
+15:04:35.326 > X: 0.249082, Y: 0.292192, Z: 10.320139
+15:04:35.345 > X: 0.368833, Y: 0.323328, Z: 10.255474
+15:04:35.365 > X: 0.308958, Y: 0.253872, Z: 10.298584
+15:04:35.386 > X: 0.414338, Y: 0.287402, Z: 10.255474
+15:04:35.406 > X: 0.402363, Y: 0.270637, Z: 10.324929
+15:04:35.426 > X: 0.292192, Y: 0.227527, Z: 10.248288
+15:04:35.446 > X: 0.246687, Y: 0.220342, Z: 10.255474
+15:04:35.466 > X: 0.246687, Y: 0.273032, Z: 10.344090
+15:04:35.485 > X: 0.198787, Y: 0.261057, Z: 10.209969
+15:04:35.506 > X: 0.261057, Y: 0.277822, Z: 10.186018
+15:04:35.526 > X: 0.184417, Y: 0.239502, Z: 10.300979
+15:04:35.546 > X: 0.182021, Y: 0.217947, Z: 10.272239
+15:04:35.567 > X: 0.167651, Y: 0.213157, Z: 10.190808
+15:04:35.586 > X: 0.136516, Y: 0.198787, Z: 10.305769
+15:04:35.606 > X: 0.296982, Y: 0.239502, Z: 10.274633
+15:04:35.626 > X: 0.193997, Y: 0.170046, Z: 10.281818
+15:04:35.646 > X: 0.325723, Y: 0.311353, Z: 10.284214
+15:04:35.666 > X: 0.313748, Y: 0.261057, Z: 10.332114
+15:04:35.685 > X: 0.364043, Y: 0.311353, Z: 10.305769
+15:04:35.706 > X: 0.174836, Y: 0.263452, Z: 10.346484
+15:04:35.727 > X: 0.364043, Y: 0.193997, Z: 10.320139
+15:04:35.747 > X: 0.289797, Y: 0.244292, Z: 10.274633
+15:04:35.766 > X: 0.275427, Y: 0.275427, Z: 10.174043
+15:04:35.786 > X: 0.244292, Y: 0.222737, Z: 10.274633
+15:04:35.806 > X: 0.407153, Y: 0.323328, Z: 10.305769
+15:04:35.826 > X: 0.263452, Y: 0.234712, Z: 10.277029
+15:04:35.846 > X: 0.289797, Y: 0.289797, Z: 10.250684
+15:04:35.865 > X: 0.325723, Y: 0.234712, Z: 10.403965
+15:04:35.886 > X: 0.328118, Y: 0.251477, Z: 10.260263
+15:04:35.906 > X: 0.227527, Y: 0.296982, Z: 10.262659
+15:04:35.926 > X: 0.299377, Y: 0.234712, Z: 10.224339
+15:04:35.945 > X: 0.160466, Y: 0.292192, Z: 10.207573
+15:04:35.966 > X: 0.246687, Y: 0.318538, Z: 10.300979
+15:04:35.986 > X: 0.318538, Y: 0.229922, Z: 10.260263
+15:04:36.006 > X: 0.347278, Y: 0.239502, Z: 10.238708
+15:04:36.026 > X: 0.246687, Y: 0.251477, Z: 10.312954
+15:04:36.046 > X: 0.261057, Y: 0.285007, Z: 10.300979
+15:04:36.067 > X: 0.373623, Y: 0.294587, Z: 10.269844
+15:04:36.087 > X: 0.280217, Y: 0.261057, Z: 10.286609
+15:04:36.106 > X: 0.340093, Y: 0.287402, Z: 10.317744
+15:04:36.126 > X: 0.182021, Y: 0.232317, Z: 10.274633
+15:04:36.146 > X: 0.241897, Y: 0.256267, Z: 10.267448
+15:04:36.166 > X: 0.275427, Y: 0.239502, Z: 10.334509
+15:04:36.186 > X: 0.390388, Y: 0.316143, Z: 10.320139
+15:04:36.206 > X: 0.249082, Y: 0.265847, Z: 10.186018
+15:04:36.226 > X: 0.249082, Y: 0.330513, Z: 10.243499
+15:04:36.246 > X: 0.186812, Y: 0.253872, Z: 10.181228
+15:04:36.266 > X: 0.253872, Y: 0.227527, Z: 10.250684
+15:04:36.286 > X: 0.320933, Y: 0.196392, Z: 10.243499
+15:04:36.306 > X: 0.270637, Y: 0.201182, Z: 10.233918
+15:04:36.325 > X: 0.328118, Y: 0.311353, Z: 10.310559
+15:04:36.346 > X: 0.383203, Y: 0.304167, Z: 10.375225
+15:04:36.366 > X: 0.222737, Y: 0.203577, Z: 10.348880
+15:04:36.386 > X: 0.313748, Y: 0.296982, Z: 10.243499
+15:04:36.406 > X: 0.337698, Y: 0.246687, Z: 10.360854
+15:04:36.426 > X: 0.397573, Y: 0.208367, Z: 10.322535
+15:04:36.446 > X: 0.301772, Y: 0.273032, Z: 10.315350
+15:04:36.466 > X: 0.349673, Y: 0.277822, Z: 10.159673
+15:04:36.486 > X: 0.256267, Y: 0.273032, Z: 10.329720
+15:04:36.506 > X: 0.263452, Y: 0.282612, Z: 10.320139
+15:04:36.526 > X: 0.282612, Y: 0.330513, Z: 10.243499
+15:04:36.546 > X: 0.294587, Y: 0.285007, Z: 10.320139
+15:04:36.566 > X: 0.318538, Y: 0.304167, Z: 10.238708
+15:04:36.587 > X: 0.304167, Y: 0.347278, Z: 10.257869
+15:04:36.606 > X: 0.296982, Y: 0.217947, Z: 10.277029
+15:04:36.626 > X: 0.249082, Y: 0.237107, Z: 10.255474
+15:04:36.646 > X: 0.296982, Y: 0.277822, Z: 10.257869
+15:04:36.666 > X: 0.285007, Y: 0.258662, Z: 10.269844
+15:04:36.685 > X: 0.328118, Y: 0.256267, Z: 10.293794
+15:04:36.705 > X: 0.395178, Y: 0.213157, Z: 10.241103
+15:04:36.727 > X: 0.217947, Y: 0.249082, Z: 10.123748
+15:04:36.747 > X: 0.354463, Y: 0.320933, Z: 10.260263
+15:04:36.766 > X: 0.177231, Y: 0.244292, Z: 10.303374
+15:04:36.786 > X: 0.241897, Y: 0.308958, Z: 10.346484
+15:04:36.806 > X: 0.237107, Y: 0.210762, Z: 10.353669
+15:04:36.826 > X: 0.325723, Y: 0.282612, Z: 10.298584
+15:04:36.846 > X: 0.241897, Y: 0.282612, Z: 10.296189
+15:04:36.865 > X: 0.237107, Y: 0.184417, Z: 10.236314
+15:04:36.886 > X: 0.241897, Y: 0.261057, Z: 10.260263
+15:04:36.907 > X: 0.261057, Y: 0.246687, Z: 10.284214
+15:04:36.926 > X: 0.385598, Y: 0.268242, Z: 10.391990
+15:04:36.946 > X: 0.246687, Y: 0.277822, Z: 10.353669
+15:04:36.966 > X: 0.241897, Y: 0.285007, Z: 10.279424
+15:04:36.986 > X: 0.265847, Y: 0.227527, Z: 10.382410
+15:04:37.006 > X: 0.330513, Y: 0.304167, Z: 10.176438
+15:04:37.026 > X: 0.340093, Y: 0.229922, Z: 10.303374
+15:04:37.046 > X: 0.304167, Y: 0.249082, Z: 10.274633
+15:04:37.066 > X: 0.318538, Y: 0.220342, Z: 10.305769
+15:04:37.086 > X: 0.308958, Y: 0.198787, Z: 10.274633
+15:04:37.106 > X: 0.318538, Y: 0.270637, Z: 10.351274
+15:04:37.126 > X: 0.296982, Y: 0.265847, Z: 10.207573
+15:04:37.145 > X: 0.361648, Y: 0.273032, Z: 10.296189
+15:04:37.165 > X: 0.277822, Y: 0.285007, Z: 10.257869
+15:04:37.187 > X: 0.220342, Y: 0.208367, Z: 10.336905
+15:04:37.206 > X: 0.296982, Y: 0.225132, Z: 10.269844
+15:04:37.226 > X: 0.239502, Y: 0.258662, Z: 10.348880
+15:04:37.246 > X: 0.304167, Y: 0.217947, Z: 10.315350
+15:04:37.265 > X: 0.265847, Y: 0.256267, Z: 10.243499
+15:04:37.286 > X: 0.275427, Y: 0.311353, Z: 10.245893
+15:04:37.306 > X: 0.280217, Y: 0.208367, Z: 10.260263
+15:04:37.326 > X: 0.239502, Y: 0.292192, Z: 10.281818
+15:04:37.346 > X: 0.170046, Y: 0.342488, Z: 10.272239
+15:04:37.366 > X: 0.162861, Y: 0.256267, Z: 10.291399
+15:04:37.386 > X: 0.277822, Y: 0.201182, Z: 10.257869
+15:04:37.406 > X: 0.366438, Y: 0.270637, Z: 10.260263
+15:04:37.426 > X: 0.196392, Y: 0.220342, Z: 10.339299
+15:04:37.447 > X: 0.225132, Y: 0.299377, Z: 10.238708
+15:04:37.466 > X: 0.189207, Y: 0.256267, Z: 10.255474
+15:04:37.486 > X: 0.261057, Y: 0.196392, Z: 10.233918
+15:04:37.505 > X: 0.256267, Y: 0.282612, Z: 10.320139
+15:04:37.526 > X: 0.337698, Y: 0.304167, Z: 10.253078
+15:04:37.546 > X: 0.308958, Y: 0.277822, Z: 10.219548
+15:04:37.566 > X: 0.237107, Y: 0.313748, Z: 10.243499
+15:04:37.586 > X: 0.270637, Y: 0.311353, Z: 10.250684
+15:04:37.605 > X: 0.215552, Y: 0.239502, Z: 10.320139
+15:04:37.625 > X: 0.246687, Y: 0.280217, Z: 10.293794
+15:04:37.645 > X: 0.282612, Y: 0.201182, Z: 10.356065
+15:04:37.666 > X: 0.292192, Y: 0.301772, Z: 10.207573
+15:04:37.685 > X: 0.191602, Y: 0.258662, Z: 10.265054
+15:04:37.706 > X: 0.186812, Y: 0.244292, Z: 10.300979
+15:04:37.726 > X: 0.308958, Y: 0.225132, Z: 10.286609
+15:04:37.746 > X: 0.308958, Y: 0.227527, Z: 10.265054
+15:04:37.765 > X: 0.225132, Y: 0.220342, Z: 10.298584
+15:04:37.785 > X: 0.268242, Y: 0.320933, Z: 10.303374
+15:04:37.806 > X: 0.371228, Y: 0.234712, Z: 10.310559
+15:04:37.825 > X: 0.325723, Y: 0.270637, Z: 10.384805
+15:04:37.845 > X: 0.246687, Y: 0.213157, Z: 10.327324
+15:04:37.865 > X: 0.344883, Y: 0.330513, Z: 10.274633
+15:04:37.886 > X: 0.239502, Y: 0.246687, Z: 10.310559
+15:04:37.907 > X: 0.335303, Y: 0.270637, Z: 10.332114
+15:04:37.926 > X: 0.277822, Y: 0.292192, Z: 10.262659
+15:04:37.946 > X: 0.347278, Y: 0.299377, Z: 10.277029
+15:04:37.966 > X: 0.205972, Y: 0.227527, Z: 10.255474
+15:04:37.986 > X: 0.227527, Y: 0.256267, Z: 10.303374
+15:04:38.005 > X: 0.222737, Y: 0.251477, Z: 10.265054
+15:04:38.025 > X: 0.261057, Y: 0.222737, Z: 10.238708
+15:04:38.045 > X: 0.328118, Y: 0.304167, Z: 10.277029
+15:04:38.066 > X: 0.270637, Y: 0.205972, Z: 10.279424
+15:04:38.086 > X: 0.282612, Y: 0.294587, Z: 10.296189
+15:04:38.105 > X: 0.275427, Y: 0.263452, Z: 10.320139
+15:04:38.125 > X: 0.275427, Y: 0.273032, Z: 10.245893
+15:04:38.145 > X: 0.172441, Y: 0.225132, Z: 10.315350
+15:04:38.166 > X: 0.325723, Y: 0.280217, Z: 10.262659
+15:04:38.186 > X: 0.244292, Y: 0.229922, Z: 10.219548
+15:04:38.206 > X: 0.217947, Y: 0.244292, Z: 10.277029
+15:04:38.226 > X: 0.308958, Y: 0.282612, Z: 10.317744
+15:04:38.246 > X: 0.308958, Y: 0.296982, Z: 10.384805
+15:04:38.265 > X: 0.253872, Y: 0.146096, Z: 10.346484
+15:04:38.286 > X: 0.292192, Y: 0.292192, Z: 10.303374
+15:04:38.306 > X: 0.225132, Y: 0.222737, Z: 10.250684
+15:04:38.326 > X: 0.249082, Y: 0.186812, Z: 10.305769
+15:04:38.346 > X: 0.244292, Y: 0.227527, Z: 10.308164
+15:04:38.366 > X: 0.313748, Y: 0.294587, Z: 10.399175
+15:04:38.386 > X: 0.263452, Y: 0.241897, Z: 10.303374
+15:04:38.405 > X: 0.313748, Y: 0.292192, Z: 10.269844
+15:04:38.425 > X: 0.304167, Y: 0.237107, Z: 10.219548
+15:04:38.446 > X: 0.356858, Y: 0.285007, Z: 10.289004
+15:04:38.466 > X: 0.251477, Y: 0.232317, Z: 10.300979
+15:04:38.486 > X: 0.244292, Y: 0.213157, Z: 10.289004
+15:04:38.506 > X: 0.222737, Y: 0.258662, Z: 10.406360
+15:04:38.526 > X: 0.306563, Y: 0.225132, Z: 10.274633
+15:04:38.546 > X: 0.256267, Y: 0.220342, Z: 10.308164
+15:04:38.566 > X: 0.275427, Y: 0.256267, Z: 10.315350
+15:04:38.586 > X: 0.287402, Y: 0.213157, Z: 10.310559
+15:04:38.606 > X: 0.273032, Y: 0.292192, Z: 10.334509
+15:04:38.626 > X: 0.328118, Y: 0.251477, Z: 10.300979
+15:04:38.646 > X: 0.237107, Y: 0.205972, Z: 10.257869
+15:04:38.665 > X: 0.193997, Y: 0.258662, Z: 10.281818
+15:04:38.685 > X: 0.296982, Y: 0.268242, Z: 10.217154
+15:04:38.705 > X: 0.225132, Y: 0.261057, Z: 10.315350
+15:04:38.726 > X: 0.311353, Y: 0.313748, Z: 10.277029
+15:04:38.745 > X: 0.347278, Y: 0.205972, Z: 10.339299
+15:04:38.766 > X: 0.308958, Y: 0.241897, Z: 10.255474
+15:04:38.786 > X: 0.232317, Y: 0.270637, Z: 10.300979
+15:04:38.806 > X: 0.352068, Y: 0.292192, Z: 10.272239
+15:04:38.826 > X: 0.287402, Y: 0.232317, Z: 10.320139
+15:04:38.846 > X: 0.268242, Y: 0.251477, Z: 10.200388
+15:04:38.866 > X: 0.256267, Y: 0.213157, Z: 10.277029
+15:04:38.886 > X: 0.263452, Y: 0.244292, Z: 10.315350
+15:04:38.907 > X: 0.318538, Y: 0.158071, Z: 10.253078
+15:04:38.926 > X: 0.308958, Y: 0.304167, Z: 10.255474
+15:04:38.946 > X: 0.198787, Y: 0.258662, Z: 10.224339
+15:04:38.966 > X: 0.237107, Y: 0.179626, Z: 10.272239
+15:04:38.985 > X: 0.323328, Y: 0.263452, Z: 10.391990
+15:04:39.006 > X: 0.318538, Y: 0.294587, Z: 10.291399
+15:04:39.025 > X: 0.340093, Y: 0.246687, Z: 10.281818
+15:04:39.046 > X: 0.273032, Y: 0.258662, Z: 10.224339
+15:04:39.067 > X: 0.311353, Y: 0.256267, Z: 10.291399
+15:04:39.086 > X: 0.296982, Y: 0.237107, Z: 10.250684
+15:04:39.105 > X: 0.253872, Y: 0.177231, Z: 10.233918
+15:04:39.125 > X: 0.184417, Y: 0.225132, Z: 10.267448
+15:04:39.145 > X: 0.241897, Y: 0.332908, Z: 10.329720
+15:04:39.165 > X: 0.227527, Y: 0.241897, Z: 10.356065
+15:04:39.186 > X: 0.301772, Y: 0.292192, Z: 10.265054
+15:04:39.206 > X: 0.232317, Y: 0.335303, Z: 10.272239
+15:04:39.226 > X: 0.217947, Y: 0.241897, Z: 10.324929
+15:04:39.245 > X: 0.282612, Y: 0.215552, Z: 10.310559
+15:04:39.266 > X: 0.277822, Y: 0.273032, Z: 10.269844
+15:04:39.285 > X: 0.275427, Y: 0.299377, Z: 10.363250
+15:04:39.305 > X: 0.294587, Y: 0.340093, Z: 10.279424
+15:04:39.326 > X: 0.371228, Y: 0.280217, Z: 10.236314
+15:04:39.345 > X: 0.318538, Y: 0.277822, Z: 10.324929
+15:04:39.366 > X: 0.268242, Y: 0.308958, Z: 10.289004
+15:04:39.385 > X: 0.287402, Y: 0.237107, Z: 10.375225
+15:04:39.406 > X: 0.203577, Y: 0.210762, Z: 10.312954
+15:04:39.426 > X: 0.258662, Y: 0.263452, Z: 10.300979
+15:04:39.446 > X: 0.318538, Y: 0.261057, Z: 10.305769
+15:04:39.466 > X: 0.227527, Y: 0.217947, Z: 10.277029
+15:04:39.486 > X: 0.304167, Y: 0.263452, Z: 10.356065
+15:04:39.506 > X: 0.160466, Y: 0.220342, Z: 10.284214
+15:04:39.526 > X: 0.318538, Y: 0.311353, Z: 10.269844
+15:04:39.546 > X: 0.249082, Y: 0.256267, Z: 10.317744
+15:04:39.566 > X: 0.390388, Y: 0.277822, Z: 10.353669
+15:04:39.586 > X: 0.332908, Y: 0.311353, Z: 10.341694
+15:04:39.605 > X: 0.316143, Y: 0.265847, Z: 10.281818
+15:04:39.625 > X: 0.289797, Y: 0.316143, Z: 10.339299
+15:04:39.645 > X: 0.299377, Y: 0.256267, Z: 10.253078
+15:04:39.665 > X: 0.268242, Y: 0.196392, Z: 10.303374
+15:04:39.685 > X: 0.270637, Y: 0.249082, Z: 10.291399
+15:04:39.705 > X: 0.366438, Y: 0.287402, Z: 10.272239
+15:04:39.725 > X: 0.311353, Y: 0.273032, Z: 10.281818
+15:04:39.745 > X: 0.232317, Y: 0.277822, Z: 10.248288
+15:04:39.765 > X: 0.373623, Y: 0.292192, Z: 10.339299
+15:04:39.786 > X: 0.335303, Y: 0.253872, Z: 10.229129
+15:04:39.806 > X: 0.366438, Y: 0.280217, Z: 10.344090
+15:04:39.825 > X: 0.162861, Y: 0.225132, Z: 10.308164
+15:04:39.845 > X: 0.316143, Y: 0.261057, Z: 10.224339
+15:04:39.865 > X: 0.285007, Y: 0.304167, Z: 10.209969
+15:04:39.886 > X: 0.275427, Y: 0.227527, Z: 10.310559
+15:04:39.906 > X: 0.325723, Y: 0.280217, Z: 10.233918
+15:04:39.926 > X: 0.280217, Y: 0.215552, Z: 10.286609
+15:04:39.946 > X: 0.364043, Y: 0.296982, Z: 10.284214
+15:04:39.966 > X: 0.193997, Y: 0.292192, Z: 10.286609
+15:04:39.986 > X: 0.335303, Y: 0.304167, Z: 10.281818
+15:04:40.006 > X: 0.373623, Y: 0.296982, Z: 10.262659
+15:04:40.026 > X: 0.225132, Y: 0.208367, Z: 10.279424
+15:04:40.046 > X: 0.364043, Y: 0.330513, Z: 10.348880
+15:04:40.066 > X: 0.325723, Y: 0.296982, Z: 10.277029
+15:04:40.086 > X: 0.217947, Y: 0.273032, Z: 10.284214
+15:04:40.105 > X: 0.253872, Y: 0.213157, Z: 10.327324
+15:04:40.125 > X: 0.337698, Y: 0.244292, Z: 10.293794
+15:04:40.145 > X: 0.268242, Y: 0.249082, Z: 10.212363
+15:04:40.165 > X: 0.184417, Y: 0.251477, Z: 10.293794
+15:04:40.185 > X: 0.318538, Y: 0.268242, Z: 10.298584
+15:04:40.205 > X: 0.265847, Y: 0.196392, Z: 10.274633
+15:04:40.225 > X: 0.244292, Y: 0.179626, Z: 10.317744
+15:04:40.245 > X: 0.280217, Y: 0.323328, Z: 10.202784
+15:04:40.266 > X: 0.299377, Y: 0.285007, Z: 10.322535
+15:04:40.286 > X: 0.325723, Y: 0.294587, Z: 10.370435
+15:04:40.306 > X: 0.191602, Y: 0.239502, Z: 10.308164
+15:04:40.326 > X: 0.292192, Y: 0.217947, Z: 10.296189
+15:04:40.345 > X: 0.277822, Y: 0.325723, Z: 10.312954
+15:04:40.365 > X: 0.215552, Y: 0.241897, Z: 10.293794
+15:04:40.385 > X: 0.210762, Y: 0.253872, Z: 10.269844
+15:04:40.406 > X: 0.287402, Y: 0.330513, Z: 10.226733
+15:04:40.426 > X: 0.232317, Y: 0.256267, Z: 10.339299
+15:04:40.446 > X: 0.225132, Y: 0.239502, Z: 10.377620
+15:04:40.466 > X: 0.210762, Y: 0.220342, Z: 10.269844
+15:04:40.486 > X: 0.268242, Y: 0.258662, Z: 10.183623
+15:04:40.507 > X: 0.292192, Y: 0.237107, Z: 10.248288
+15:04:40.525 > X: 0.330513, Y: 0.261057, Z: 10.262659
+15:04:40.545 > X: 0.301772, Y: 0.256267, Z: 10.284214
+15:04:40.566 > X: 0.258662, Y: 0.268242, Z: 10.243499
+15:04:40.586 > X: 0.225132, Y: 0.282612, Z: 10.217154
+15:04:40.605 > X: 0.352068, Y: 0.205972, Z: 10.286609
+15:04:40.625 > X: 0.263452, Y: 0.294587, Z: 10.346484
+15:04:40.645 > X: 0.205972, Y: 0.229922, Z: 10.284214
+15:04:40.665 > X: 0.222737, Y: 0.246687, Z: 10.255474
+15:04:40.685 > X: 0.292192, Y: 0.258662, Z: 10.250684
+15:04:40.705 > X: 0.215552, Y: 0.296982, Z: 10.324929
+15:04:40.726 > X: 0.268242, Y: 0.273032, Z: 10.310559
+15:04:40.746 > X: 0.249082, Y: 0.268242, Z: 10.298584
+15:04:40.767 > X: 0.244292, Y: 0.306563, Z: 10.360854
+15:04:40.786 > X: 0.304167, Y: 0.359253, Z: 10.284214
+15:04:40.806 > X: 0.256267, Y: 0.251477, Z: 10.272239
+15:04:40.829 > X: 0.323328, Y: 0.292192, Z: 10.348880
+15:04:40.846 > X: 0.399968, Y: 0.342488, Z: 10.334509
+15:04:40.865 > X: 0.253872, Y: 0.256267, Z: 10.248288
+15:04:40.885 > X: 0.198787, Y: 0.201182, Z: 10.236314
+15:04:40.905 > X: 0.265847, Y: 0.265847, Z: 10.197993
+15:04:40.926 > X: 0.344883, Y: 0.296982, Z: 10.205178
+15:04:40.946 > X: 0.241897, Y: 0.203577, Z: 10.243499
+15:04:40.966 > X: 0.263452, Y: 0.186812, Z: 10.298584
+15:04:40.986 > X: 0.215552, Y: 0.265847, Z: 10.233918
+15:04:41.005 > X: 0.342488, Y: 0.304167, Z: 10.260263
+15:04:41.025 > X: 0.316143, Y: 0.296982, Z: 10.284214
+15:04:41.046 > X: 0.239502, Y: 0.265847, Z: 10.300979
+15:04:41.067 > X: 0.229922, Y: 0.268242, Z: 10.308164
+15:04:41.086 > X: 0.282612, Y: 0.347278, Z: 10.224339
+15:04:41.106 > X: 0.292192, Y: 0.323328, Z: 10.293794
+15:04:41.125 > X: 0.265847, Y: 0.213157, Z: 10.322535
+15:04:41.146 > X: 0.258662, Y: 0.217947, Z: 10.253078
+15:04:41.165 > X: 0.263452, Y: 0.234712, Z: 10.305769
+15:04:41.186 > X: 0.256267, Y: 0.213157, Z: 10.241103
+15:04:41.206 > X: 0.241897, Y: 0.239502, Z: 10.272239
+15:04:41.226 > X: 0.261057, Y: 0.203577, Z: 10.217154
+15:04:41.246 > X: 0.227527, Y: 0.237107, Z: 10.353669
+15:04:41.266 > X: 0.253872, Y: 0.270637, Z: 10.320139
+15:04:41.286 > X: 0.316143, Y: 0.237107, Z: 10.305769
+15:04:41.306 > X: 0.208367, Y: 0.287402, Z: 10.272239
+15:04:41.326 > X: 0.265847, Y: 0.282612, Z: 10.332114
+15:04:41.346 > X: 0.313748, Y: 0.191602, Z: 10.253078
+15:04:41.365 > X: 0.232317, Y: 0.220342, Z: 10.293794
+15:04:41.386 > X: 0.294587, Y: 0.261057, Z: 10.332114
+15:04:41.406 > X: 0.318538, Y: 0.189207, Z: 10.286609
+15:04:41.426 > X: 0.301772, Y: 0.213157, Z: 10.284214
+15:04:41.445 > X: 0.359253, Y: 0.292192, Z: 10.298584
+15:04:41.465 > X: 0.337698, Y: 0.292192, Z: 10.339299
+15:04:41.485 > X: 0.328118, Y: 0.311353, Z: 10.241103
+15:04:41.505 > X: 0.275427, Y: 0.285007, Z: 10.269844
+15:04:41.526 > X: 0.273032, Y: 0.232317, Z: 10.284214
+15:04:41.546 > X: 0.263452, Y: 0.251477, Z: 10.296189
+15:04:41.566 > X: 0.258662, Y: 0.268242, Z: 10.272239
+15:04:41.586 > X: 0.244292, Y: 0.258662, Z: 10.284214
+15:04:41.605 > X: 0.342488, Y: 0.220342, Z: 10.274633
+15:04:41.625 > X: 0.189207, Y: 0.208367, Z: 10.298584
+15:04:41.645 > X: 0.153281, Y: 0.217947, Z: 10.289004
+15:04:41.665 > X: 0.325723, Y: 0.251477, Z: 10.291399
+15:04:41.685 > X: 0.275427, Y: 0.232317, Z: 10.233918
+15:04:41.706 > X: 0.304167, Y: 0.296982, Z: 10.257869
+15:04:41.726 > X: 0.229922, Y: 0.241897, Z: 10.327324
+15:04:41.746 > X: 0.261057, Y: 0.208367, Z: 10.315350
+15:04:41.765 > X: 0.263452, Y: 0.213157, Z: 10.238708
+15:04:41.786 > X: 0.261057, Y: 0.249082, Z: 10.315350
+15:04:41.806 > X: 0.261057, Y: 0.270637, Z: 10.346484
+15:04:41.826 > X: 0.311353, Y: 0.273032, Z: 10.289004
+15:04:41.846 > X: 0.352068, Y: 0.285007, Z: 10.375225
+15:04:41.866 > X: 0.416733, Y: 0.282612, Z: 10.279424
+15:04:41.886 > X: 0.316143, Y: 0.225132, Z: 10.332114
+15:04:41.906 > X: 0.323328, Y: 0.282612, Z: 10.298584
+15:04:41.926 > X: 0.318538, Y: 0.299377, Z: 10.312954
+15:04:41.945 > X: 0.311353, Y: 0.256267, Z: 10.344090
+15:04:41.966 > X: 0.239502, Y: 0.246687, Z: 10.245893
+15:04:41.985 > X: 0.263452, Y: 0.277822, Z: 10.236314
+15:04:42.005 > X: 0.241897, Y: 0.217947, Z: 10.353669
+15:04:42.025 > X: 0.296982, Y: 0.335303, Z: 10.284214
+15:04:42.046 > X: 0.273032, Y: 0.222737, Z: 10.202784
+15:04:42.066 > X: 0.208367, Y: 0.316143, Z: 10.293794
+15:04:42.086 > X: 0.232317, Y: 0.208367, Z: 10.286609
+15:04:42.106 > X: 0.282612, Y: 0.246687, Z: 10.272239
+15:04:42.125 > X: 0.186812, Y: 0.189207, Z: 10.351274
+15:04:42.145 > X: 0.316143, Y: 0.253872, Z: 10.214758
+15:04:42.165 > X: 0.277822, Y: 0.210762, Z: 10.214758
+15:04:42.186 > X: 0.273032, Y: 0.186812, Z: 10.303374
+15:04:42.206 > X: 0.234712, Y: 0.222737, Z: 10.348880
+15:04:42.226 > X: 0.249082, Y: 0.213157, Z: 10.286609
+15:04:42.246 > X: 0.268242, Y: 0.285007, Z: 10.241103
+15:04:42.265 > X: 0.299377, Y: 0.265847, Z: 10.356065
+15:04:42.286 > X: 0.237107, Y: 0.215552, Z: 10.224339
+15:04:42.306 > X: 0.301772, Y: 0.287402, Z: 10.322535
+15:04:42.326 > X: 0.220342, Y: 0.265847, Z: 10.324929
+15:04:42.346 > X: 0.292192, Y: 0.241897, Z: 10.348880
+15:04:42.366 > X: 0.308958, Y: 0.277822, Z: 10.308164
+15:04:42.386 > X: 0.225132, Y: 0.210762, Z: 10.281818
+15:04:42.406 > X: 0.344883, Y: 0.275427, Z: 10.245893
+15:04:42.426 > X: 0.294587, Y: 0.282612, Z: 10.363250
+15:04:42.446 > X: 0.229922, Y: 0.222737, Z: 10.394384
+15:04:42.466 > X: 0.237107, Y: 0.189207, Z: 10.260263
+15:04:42.485 > X: 0.273032, Y: 0.234712, Z: 10.391990
+15:04:42.506 > X: 0.265847, Y: 0.241897, Z: 10.233918
+15:04:42.526 > X: 0.251477, Y: 0.244292, Z: 10.279424
+15:04:42.546 > X: 0.361648, Y: 0.258662, Z: 10.320139
+15:04:42.566 > X: 0.323328, Y: 0.222737, Z: 10.178833
+15:04:42.586 > X: 0.229922, Y: 0.277822, Z: 10.310559
+15:04:42.606 > X: 0.229922, Y: 0.227527, Z: 10.245893
+15:04:42.626 > X: 0.258662, Y: 0.239502, Z: 10.272239
+15:04:42.646 > X: 0.258662, Y: 0.213157, Z: 10.250684
+15:04:42.666 > X: 0.354463, Y: 0.256267, Z: 10.289004
+15:04:42.686 > X: 0.364043, Y: 0.220342, Z: 10.356065
+15:04:42.706 > X: 0.225132, Y: 0.239502, Z: 10.267448
+15:04:42.726 > X: 0.256267, Y: 0.258662, Z: 10.303374
+15:04:42.745 > X: 0.285007, Y: 0.277822, Z: 10.344090
+15:04:42.765 > X: 0.335303, Y: 0.225132, Z: 10.250684
+15:04:42.786 > X: 0.292192, Y: 0.227527, Z: 10.310559
+15:04:42.806 > X: 0.344883, Y: 0.263452, Z: 10.298584
+15:04:42.826 > X: 0.277822, Y: 0.289797, Z: 10.274633
+15:04:42.846 > X: 0.244292, Y: 0.232317, Z: 10.332114
+15:04:42.865 > X: 0.256267, Y: 0.282612, Z: 10.344090
+15:04:42.886 > X: 0.316143, Y: 0.292192, Z: 10.207573
+15:04:42.906 > X: 0.337698, Y: 0.282612, Z: 10.265054
+15:04:42.926 > X: 0.225132, Y: 0.273032, Z: 10.226733
+15:04:42.946 > X: 0.292192, Y: 0.325723, Z: 10.217154
+15:04:42.966 > X: 0.203577, Y: 0.196392, Z: 10.334509
+15:04:42.985 > X: 0.205972, Y: 0.251477, Z: 10.322535
+15:04:43.005 > X: 0.325723, Y: 0.198787, Z: 10.229129
+15:04:43.026 > X: 0.292192, Y: 0.227527, Z: 10.327324
+15:04:43.046 > X: 0.316143, Y: 0.251477, Z: 10.205178
+15:04:43.066 > X: 0.217947, Y: 0.275427, Z: 10.339299
+15:04:43.086 > X: 0.280217, Y: 0.193997, Z: 10.303374
+15:04:43.105 > X: 0.308958, Y: 0.244292, Z: 10.312954
+15:04:43.125 > X: 0.210762, Y: 0.229922, Z: 10.281818
+15:04:43.145 > X: 0.227527, Y: 0.208367, Z: 10.250684
+15:04:43.165 > X: 0.273032, Y: 0.229922, Z: 10.298584
+15:04:43.185 > X: 0.253872, Y: 0.268242, Z: 10.336905
+15:04:43.206 > ����������������������������������������������������������������: 0.313748, Y: 0.210762, Z: 10.253078
+15:04:43.226 > X: 0.210762, Y: 0.251477, Z: 10.166858
+15:04:43.246 > X: 0.258662, Y: 0.265847, Z: 10.289004
+15:04:43.266 > X: 0.225132, Y: 0.210762, Z: 10.279424
+15:04:43.286 > X: 0.126936, Y: 0.232317, Z: 10.310559
+15:04:43.306 > X: 0.222737, Y: 0.184417, Z: 10.238708
+15:04:43.326 > X: 0.241897, Y: 0.237107, Z: 10.238708
+15:04:43.345 > X: 0.332908, Y: 0.282612, Z: 10.329720
+15:04:43.365 > X: 0.287402, Y: 0.201182, Z: 10.399175
+15:04:43.386 > X: 0.249082, Y: 0.229922, Z: 10.284214
+15:04:43.406 > X: 0.318538, Y: 0.299377, Z: 10.351274
+15:04:43.426 > X: 0.153281, Y: 0.201182, Z: 10.327324
+15:04:43.446 > X: 0.356858, Y: 0.316143, Z: 10.272239
+15:04:43.466 > X: 0.237107, Y: 0.189207, Z: 10.260263
+15:04:43.485 > X: 0.371228, Y: 0.280217, Z: 10.284214
+15:04:43.505 > X: 0.313748, Y: 0.359253, Z: 10.341694
+15:04:43.525 > X: 0.239502, Y: 0.273032, Z: 10.274633
+15:04:43.546 > X: 0.308958, Y: 0.261057, Z: 10.291399
+15:04:43.566 > X: 0.244292, Y: 0.241897, Z: 10.178833
+15:04:43.586 > X: 0.261057, Y: 0.285007, Z: 10.241103
+15:04:43.605 > X: 0.296982, Y: 0.273032, Z: 10.224339
+15:04:43.625 > X: 0.311353, Y: 0.241897, Z: 10.298584
+15:04:43.645 > X: 0.210762, Y: 0.289797, Z: 10.289004
+15:04:43.665 > X: 0.335303, Y: 0.304167, Z: 10.241103
+15:04:43.686 > X: 0.273032, Y: 0.237107, Z: 10.260263
+15:04:43.706 > X: 0.232317, Y: 0.244292, Z: 10.348880
+15:04:43.726 > X: 0.234712, Y: 0.275427, Z: 10.286609
+15:04:43.746 > X: 0.287402, Y: 0.249082, Z: 10.226733
+15:04:43.765 > X: 0.215552, Y: 0.210762, Z: 10.262659
+15:04:43.786 > X: 0.282612, Y: 0.313748, Z: 10.226733
+15:04:43.805 > X: 0.332908, Y: 0.251477, Z: 10.298584
+15:04:43.825 > X: 0.323328, Y: 0.287402, Z: 10.317744
+15:04:43.846 > X: 0.301772, Y: 0.253872, Z: 10.255474
+15:04:43.865 > X: 0.301772, Y: 0.241897, Z: 10.336905
+15:04:43.886 > X: 0.306563, Y: 0.313748, Z: 10.274633
+15:04:43.907 > X: 0.196392, Y: 0.301772, Z: 10.284214
+15:04:43.926 > X: 0.273032, Y: 0.241897, Z: 10.320139
+15:04:43.946 > X: 0.311353, Y: 0.251477, Z: 10.277029
+15:04:43.966 > X: 0.239502, Y: 0.294587, Z: 10.324929
+15:04:43.985 > X: 0.184417, Y: 0.138911, Z: 10.262659
+15:04:44.005 > X: 0.296982, Y: 0.265847, Z: 10.356065
+15:04:44.026 > X: 0.282612, Y: 0.299377, Z: 10.284214
+15:04:44.046 > X: 0.354463, Y: 0.237107, Z: 10.332114
+15:04:44.066 > X: 0.217947, Y: 0.225132, Z: 10.248288
+15:04:44.086 > X: 0.273032, Y: 0.263452, Z: 10.274633
+15:04:44.106 > X: 0.201182, Y: 0.229922, Z: 10.329720
+15:04:44.125 > X: 0.258662, Y: 0.311353, Z: 10.257869
+15:04:44.145 > X: 0.220342, Y: 0.217947, Z: 10.289004
+15:04:44.166 > X: 0.220342, Y: 0.253872, Z: 10.332114
+15:04:44.186 > X: 0.253872, Y: 0.294587, Z: 10.236314
+15:04:44.206 > X: 0.205972, Y: 0.270637, Z: 10.245893
+15:04:44.227 > X: 0.189207, Y: 0.265847, Z: 10.202784
+15:04:44.247 > X: 0.273032, Y: 0.263452, Z: 10.356065
+15:04:44.266 > X: 0.208367, Y: 0.143701, Z: 10.315350
+15:04:44.286 > X: 0.354463, Y: 0.282612, Z: 10.207573
+15:04:44.306 > X: 0.253872, Y: 0.265847, Z: 10.346484
+15:04:44.326 > X: 0.282612, Y: 0.227527, Z: 10.272239
+15:04:44.346 > X: 0.275427, Y: 0.280217, Z: 10.226733
+15:04:44.365 > X: 0.301772, Y: 0.265847, Z: 10.224339
+15:04:44.386 > X: 0.265847, Y: 0.292192, Z: 10.341694
+15:04:44.407 > X: 0.282612, Y: 0.225132, Z: 10.262659
+15:04:44.426 > X: 0.217947, Y: 0.320933, Z: 10.233918
+15:04:44.446 > X: 0.304167, Y: 0.201182, Z: 10.243499
+15:04:44.466 > X: 0.354463, Y: 0.282612, Z: 10.289004
+15:04:44.486 > X: 0.273032, Y: 0.280217, Z: 10.241103
+15:04:44.506 > X: 0.294587, Y: 0.280217, Z: 10.298584
+15:04:44.526 > X: 0.308958, Y: 0.285007, Z: 10.229129
+15:04:44.546 > X: 0.246687, Y: 0.268242, Z: 10.289004
+15:04:44.565 > X: 0.237107, Y: 0.225132, Z: 10.291399
+15:04:44.587 > X: 0.311353, Y: 0.342488, Z: 10.332114
+15:04:44.607 > X: 0.294587, Y: 0.294587, Z: 10.272239
+15:04:44.626 > X: 0.304167, Y: 0.244292, Z: 10.176438
+15:04:44.646 > X: 0.265847, Y: 0.232317, Z: 10.281818
+15:04:44.666 > X: 0.301772, Y: 0.292192, Z: 10.286609
+15:04:44.686 > X: 0.270637, Y: 0.270637, Z: 10.257869
+15:04:44.706 > X: 0.275427, Y: 0.277822, Z: 10.296189
+15:04:44.726 > X: 0.261057, Y: 0.263452, Z: 10.229129
+15:04:44.747 > X: 0.277822, Y: 0.256267, Z: 10.250684
+15:04:44.766 > X: 0.289797, Y: 0.232317, Z: 10.236314
+15:04:44.786 > X: 0.246687, Y: 0.172441, Z: 10.327324
+15:04:44.806 > X: 0.222737, Y: 0.277822, Z: 10.233918
+15:04:44.826 > X: 0.349673, Y: 0.263452, Z: 10.277029
+15:04:44.846 > X: 0.285007, Y: 0.246687, Z: 10.396780
+15:04:44.865 > X: 0.287402, Y: 0.304167, Z: 10.279424
+15:04:44.886 > X: 0.239502, Y: 0.258662, Z: 10.219548
+15:04:44.906 > X: 0.213157, Y: 0.289797, Z: 10.315350
+15:04:44.926 > X: 0.313748, Y: 0.285007, Z: 10.308164
+15:04:44.946 > X: 0.244292, Y: 0.227527, Z: 10.324929
+15:04:44.966 > X: 0.239502, Y: 0.213157, Z: 10.243499
+15:04:44.986 > X: 0.232317, Y: 0.249082, Z: 10.339299
+15:04:45.006 > X: 0.287402, Y: 0.275427, Z: 10.320139
+15:04:45.026 > X: 0.220342, Y: 0.213157, Z: 10.243499
+15:04:45.046 > X: 0.261057, Y: 0.246687, Z: 10.272239
+15:04:45.066 > X: 0.320933, Y: 0.268242, Z: 10.269844
+15:04:45.086 > X: 0.249082, Y: 0.253872, Z: 10.231524
+15:04:45.106 > X: 0.244292, Y: 0.239502, Z: 10.145303
+15:04:45.125 > X: 0.311353, Y: 0.320933, Z: 10.336905
+15:04:45.145 > X: 0.342488, Y: 0.229922, Z: 10.315350
+15:04:45.166 > X: 0.292192, Y: 0.268242, Z: 10.286609
+15:04:45.186 > X: 0.239502, Y: 0.232317, Z: 10.339299
+15:04:45.206 > X: 0.270637, Y: 0.253872, Z: 10.358459
+15:04:45.226 > X: 0.311353, Y: 0.220342, Z: 10.372829
+15:04:45.246 > X: 0.280217, Y: 0.249082, Z: 10.272239
+15:04:45.265 > X: 0.258662, Y: 0.268242, Z: 10.262659
+15:04:45.285 > X: 0.263452, Y: 0.246687, Z: 10.341694
+15:04:45.305 > X: 0.261057, Y: 0.258662, Z: 10.286609
+15:04:45.325 > X: 0.251477, Y: 0.258662, Z: 10.253078
+15:04:45.345 > X: 0.241897, Y: 0.222737, Z: 10.202784
+15:04:45.365 > X: 0.275427, Y: 0.287402, Z: 10.312954
+15:04:45.386 > X: 0.352068, Y: 0.263452, Z: 10.296189
+15:04:45.406 > X: 0.217947, Y: 0.265847, Z: 10.310559
+15:04:45.425 > X: 0.232317, Y: 0.265847, Z: 10.111773
+15:04:45.445 > X: 0.270637, Y: 0.261057, Z: 10.310559
+15:04:45.465 > X: 0.292192, Y: 0.287402, Z: 10.229129
+15:04:45.486 > X: 0.320933, Y: 0.270637, Z: 10.217154
+15:04:45.506 > X: 0.258662, Y: 0.280217, Z: 10.281818
+15:04:45.526 > X: 0.150886, Y: 0.167651, Z: 10.329720
+15:04:45.546 > X: 0.318538, Y: 0.296982, Z: 10.281818
+15:04:45.566 > X: 0.301772, Y: 0.213157, Z: 10.332114
+15:04:45.586 > X: 0.191602, Y: 0.265847, Z: 10.344090
+15:04:45.606 > X: 0.323328, Y: 0.258662, Z: 10.312954
+15:04:45.626 > X: 0.234712, Y: 0.189207, Z: 10.243499
+15:04:45.646 > X: 0.251477, Y: 0.285007, Z: 10.150093
+15:04:45.666 > X: 0.366438, Y: 0.239502, Z: 10.324929
+15:04:45.686 > X: 0.220342, Y: 0.189207, Z: 10.303374
+15:04:45.706 > X: 0.325723, Y: 0.280217, Z: 10.281818
+15:04:45.725 > X: 0.263452, Y: 0.277822, Z: 10.341694
+15:04:45.745 > X: 0.287402, Y: 0.232317, Z: 10.317744
+15:04:45.765 > X: 0.337698, Y: 0.273032, Z: 10.236314
+15:04:45.785 > X: 0.299377, Y: 0.239502, Z: 10.233918
+15:04:45.805 > X: 0.311353, Y: 0.268242, Z: 10.255474
+15:04:45.825 > X: 0.251477, Y: 0.289797, Z: 10.320139
+15:04:45.845 > X: 0.354463, Y: 0.244292, Z: 10.248288
+15:04:45.866 > X: 0.215552, Y: 0.232317, Z: 10.293794
+15:04:45.886 > X: 0.340093, Y: 0.285007, Z: 10.229129
+15:04:45.906 > X: 0.289797, Y: 0.325723, Z: 10.320139
+15:04:45.926 > X: 0.237107, Y: 0.273032, Z: 10.269844
+15:04:45.946 > X: 0.191602, Y: 0.222737, Z: 10.197993
+15:04:45.966 > X: 0.304167, Y: 0.301772, Z: 10.332114
+15:04:45.986 > X: 0.263452, Y: 0.253872, Z: 10.332114
+15:04:46.006 > X: 0.222737, Y: 0.287402, Z: 10.229129
+15:04:46.026 > X: 0.227527, Y: 0.215552, Z: 10.267448
+15:04:46.046 > X: 0.136516, Y: 0.167651, Z: 10.284214
+15:04:46.066 > X: 0.249082, Y: 0.193997, Z: 10.262659
+15:04:46.086 > X: 0.376018, Y: 0.275427, Z: 10.262659
+15:04:46.106 > X: 0.311353, Y: 0.249082, Z: 10.281818
+15:04:46.125 > X: 0.282612, Y: 0.282612, Z: 10.360854
+15:04:46.146 > X: 0.234712, Y: 0.253872, Z: 10.298584
+15:04:46.166 > X: 0.205972, Y: 0.244292, Z: 10.277029
+15:04:46.185 > X: 0.294587, Y: 0.328118, Z: 10.293794
+15:04:46.205 > X: 0.251477, Y: 0.265847, Z: 10.241103
+15:04:46.227 > X: 0.196392, Y: 0.256267, Z: 10.207573
+15:04:46.246 > X: 0.261057, Y: 0.244292, Z: 10.281818
+15:04:46.266 > X: 0.316143, Y: 0.287402, Z: 10.262659
+15:04:46.286 > X: 0.287402, Y: 0.299377, Z: 10.171648
+15:04:46.305 > X: 0.325723, Y: 0.239502, Z: 10.289004
+15:04:46.326 > X: 0.318538, Y: 0.268242, Z: 10.394384
+15:04:46.346 > X: 0.289797, Y: 0.246687, Z: 10.238708
+15:04:46.366 > X: 0.256267, Y: 0.299377, Z: 10.260263
+15:04:46.386 > X: 0.299377, Y: 0.239502, Z: 10.265054
+15:04:46.406 > X: 0.232317, Y: 0.229922, Z: 10.279424
+15:04:46.427 > X: 0.311353, Y: 0.273032, Z: 10.308164
+15:04:46.446 > X: 0.289797, Y: 0.261057, Z: 10.233918
+15:04:46.465 > X: 0.265847, Y: 0.167651, Z: 10.272239
+15:04:46.486 > X: 0.229922, Y: 0.227527, Z: 10.255474
+15:04:46.506 > X: 0.258662, Y: 0.249082, Z: 10.317744
+15:04:46.526 > X: 0.215552, Y: 0.265847, Z: 10.296189
+15:04:46.546 > X: 0.241897, Y: 0.289797, Z: 10.274633
+15:04:46.566 > X: 0.256267, Y: 0.249082, Z: 10.267448
+15:04:46.586 > X: 0.292192, Y: 0.273032, Z: 10.296189
+15:04:46.605 > X: 0.232317, Y: 0.311353, Z: 10.300979
+15:04:46.625 > X: 0.277822, Y: 0.193997, Z: 10.250684
+15:04:46.645 > X: 0.308958, Y: 0.273032, Z: 10.380014
+15:04:46.666 > X: 0.356858, Y: 0.251477, Z: 10.368039
+15:04:46.686 > X: 0.220342, Y: 0.258662, Z: 10.296189
+15:04:46.706 > X: 0.356858, Y: 0.337698, Z: 10.245893
+15:04:46.726 > X: 0.342488, Y: 0.229922, Z: 10.265054
+15:04:46.747 > X: 0.287402, Y: 0.273032, Z: 10.370435
+15:04:46.766 > X: 0.301772, Y: 0.289797, Z: 10.272239
+15:04:46.786 > X: 0.311353, Y: 0.287402, Z: 10.284214
+15:04:46.806 > X: 0.347278, Y: 0.282612, Z: 10.277029
+15:04:46.826 > X: 0.311353, Y: 0.292192, Z: 10.329720
+15:04:46.845 > X: 0.220342, Y: 0.222737, Z: 10.267448
+15:04:46.865 > X: 0.320933, Y: 0.172441, Z: 10.238708
+15:04:46.886 > X: 0.344883, Y: 0.287402, Z: 10.284214
+15:04:46.905 > X: 0.249082, Y: 0.229922, Z: 10.289004
+15:04:46.926 > X: 0.241897, Y: 0.222737, Z: 10.329720
+15:04:46.946 > X: 0.337698, Y: 0.287402, Z: 10.277029
+15:04:46.966 > X: 0.296982, Y: 0.246687, Z: 10.291399
+15:04:46.986 > X: 0.237107, Y: 0.294587, Z: 10.241103
+15:04:47.006 > X: 0.138911, Y: 0.222737, Z: 10.255474
+15:04:47.026 > X: 0.378413, Y: 0.296982, Z: 10.324929
+15:04:47.046 > X: 0.356858, Y: 0.292192, Z: 10.356065
+15:04:47.067 > X: 0.311353, Y: 0.205972, Z: 10.324929
+15:04:47.086 > X: 0.222737, Y: 0.261057, Z: 10.296189
+15:04:47.105 > X: 0.270637, Y: 0.220342, Z: 10.303374
+15:04:47.125 > X: 0.229922, Y: 0.296982, Z: 10.245893
+15:04:47.145 > X: 0.256267, Y: 0.217947, Z: 10.305769
+15:04:47.166 > X: 0.232317, Y: 0.249082, Z: 10.197993
+15:04:47.186 > X: 0.292192, Y: 0.273032, Z: 10.236314
+15:04:47.206 > X: 0.239502, Y: 0.234712, Z: 10.214758
+15:04:47.227 > X: 0.249082, Y: 0.304167, Z: 10.298584
+15:04:47.246 > X: 0.258662, Y: 0.273032, Z: 10.255474
+15:04:47.266 > X: 0.320933, Y: 0.205972, Z: 10.267448
+15:04:47.286 > X: 0.277822, Y: 0.232317, Z: 10.176438
+15:04:47.306 > X: 0.304167, Y: 0.280217, Z: 10.253078
+15:04:47.326 > X: 0.268242, Y: 0.244292, Z: 10.214758
+15:04:47.345 > X: 0.258662, Y: 0.282612, Z: 10.365644
+15:04:47.365 > X: 0.292192, Y: 0.261057, Z: 10.200388
+15:04:47.386 > X: 0.277822, Y: 0.263452, Z: 10.370435
+15:04:47.406 > X: 0.256267, Y: 0.186812, Z: 10.277029
+15:04:47.425 > X: 0.361648, Y: 0.282612, Z: 10.243499
+15:04:47.446 > X: 0.196392, Y: 0.265847, Z: 10.260263
+15:04:47.466 > X: 0.285007, Y: 0.318538, Z: 10.284214
+15:04:47.486 > X: 0.263452, Y: 0.296982, Z: 10.217154
+15:04:47.505 > X: 0.222737, Y: 0.193997, Z: 10.190808
+15:04:47.526 > X: 0.261057, Y: 0.227527, Z: 10.226733
+15:04:47.546 > X: 0.323328, Y: 0.241897, Z: 10.291399
+15:04:47.566 > X: 0.275427, Y: 0.280217, Z: 10.253078
+15:04:47.586 > X: 0.296982, Y: 0.237107, Z: 10.289004
+15:04:47.606 > X: 0.268242, Y: 0.265847, Z: 10.293794
+15:04:47.626 > X: 0.253872, Y: 0.251477, Z: 10.243499
+15:04:47.646 > X: 0.292192, Y: 0.277822, Z: 10.353669
+15:04:47.666 > X: 0.253872, Y: 0.213157, Z: 10.274633
+15:04:47.686 > X: 0.294587, Y: 0.263452, Z: 10.253078
+15:04:47.706 > X: 0.289797, Y: 0.280217, Z: 10.281818
+15:04:47.726 > X: 0.340093, Y: 0.208367, Z: 10.289004
+15:04:47.745 > X: 0.270637, Y: 0.229922, Z: 10.229129
+15:04:47.765 > X: 0.340093, Y: 0.292192, Z: 10.286609
+15:04:47.786 > X: 0.273032, Y: 0.261057, Z: 10.248288
+15:04:47.806 > X: 0.299377, Y: 0.205972, Z: 10.329720
+15:04:47.825 > X: 0.366438, Y: 0.325723, Z: 10.260263
+15:04:47.846 > X: 0.323328, Y: 0.304167, Z: 10.332114
+15:04:47.865 > X: 0.306563, Y: 0.304167, Z: 10.300979
+15:04:47.886 > X: 0.285007, Y: 0.275427, Z: 10.327324
+15:04:47.907 > X: 0.292192, Y: 0.294587, Z: 10.310559
+15:04:47.926 > X: 0.304167, Y: 0.205972, Z: 10.356065
+15:04:47.946 > X: 0.246687, Y: 0.215552, Z: 10.255474
+15:04:47.966 > X: 0.280217, Y: 0.289797, Z: 10.291399
+15:04:47.985 > X: 0.244292, Y: 0.217947, Z: 10.245893
+15:04:48.005 > X: 0.237107, Y: 0.277822, Z: 10.200388
+15:04:48.026 > X: 0.237107, Y: 0.285007, Z: 10.358459
+15:04:48.046 > X: 0.282612, Y: 0.306563, Z: 10.317744
+15:04:48.066 > X: 0.335303, Y: 0.220342, Z: 10.293794
+15:04:48.086 > X: 0.263452, Y: 0.239502, Z: 10.212363
+15:04:48.105 > X: 0.289797, Y: 0.229922, Z: 10.332114
+15:04:48.126 > X: 0.275427, Y: 0.253872, Z: 10.214758
+15:04:48.146 > X: 0.328118, Y: 0.299377, Z: 10.284214
+15:04:48.166 > X: 0.308958, Y: 0.203577, Z: 10.238708
+15:04:48.186 > X: 0.299377, Y: 0.251477, Z: 10.272239
+15:04:48.206 > X: 0.253872, Y: 0.285007, Z: 10.341694
+15:04:48.227 > X: 0.261057, Y: 0.237107, Z: 10.241103
+15:04:48.246 > X: 0.225132, Y: 0.246687, Z: 10.298584
+15:04:48.266 > X: 0.270637, Y: 0.258662, Z: 10.291399
+15:04:48.286 > X: 0.273032, Y: 0.273032, Z: 10.245893
+15:04:48.306 > X: 0.198787, Y: 0.299377, Z: 10.303374
+15:04:48.326 > X: 0.359253, Y: 0.258662, Z: 10.250684
+15:04:48.345 > X: 0.249082, Y: 0.253872, Z: 10.217154
+15:04:48.365 > X: 0.285007, Y: 0.277822, Z: 10.200388
+15:04:48.386 > X: 0.265847, Y: 0.220342, Z: 10.281818
+15:04:48.406 > X: 0.325723, Y: 0.191602, Z: 10.236314
+15:04:48.426 > X: 0.241897, Y: 0.258662, Z: 10.253078
+15:04:48.446 > X: 0.296982, Y: 0.227527, Z: 10.298584
+15:04:48.466 > X: 0.201182, Y: 0.256267, Z: 10.346484
+15:04:48.486 > X: 0.280217, Y: 0.222737, Z: 10.344090
+15:04:48.505 > X: 0.253872, Y: 0.239502, Z: 10.250684
+15:04:48.526 > X: 0.258662, Y: 0.268242, Z: 10.329720
+15:04:48.546 > X: 0.280217, Y: 0.251477, Z: 10.293794
+15:04:48.566 > X: 0.320933, Y: 0.210762, Z: 10.308164
+15:04:48.586 > X: 0.261057, Y: 0.280217, Z: 10.238708
+15:04:48.606 > X: 0.287402, Y: 0.217947, Z: 10.217154
+15:04:48.626 > X: 0.316143, Y: 0.275427, Z: 10.320139
+15:04:48.646 > X: 0.239502, Y: 0.261057, Z: 10.317744
+15:04:48.665 > X: 0.292192, Y: 0.292192, Z: 10.298584
+15:04:48.685 > X: 0.280217, Y: 0.280217, Z: 10.346484
+15:04:48.705 > X: 0.308958, Y: 0.246687, Z: 10.277029
+15:04:48.726 > X: 0.313748, Y: 0.306563, Z: 10.221943
+15:04:48.747 > X: 0.359253, Y: 0.270637, Z: 10.408755
+15:04:48.766 > X: 0.258662, Y: 0.220342, Z: 10.233918
+15:04:48.786 > X: 0.229922, Y: 0.263452, Z: 10.289004
+15:04:48.806 > X: 0.215552, Y: 0.261057, Z: 10.248288
+15:04:48.825 > X: 0.215552, Y: 0.241897, Z: 10.312954
+15:04:48.846 > X: 0.270637, Y: 0.285007, Z: 10.312954
+15:04:48.866 > X: 0.304167, Y: 0.258662, Z: 10.310559
+15:04:48.886 > X: 0.304167, Y: 0.210762, Z: 10.296189
+15:04:48.907 > X: 0.215552, Y: 0.273032, Z: 10.243499
+15:04:48.925 > X: 0.239502, Y: 0.258662, Z: 10.296189
+15:04:48.947 > X: 0.256267, Y: 0.222737, Z: 10.284214
+15:04:48.966 > X: 0.282612, Y: 0.256267, Z: 10.231524
+15:04:48.986 > X: 0.361648, Y: 0.256267, Z: 10.332114
+15:04:49.005 > X: 0.251477, Y: 0.251477, Z: 10.188413
+15:04:49.026 > X: 0.299377, Y: 0.268242, Z: 10.298584
+15:04:49.046 > X: 0.270637, Y: 0.265847, Z: 10.257869
+15:04:49.066 > X: 0.256267, Y: 0.237107, Z: 10.324929
+15:04:49.086 > X: 0.356858, Y: 0.318538, Z: 10.226733
+15:04:49.105 > X: 0.289797, Y: 0.258662, Z: 10.245893
+15:04:49.125 > X: 0.275427, Y: 0.296982, Z: 10.298584
+15:04:49.145 > X: 0.249082, Y: 0.270637, Z: 10.217154
+15:04:49.166 > X: 0.215552, Y: 0.277822, Z: 10.193203
+15:04:49.185 > X: 0.265847, Y: 0.273032, Z: 10.265054
+15:04:49.206 > X: 0.249082, Y: 0.285007, Z: 10.344090
+15:04:49.226 > X: 0.234712, Y: 0.251477, Z: 10.317744
+15:04:49.246 > X: 0.189207, Y: 0.244292, Z: 10.262659
+15:04:49.266 > X: 0.237107, Y: 0.246687, Z: 10.260263
+15:04:49.286 > X: 0.189207, Y: 0.287402, Z: 10.253078
+15:04:49.306 > X: 0.241897, Y: 0.170046, Z: 10.193203
+15:04:49.326 > X: 0.294587, Y: 0.354463, Z: 10.279424
+15:04:49.346 > X: 0.308958, Y: 0.256267, Z: 10.217154
+15:04:49.365 > X: 0.239502, Y: 0.275427, Z: 10.274633
+15:04:49.385 > X: 0.256267, Y: 0.234712, Z: 10.269844
+15:04:49.407 > X: 0.289797, Y: 0.256267, Z: 10.315350
+15:04:49.426 > X: 0.234712, Y: 0.215552, Z: 10.356065
+15:04:49.446 > X: 0.265847, Y: 0.289797, Z: 10.255474
+15:04:49.466 > X: 0.335303, Y: 0.232317, Z: 10.281818
+15:04:49.486 > X: 0.275427, Y: 0.239502, Z: 10.195599
+15:04:49.505 > X: 0.225132, Y: 0.265847, Z: 10.248288
+15:04:49.525 > X: 0.308958, Y: 0.292192, Z: 10.272239
+15:04:49.546 > X: 0.244292, Y: 0.220342, Z: 10.320139
+15:04:49.566 > X: 0.215552, Y: 0.318538, Z: 10.281818
+15:04:49.586 > X: 0.213157, Y: 0.227527, Z: 10.255474
+15:04:49.606 > X: 0.277822, Y: 0.282612, Z: 10.444680
+15:04:49.625 > X: 0.244292, Y: 0.258662, Z: 10.274633
+15:04:49.646 > X: 0.280217, Y: 0.337698, Z: 10.250684
+15:04:49.666 > X: 0.280217, Y: 0.313748, Z: 10.274633
+15:04:49.686 > X: 0.325723, Y: 0.294587, Z: 10.265054
+15:04:49.706 > X: 0.292192, Y: 0.265847, Z: 10.224339
+15:04:49.726 > X: 0.253872, Y: 0.270637, Z: 10.310559
+15:04:49.746 > X: 0.253872, Y: 0.244292, Z: 10.269844
+15:04:49.767 > X: 0.265847, Y: 0.215552, Z: 10.181228
+15:04:49.785 > X: 0.263452, Y: 0.258662, Z: 10.219548
+15:04:49.806 > X: 0.270637, Y: 0.229922, Z: 10.327324
+15:04:49.825 > X: 0.328118, Y: 0.313748, Z: 10.253078
+15:04:49.846 > X: 0.277822, Y: 0.234712, Z: 10.284214
+15:04:49.866 > X: 0.316143, Y: 0.285007, Z: 10.255474
+15:04:49.886 > X: 0.239502, Y: 0.282612, Z: 10.320139
+15:04:49.907 > X: 0.282612, Y: 0.251477, Z: 10.269844
+15:04:49.926 > X: 0.296982, Y: 0.241897, Z: 10.324929
+15:04:49.946 > X: 0.263452, Y: 0.215552, Z: 10.286609
+15:04:49.965 > X: 0.340093, Y: 0.229922, Z: 10.298584
+15:04:49.986 > X: 0.301772, Y: 0.287402, Z: 10.334509
+15:04:50.006 > X: 0.237107, Y: 0.270637, Z: 10.291399
+15:04:50.026 > X: 0.301772, Y: 0.273032, Z: 10.372829
+15:04:50.046 > X: 0.304167, Y: 0.265847, Z: 10.207573
+15:04:50.066 > X: 0.318538, Y: 0.296982, Z: 10.178833
+15:04:50.086 > X: 0.201182, Y: 0.234712, Z: 10.320139
+15:04:50.105 > X: 0.265847, Y: 0.232317, Z: 10.238708
+15:04:50.125 > X: 0.210762, Y: 0.246687, Z: 10.298584
+15:04:50.145 > X: 0.244292, Y: 0.304167, Z: 10.281818
+15:04:50.165 > X: 0.301772, Y: 0.246687, Z: 10.332114
+15:04:50.186 > X: 0.301772, Y: 0.261057, Z: 10.257869
+15:04:50.206 > X: 0.241897, Y: 0.263452, Z: 10.281818
+15:04:50.226 > X: 0.323328, Y: 0.258662, Z: 10.291399
+15:04:50.246 > X: 0.273032, Y: 0.213157, Z: 10.308164
+15:04:50.266 > X: 0.237107, Y: 0.220342, Z: 10.375225
+15:04:50.286 > X: 0.256267, Y: 0.256267, Z: 10.315350
+15:04:50.305 > X: 0.256267, Y: 0.227527, Z: 10.209969
+15:04:50.325 > X: 0.258662, Y: 0.275427, Z: 10.205178
+15:04:50.346 > X: 0.282612, Y: 0.265847, Z: 10.308164
+15:04:50.365 > X: 0.332908, Y: 0.287402, Z: 10.193203
+15:04:50.385 > X: 0.280217, Y: 0.253872, Z: 10.257869
+15:04:50.407 > X: 0.285007, Y: 0.273032, Z: 10.310559
+15:04:50.426 > X: 0.239502, Y: 0.220342, Z: 10.332114
+15:04:50.446 > X: 0.277822, Y: 0.258662, Z: 10.248288
+15:04:50.466 > X: 0.289797, Y: 0.265847, Z: 10.293794
+15:04:50.486 > X: 0.294587, Y: 0.265847, Z: 10.205178
+15:04:50.505 > X: 0.265847, Y: 0.261057, Z: 10.250684
+15:04:50.525 > X: 0.232317, Y: 0.193997, Z: 10.334509
+15:04:50.546 > X: 0.146096, Y: 0.256267, Z: 10.296189
+15:04:50.567 > X: 0.256267, Y: 0.239502, Z: 10.303374
+15:04:50.587 > X: 0.241897, Y: 0.270637, Z: 10.327324
+15:04:50.607 > X: 0.220342, Y: 0.258662, Z: 10.260263
+15:04:50.625 > X: 0.340093, Y: 0.289797, Z: 10.320139
+15:04:50.645 > X: 0.344883, Y: 0.261057, Z: 10.315350
+15:04:50.666 > X: 0.308958, Y: 0.282612, Z: 10.241103
+15:04:50.686 > X: 0.292192, Y: 0.275427, Z: 10.296189
+15:04:50.706 > X: 0.306563, Y: 0.205972, Z: 10.265054
+15:04:50.725 > X: 0.220342, Y: 0.268242, Z: 10.286609
+15:04:50.747 > X: 0.253872, Y: 0.225132, Z: 10.286609
+15:04:50.766 > X: 0.337698, Y: 0.244292, Z: 10.281818
+15:04:50.786 > X: 0.256267, Y: 0.270637, Z: 10.348880
+15:04:50.805 > X: 0.261057, Y: 0.220342, Z: 10.360854
+15:04:50.826 > X: 0.316143, Y: 0.296982, Z: 10.217154
+15:04:50.845 > X: 0.282612, Y: 0.220342, Z: 10.262659
+15:04:50.866 > X: 0.275427, Y: 0.311353, Z: 10.267448
+15:04:50.886 > X: 0.270637, Y: 0.304167, Z: 10.310559
+15:04:50.905 > X: 0.261057, Y: 0.215552, Z: 10.298584
+15:04:50.926 > X: 0.249082, Y: 0.246687, Z: 10.300979
+15:04:50.946 > X: 0.261057, Y: 0.251477, Z: 10.348880
+15:04:50.966 > X: 0.287402, Y: 0.213157, Z: 10.229129
+15:04:50.986 > X: 0.289797, Y: 0.265847, Z: 10.411150
+15:04:51.006 > X: 0.261057, Y: 0.244292, Z: 10.329720
+15:04:51.025 > X: 0.282612, Y: 0.229922, Z: 10.250684
+15:04:51.046 > X: 0.232317, Y: 0.229922, Z: 10.214758
+15:04:51.067 > X: 0.270637, Y: 0.287402, Z: 10.277029
+15:04:51.087 > X: 0.208367, Y: 0.241897, Z: 10.272239
+15:04:51.106 > X: 0.261057, Y: 0.275427, Z: 10.312954
+15:04:51.125 > X: 0.308958, Y: 0.244292, Z: 10.248288
+15:04:51.146 > X: 0.306563, Y: 0.222737, Z: 10.277029
+15:04:51.166 > X: 0.217947, Y: 0.246687, Z: 10.303374
+15:04:51.186 > X: 0.193997, Y: 0.232317, Z: 10.327324
+15:04:51.206 > X: 0.296982, Y: 0.287402, Z: 10.277029
+15:04:51.226 > X: 0.325723, Y: 0.261057, Z: 10.293794
+15:04:51.247 > X: 0.261057, Y: 0.265847, Z: 10.329720
+15:04:51.267 > X: 0.342488, Y: 0.246687, Z: 10.310559
+15:04:51.286 > X: 0.296982, Y: 0.193997, Z: 10.289004
+15:04:51.306 > X: 0.277822, Y: 0.265847, Z: 10.384805
+15:04:51.326 > X: 0.323328, Y: 0.196392, Z: 10.327324
+15:04:51.346 > X: 0.227527, Y: 0.174836, Z: 10.238708
+15:04:51.366 > X: 0.354463, Y: 0.265847, Z: 10.241103
+15:04:51.386 > X: 0.289797, Y: 0.294587, Z: 10.260263
+15:04:51.407 > X: 0.270637, Y: 0.239502, Z: 10.277029
+15:04:51.426 > X: 0.313748, Y: 0.220342, Z: 10.279424
+15:04:51.446 > X: 0.342488, Y: 0.246687, Z: 10.305769
+15:04:51.466 > X: 0.275427, Y: 0.287402, Z: 10.324929
+15:04:51.485 > X: 0.261057, Y: 0.270637, Z: 10.226733
+15:04:51.506 > X: 0.244292, Y: 0.205972, Z: 10.380014
+15:04:51.526 > X: 0.311353, Y: 0.304167, Z: 10.380014
+15:04:51.546 > X: 0.306563, Y: 0.292192, Z: 10.176438
+15:04:51.567 > X: 0.296982, Y: 0.299377, Z: 10.212363
+15:04:51.586 > X: 0.347278, Y: 0.342488, Z: 10.291399
+15:04:51.606 > X: 0.232317, Y: 0.251477, Z: 10.320139
+15:04:51.626 > X: 0.208367, Y: 0.217947, Z: 10.133327
+15:04:51.646 > X: 0.277822, Y: 0.186812, Z: 10.279424
+15:04:51.666 > X: 0.265847, Y: 0.299377, Z: 10.303374
+15:04:51.686 > X: 0.318538, Y: 0.234712, Z: 10.248288
+15:04:51.706 > X: 0.227527, Y: 0.263452, Z: 10.224339
+15:04:51.726 > X: 0.270637, Y: 0.215552, Z: 10.334509
+15:04:51.746 > X: 0.287402, Y: 0.220342, Z: 10.186018
+15:04:51.766 > X: 0.282612, Y: 0.249082, Z: 10.375225
+15:04:51.786 > X: 0.287402, Y: 0.246687, Z: 10.224339
+15:04:51.806 > X: 0.280217, Y: 0.308958, Z: 10.195599
+15:04:51.826 > X: 0.287402, Y: 0.328118, Z: 10.344090
+15:04:51.845 > X: 0.189207, Y: 0.234712, Z: 10.229129
+15:04:51.865 > X: 0.311353, Y: 0.299377, Z: 10.370435
+15:04:51.886 > X: 0.277822, Y: 0.282612, Z: 10.348880
+15:04:51.907 > X: 0.347278, Y: 0.304167, Z: 10.243499
+15:04:51.926 > X: 0.253872, Y: 0.234712, Z: 10.255474
+15:04:51.946 > X: 0.256267, Y: 0.215552, Z: 10.303374
+15:04:51.966 > X: 0.237107, Y: 0.328118, Z: 10.372829
+15:04:51.985 > X: 0.299377, Y: 0.308958, Z: 10.279424
+15:04:52.006 > X: 0.347278, Y: 0.253872, Z: 10.243499
+15:04:52.025 > X: 0.392783, Y: 0.352068, Z: 10.317744
+15:04:52.046 > X: 0.340093, Y: 0.249082, Z: 10.293794
+15:04:52.066 > X: 0.203577, Y: 0.246687, Z: 10.303374
+15:04:52.086 > X: 0.292192, Y: 0.251477, Z: 10.245893
+15:04:52.106 > X: 0.356858, Y: 0.313748, Z: 10.298584
+15:04:52.126 > X: 0.347278, Y: 0.330513, Z: 10.229129
+15:04:52.146 > X: 0.268242, Y: 0.237107, Z: 10.226733
+15:04:52.166 > X: 0.227527, Y: 0.294587, Z: 10.152488
+15:04:52.186 > X: 0.143701, Y: 0.251477, Z: 10.207573
+15:04:52.206 > X: 0.220342, Y: 0.237107, Z: 10.408755
+15:04:52.226 > X: 0.325723, Y: 0.342488, Z: 10.439890
+15:04:52.245 > X: 0.340093, Y: 0.306563, Z: 10.159673
+15:04:52.265 > X: 0.227527, Y: 0.213157, Z: 10.159673
+15:04:52.285 > X: 0.323328, Y: 0.227527, Z: 10.303374
+15:04:52.305 > X: 0.325723, Y: 0.237107, Z: 10.188413
+15:04:52.325 > X: 0.275427, Y: 0.275427, Z: 10.303374
+15:04:52.345 > X: 0.172441, Y: 0.251477, Z: 10.224339
+15:04:52.365 > X: 0.258662, Y: 0.213157, Z: 10.277029
+15:04:52.385 > X: 0.210762, Y: 0.270637, Z: 10.238708
+15:04:52.405 > X: 0.306563, Y: 0.292192, Z: 10.298584
+15:04:52.426 > X: 0.287402, Y: 0.289797, Z: 10.186018
+15:04:52.446 > X: 0.239502, Y: 0.234712, Z: 10.231524
+15:04:52.465 > X: 0.237107, Y: 0.203577, Z: 10.315350
+15:04:52.485 > X: 0.311353, Y: 0.244292, Z: 10.257869
+15:04:52.505 > X: 0.282612, Y: 0.220342, Z: 10.248288
+15:04:52.526 > X: 0.361648, Y: 0.296982, Z: 10.384805
+15:04:52.546 > X: 0.270637, Y: 0.273032, Z: 10.255474
+15:04:52.566 > X: 0.244292, Y: 0.241897, Z: 10.310559
+15:04:52.586 > X: 0.241897, Y: 0.213157, Z: 10.257869
+15:04:52.606 > X: 0.280217, Y: 0.323328, Z: 10.267448
+15:04:52.626 > X: 0.304167, Y: 0.256267, Z: 10.243499
+15:04:52.646 > X: 0.301772, Y: 0.280217, Z: 10.224339
+15:04:52.666 > X: 0.308958, Y: 0.239502, Z: 10.358459
+15:04:52.685 > X: 0.325723, Y: 0.249082, Z: 10.181228
+15:04:52.706 > X: 0.287402, Y: 0.227527, Z: 10.358459
+15:04:52.726 > X: 0.359253, Y: 0.193997, Z: 10.279424
+15:04:52.746 > X: 0.246687, Y: 0.268242, Z: 10.253078
+15:04:52.766 > X: 0.296982, Y: 0.282612, Z: 10.375225
+15:04:52.786 > X: 0.277822, Y: 0.229922, Z: 10.217154
+15:04:52.806 > X: 0.213157, Y: 0.268242, Z: 10.284214
+15:04:52.826 > X: 0.306563, Y: 0.251477, Z: 10.308164
+15:04:52.846 > X: 0.220342, Y: 0.292192, Z: 10.351274
+15:04:52.865 > X: 0.289797, Y: 0.237107, Z: 10.341694
+15:04:52.885 > X: 0.249082, Y: 0.282612, Z: 10.245893
+15:04:52.907 > X: 0.313748, Y: 0.294587, Z: 10.279424
+15:04:52.927 > X: 0.280217, Y: 0.239502, Z: 10.269844
+15:04:52.947 > X: 0.325723, Y: 0.280217, Z: 10.193203
+15:04:52.966 > X: 0.268242, Y: 0.191602, Z: 10.262659
+15:04:52.986 > X: 0.304167, Y: 0.258662, Z: 10.190808
+15:04:53.006 > X: 0.232317, Y: 0.232317, Z: 10.317744
+15:04:53.025 > X: 0.289797, Y: 0.311353, Z: 10.245893
+15:04:53.046 > X: 0.273032, Y: 0.196392, Z: 10.308164
+15:04:53.066 > X: 0.344883, Y: 0.287402, Z: 10.269844
+15:04:53.086 > X: 0.275427, Y: 0.273032, Z: 10.322535
+15:04:53.105 > X: 0.237107, Y: 0.220342, Z: 10.257869
+15:04:53.125 > X: 0.294587, Y: 0.287402, Z: 10.221943
+15:04:53.146 > X: 0.292192, Y: 0.285007, Z: 10.286609
+15:04:53.166 > X: 0.273032, Y: 0.253872, Z: 10.260263
+15:04:53.186 > X: 0.304167, Y: 0.270637, Z: 10.284214
+15:04:53.206 > X: 0.376018, Y: 0.282612, Z: 10.336905
+15:04:53.226 > X: 0.220342, Y: 0.270637, Z: 10.284214
+15:04:53.246 > X: 0.251477, Y: 0.268242, Z: 10.277029
+15:04:53.266 > X: 0.304167, Y: 0.213157, Z: 10.334509
+15:04:53.287 > X: 0.292192, Y: 0.258662, Z: 10.262659
+15:04:53.307 > X: 0.318538, Y: 0.311353, Z: 10.272239
+15:04:53.326 > X: 0.287402, Y: 0.251477, Z: 10.329720
+15:04:53.346 > X: 0.246687, Y: 0.261057, Z: 10.250684
+15:04:53.366 > X: 0.296982, Y: 0.292192, Z: 10.289004
+15:04:53.386 > X: 0.320933, Y: 0.239502, Z: 10.310559
+15:04:53.406 > X: 0.246687, Y: 0.150886, Z: 10.272239
+15:04:53.426 > X: 0.287402, Y: 0.287402, Z: 10.241103
+15:04:53.445 > X: 0.251477, Y: 0.220342, Z: 10.281818
+15:04:53.465 > X: 0.280217, Y: 0.268242, Z: 10.257869
+15:04:53.485 > X: 0.268242, Y: 0.232317, Z: 10.413545
+15:04:53.505 > X: 0.265847, Y: 0.270637, Z: 10.394384
+15:04:53.525 > X: 0.265847, Y: 0.273032, Z: 10.368039
+15:04:53.546 > X: 0.330513, Y: 0.308958, Z: 10.344090
+15:04:53.565 > X: 0.282612, Y: 0.270637, Z: 10.257869
+15:04:53.586 > X: 0.263452, Y: 0.261057, Z: 10.303374
+15:04:53.606 > X: 0.311353, Y: 0.261057, Z: 10.193203
+15:04:53.626 > X: 0.282612, Y: 0.244292, Z: 10.197993
+15:04:53.646 > X: 0.217947, Y: 0.229922, Z: 10.205178
+15:04:53.666 > X: 0.308958, Y: 0.256267, Z: 10.284214
+15:04:53.686 > X: 0.277822, Y: 0.205972, Z: 10.265054
+15:04:53.706 > X: 0.251477, Y: 0.263452, Z: 10.300979
+15:04:53.725 > X: 0.313748, Y: 0.268242, Z: 10.221943
+15:04:53.746 > X: 0.285007, Y: 0.237107, Z: 10.229129
+15:04:53.765 > X: 0.203577, Y: 0.246687, Z: 10.209969
+15:04:53.785 > X: 0.237107, Y: 0.237107, Z: 10.305769
+15:04:53.806 > X: 0.222737, Y: 0.253872, Z: 10.262659
+15:04:53.826 > X: 0.323328, Y: 0.270637, Z: 10.351274
+15:04:53.846 > X: 0.249082, Y: 0.318538, Z: 10.377620
+15:04:53.865 > X: 0.323328, Y: 0.325723, Z: 10.241103
+15:04:53.886 > X: 0.205972, Y: 0.196392, Z: 10.289004
+15:04:53.906 > X: 0.352068, Y: 0.292192, Z: 10.274633
+15:04:53.926 > X: 0.273032, Y: 0.282612, Z: 10.279424
+15:04:53.946 > X: 0.301772, Y: 0.275427, Z: 10.281818
+15:04:53.965 > X: 0.270637, Y: 0.208367, Z: 10.219548
+15:04:53.985 > X: 0.306563, Y: 0.280217, Z: 10.255474
+15:04:54.006 > X: 0.249082, Y: 0.220342, Z: 10.209969
+15:04:54.025 > X: 0.282612, Y: 0.299377, Z: 10.312954
+15:04:54.045 > X: 0.294587, Y: 0.256267, Z: 10.346484
+15:04:54.066 > X: 0.273032, Y: 0.237107, Z: 10.320139
+15:04:54.087 > X: 0.313748, Y: 0.249082, Z: 10.305769
+15:04:54.105 > X: 0.277822, Y: 0.299377, Z: 10.260263
+15:04:54.126 > X: 0.234712, Y: 0.253872, Z: 10.317744
+15:04:54.146 > X: 0.304167, Y: 0.232317, Z: 10.380014
+15:04:54.166 > X: 0.299377, Y: 0.311353, Z: 10.272239
+15:04:54.186 > X: 0.244292, Y: 0.189207, Z: 10.197993
+15:04:54.206 > X: 0.285007, Y: 0.285007, Z: 10.305769
+15:04:54.226 > X: 0.275427, Y: 0.320933, Z: 10.312954
+15:04:54.246 > X: 0.253872, Y: 0.213157, Z: 10.289004
+15:04:54.266 > X: 0.253872, Y: 0.225132, Z: 10.303374
+15:04:54.286 > X: 0.328118, Y: 0.330513, Z: 10.209969
+15:04:54.306 > X: 0.335303, Y: 0.296982, Z: 10.267448
+15:04:54.325 > X: 0.261057, Y: 0.261057, Z: 10.238708
+15:04:54.346 > X: 0.292192, Y: 0.220342, Z: 10.332114
+15:04:54.366 > X: 0.229922, Y: 0.325723, Z: 10.329720
+15:04:54.385 > X: 0.318538, Y: 0.265847, Z: 10.262659
+15:04:54.405 > X: 0.335303, Y: 0.282612, Z: 10.245893
+15:04:54.425 > X: 0.263452, Y: 0.308958, Z: 10.205178
+15:04:54.446 > X: 0.294587, Y: 0.285007, Z: 10.274633
+15:04:54.465 > X: 0.318538, Y: 0.263452, Z: 10.279424
+15:04:54.486 > X: 0.217947, Y: 0.285007, Z: 10.245893
+15:04:54.506 > X: 0.296982, Y: 0.249082, Z: 10.356065
+15:04:54.526 > X: 0.301772, Y: 0.306563, Z: 10.291399
+15:04:54.546 > X: 0.306563, Y: 0.265847, Z: 10.329720
+15:04:54.566 > X: 0.301772, Y: 0.320933, Z: 10.315350
+15:04:54.586 > X: 0.239502, Y: 0.268242, Z: 10.272239
+15:04:54.606 > X: 0.287402, Y: 0.237107, Z: 10.341694
+15:04:54.626 > X: 0.270637, Y: 0.296982, Z: 10.219548
+15:04:54.646 > X: 0.306563, Y: 0.277822, Z: 10.284214
+15:04:54.666 > X: 0.292192, Y: 0.232317, Z: 10.303374
+15:04:54.686 > X: 0.294587, Y: 0.246687, Z: 10.277029
+15:04:54.706 > X: 0.265847, Y: 0.285007, Z: 10.231524
+15:04:54.726 > X: 0.323328, Y: 0.285007, Z: 10.241103
+15:04:54.746 > X: 0.227527, Y: 0.201182, Z: 10.265054
+15:04:54.765 > X: 0.320933, Y: 0.246687, Z: 10.315350
+15:04:54.785 > X: 0.313748, Y: 0.253872, Z: 10.202784
+15:04:54.806 > X: 0.258662, Y: 0.285007, Z: 10.312954
+15:04:54.826 > X: 0.280217, Y: 0.251477, Z: 10.262659
+15:04:54.846 > X: 0.299377, Y: 0.241897, Z: 10.346484
+15:04:54.866 > X: 0.239502, Y: 0.275427, Z: 10.341694
+15:04:54.886 > X: 0.239502, Y: 0.234712, Z: 10.298584
+15:04:54.906 > X: 0.270637, Y: 0.237107, Z: 10.238708
+15:04:54.925 > X: 0.352068, Y: 0.227527, Z: 10.344090
+15:04:54.946 > X: 0.337698, Y: 0.244292, Z: 10.293794
+15:04:54.966 > X: 0.368833, Y: 0.210762, Z: 10.286609
+15:04:54.986 > X: 0.270637, Y: 0.256267, Z: 10.298584
+15:04:55.007 > X: 0.268242, Y: 0.253872, Z: 10.298584
+15:04:55.026 > X: 0.335303, Y: 0.244292, Z: 10.229129
+15:04:55.046 > X: 0.289797, Y: 0.241897, Z: 10.317744
+15:04:55.067 > X: 0.282612, Y: 0.244292, Z: 10.255474
+15:04:55.087 > X: 0.301772, Y: 0.277822, Z: 10.279424
+15:04:55.107 > X: 0.263452, Y: 0.258662, Z: 10.300979
+15:04:55.126 > X: 0.282612, Y: 0.208367, Z: 10.245893
+15:04:55.146 > X: 0.308958, Y: 0.301772, Z: 10.279424
+15:04:55.166 > X: 0.349673, Y: 0.275427, Z: 10.248288
+15:04:55.186 > X: 0.232317, Y: 0.201182, Z: 10.250684
+15:04:55.206 > X: 0.301772, Y: 0.265847, Z: 10.257869
+15:04:55.226 > X: 0.217947, Y: 0.296982, Z: 10.219548
+15:04:55.245 > X: 0.294587, Y: 0.205972, Z: 10.224339
+15:04:55.266 > X: 0.296982, Y: 0.210762, Z: 10.197993
+15:04:55.287 > X: 0.249082, Y: 0.273032, Z: 10.380014
+15:04:55.306 > X: 0.227527, Y: 0.244292, Z: 10.277029
+15:04:55.326 > X: 0.308958, Y: 0.256267, Z: 10.267448
+15:04:55.346 > X: 0.249082, Y: 0.229922, Z: 10.238708
+15:04:55.366 > X: 0.251477, Y: 0.222737, Z: 10.284214
+15:04:55.386 > X: 0.280217, Y: 0.244292, Z: 10.272239
+15:04:55.406 > X: 0.265847, Y: 0.265847, Z: 10.296189
+15:04:55.426 > X: 0.244292, Y: 0.241897, Z: 10.250684
+15:04:55.446 > X: 0.261057, Y: 0.275427, Z: 10.212363
+15:04:55.466 > X: 0.282612, Y: 0.222737, Z: 10.233918
+15:04:55.485 > X: 0.253872, Y: 0.263452, Z: 10.186018
+15:04:55.506 > X: 0.265847, Y: 0.263452, Z: 10.286609
+15:04:55.526 > X: 0.285007, Y: 0.265847, Z: 10.289004
+15:04:55.546 > X: 0.285007, Y: 0.232317, Z: 10.277029
+15:04:55.566 > X: 0.268242, Y: 0.280217, Z: 10.303374
+15:04:55.586 > X: 0.270637, Y: 0.277822, Z: 10.178833
+15:04:55.605 > X: 0.301772, Y: 0.311353, Z: 10.231524
+15:04:55.625 > X: 0.287402, Y: 0.234712, Z: 10.248288
+15:04:55.645 > X: 0.301772, Y: 0.261057, Z: 10.274633
+15:04:55.665 > X: 0.330513, Y: 0.261057, Z: 10.289004
+15:04:55.685 > X: 0.265847, Y: 0.316143, Z: 10.286609
+15:04:55.705 > X: 0.335303, Y: 0.263452, Z: 10.303374
+15:04:55.725 > X: 0.292192, Y: 0.234712, Z: 10.221943
+15:04:55.745 > X: 0.258662, Y: 0.301772, Z: 10.207573
+15:04:55.766 > X: 0.261057, Y: 0.258662, Z: 10.219548
+15:04:55.786 > X: 0.253872, Y: 0.227527, Z: 10.262659
+15:04:55.806 > X: 0.256267, Y: 0.287402, Z: 10.257869
+15:04:55.826 > X: 0.320933, Y: 0.258662, Z: 10.188413
+15:04:55.846 > X: 0.304167, Y: 0.220342, Z: 10.269844
+15:04:55.866 > X: 0.234712, Y: 0.198787, Z: 10.296189
+15:04:55.886 > X: 0.342488, Y: 0.246687, Z: 10.193203
+15:04:55.907 > X: 0.232317, Y: 0.203577, Z: 10.193203
+15:04:55.926 > X: 0.340093, Y: 0.198787, Z: 10.221943
+15:04:55.946 > X: 0.263452, Y: 0.263452, Z: 10.454260
+15:04:55.966 > X: 0.301772, Y: 0.268242, Z: 10.212363
+15:04:55.985 > X: 0.239502, Y: 0.265847, Z: 10.267448
+15:04:56.006 > X: 0.275427, Y: 0.244292, Z: 10.336905
+15:04:56.026 > X: 0.304167, Y: 0.249082, Z: 10.269844
+15:04:56.046 > X: 0.311353, Y: 0.258662, Z: 10.310559
+15:04:56.066 > X: 0.277822, Y: 0.227527, Z: 10.245893
+15:04:56.086 > X: 0.299377, Y: 0.265847, Z: 10.377620
+15:04:56.106 > X: 0.270637, Y: 0.251477, Z: 10.152488
+15:04:56.126 > X: 0.256267, Y: 0.215552, Z: 10.205178
+15:04:56.145 > X: 0.275427, Y: 0.287402, Z: 10.248288
+15:04:56.166 > X: 0.237107, Y: 0.229922, Z: 10.293794
+15:04:56.186 > X: 0.253872, Y: 0.292192, Z: 10.284214
+15:04:56.206 > X: 0.368833, Y: 0.227527, Z: 10.348880
+15:04:56.225 > X: 0.280217, Y: 0.292192, Z: 10.296189
+15:04:56.245 > X: 0.189207, Y: 0.256267, Z: 10.226733
+15:04:56.266 > X: 0.270637, Y: 0.210762, Z: 10.279424
+15:04:56.286 > X: 0.299377, Y: 0.316143, Z: 10.332114
+15:04:56.306 > X: 0.256267, Y: 0.265847, Z: 10.286609
+15:04:56.326 > X: 0.289797, Y: 0.265847, Z: 10.260263
+15:04:56.346 > X: 0.328118, Y: 0.225132, Z: 10.274633
+15:04:56.365 > X: 0.256267, Y: 0.237107, Z: 10.241103
+15:04:56.386 > X: 0.198787, Y: 0.280217, Z: 10.200388
+15:04:56.405 > X: 0.217947, Y: 0.249082, Z: 10.245893
+15:04:56.426 > X: 0.265847, Y: 0.277822, Z: 10.099797
+15:04:56.446 > X: 0.320933, Y: 0.234712, Z: 10.186018
+15:04:56.466 > X: 0.285007, Y: 0.239502, Z: 10.322535
+15:04:56.486 > X: 0.263452, Y: 0.244292, Z: 10.296189
+15:04:56.506 > X: 0.344883, Y: 0.289797, Z: 10.267448
+15:04:56.526 > X: 0.323328, Y: 0.253872, Z: 10.255474
+15:04:56.546 > X: 0.344883, Y: 0.325723, Z: 10.286609
+15:04:56.566 > X: 0.217947, Y: 0.246687, Z: 10.274633
+15:04:56.586 > X: 0.239502, Y: 0.275427, Z: 10.298584
+15:04:56.606 > X: 0.282612, Y: 0.285007, Z: 10.231524
+15:04:56.626 > X: 0.280217, Y: 0.213157, Z: 10.233918
+15:04:56.646 > X: 0.265847, Y: 0.225132, Z: 10.152488
+15:04:56.667 > X: 0.280217, Y: 0.320933, Z: 10.265054
+15:04:56.686 > X: 0.268242, Y: 0.193997, Z: 10.212363
+15:04:56.706 > X: 0.285007, Y: 0.280217, Z: 10.284214
+15:04:56.726 > X: 0.316143, Y: 0.251477, Z: 10.255474
+15:04:56.747 > X: 0.301772, Y: 0.203577, Z: 10.238708
+15:04:56.766 > X: 0.277822, Y: 0.239502, Z: 10.298584
+15:04:56.786 > X: 0.342488, Y: 0.246687, Z: 10.250684
+15:04:56.806 > X: 0.285007, Y: 0.239502, Z: 10.236314
+15:04:56.826 > X: 0.292192, Y: 0.217947, Z: 10.257869
+15:04:56.846 > X: 0.246687, Y: 0.229922, Z: 10.279424
+15:04:56.865 > X: 0.265847, Y: 0.215552, Z: 10.260263
+15:04:56.886 > X: 0.282612, Y: 0.277822, Z: 10.262659
+15:04:56.907 > X: 0.270637, Y: 0.227527, Z: 10.348880
+15:04:56.926 > X: 0.316143, Y: 0.220342, Z: 10.324929
+15:04:56.947 > X: 0.332908, Y: 0.244292, Z: 10.310559
+15:04:56.966 > X: 0.258662, Y: 0.261057, Z: 10.250684
+15:04:56.986 > X: 0.301772, Y: 0.225132, Z: 10.229129
+15:04:57.005 > X: 0.282612, Y: 0.227527, Z: 10.281818
+15:04:57.026 > X: 0.354463, Y: 0.354463, Z: 10.272239
+15:04:57.046 > X: 0.301772, Y: 0.220342, Z: 10.298584
+15:04:57.067 > X: 0.306563, Y: 0.172441, Z: 10.260263
+15:04:57.087 > X: 0.323328, Y: 0.227527, Z: 10.241103
+15:04:57.105 > X: 0.306563, Y: 0.249082, Z: 10.322535
+15:04:57.126 > X: 0.323328, Y: 0.296982, Z: 10.277029
+15:04:57.146 > X: 0.285007, Y: 0.256267, Z: 10.281818
+15:04:57.166 > X: 0.249082, Y: 0.213157, Z: 10.339299
+15:04:57.186 > X: 0.332908, Y: 0.205972, Z: 10.310559
+15:04:57.206 > X: 0.205972, Y: 0.268242, Z: 10.284214
+15:04:57.226 > X: 0.280217, Y: 0.265847, Z: 10.377620
+15:04:57.247 > X: 0.241897, Y: 0.289797, Z: 10.274633
+15:04:57.266 > X: 0.301772, Y: 0.234712, Z: 10.212363
+15:04:57.286 > X: 0.275427, Y: 0.198787, Z: 10.269844
+15:04:57.305 > X: 0.261057, Y: 0.311353, Z: 10.274633
+15:04:57.327 > X: 0.316143, Y: 0.253872, Z: 10.305769
+15:04:57.346 > X: 0.289797, Y: 0.246687, Z: 10.413545
+15:04:57.365 > X: 0.263452, Y: 0.296982, Z: 10.255474
+15:04:57.386 > X: 0.285007, Y: 0.237107, Z: 10.298584
+15:04:57.407 > X: 0.330513, Y: 0.275427, Z: 10.286609
+15:04:57.426 > X: 0.277822, Y: 0.294587, Z: 10.310559
+15:04:57.446 > X: 0.277822, Y: 0.253872, Z: 10.260263
+15:04:57.465 > X: 0.292192, Y: 0.296982, Z: 10.281818
+15:04:57.486 > X: 0.273032, Y: 0.282612, Z: 10.190808
+15:04:57.506 > X: 0.285007, Y: 0.285007, Z: 10.358459
+15:04:57.526 > X: 0.179626, Y: 0.213157, Z: 10.305769
+15:04:57.546 > X: 0.296982, Y: 0.275427, Z: 10.396780
+15:04:57.567 > X: 0.253872, Y: 0.220342, Z: 10.255474
+15:04:57.586 > X: 0.251477, Y: 0.304167, Z: 10.195599
+15:04:57.606 > X: 0.304167, Y: 0.265847, Z: 10.303374
+15:04:57.626 > X: 0.246687, Y: 0.258662, Z: 10.284214
+15:04:57.646 > X: 0.263452, Y: 0.294587, Z: 10.284214
+15:04:57.666 > X: 0.229922, Y: 0.253872, Z: 10.272239
+15:04:57.686 > X: 0.239502, Y: 0.237107, Z: 10.176438
+15:04:57.706 > X: 0.306563, Y: 0.239502, Z: 10.324929
+15:04:57.726 > X: 0.280217, Y: 0.313748, Z: 10.255474
+15:04:57.746 > X: 0.256267, Y: 0.227527, Z: 10.320139
+15:04:57.766 > X: 0.313748, Y: 0.213157, Z: 10.346484
+15:04:57.786 > X: 0.277822, Y: 0.249082, Z: 10.291399
+15:04:57.806 > X: 0.265847, Y: 0.253872, Z: 10.312954
+15:04:57.827 > X: 0.356858, Y: 0.222737, Z: 10.272239
+15:04:57.846 > X: 0.253872, Y: 0.229922, Z: 10.219548
+15:04:57.866 > X: 0.342488, Y: 0.258662, Z: 10.289004
+15:04:57.886 > X: 0.275427, Y: 0.261057, Z: 10.265054
+15:04:57.907 > X: 0.270637, Y: 0.253872, Z: 10.267448
+15:04:57.927 > X: 0.253872, Y: 0.261057, Z: 10.231524
+15:04:57.946 > X: 0.261057, Y: 0.249082, Z: 10.245893
+15:04:57.965 > X: 0.282612, Y: 0.165256, Z: 10.255474
+15:04:57.986 > X: 0.251477, Y: 0.249082, Z: 10.169253
+15:04:58.006 > X: 0.320933, Y: 0.280217, Z: 10.298584
+15:04:58.026 > X: 0.241897, Y: 0.249082, Z: 10.274633
+15:04:58.046 > X: 0.289797, Y: 0.263452, Z: 10.272239
+15:04:58.067 > X: 0.323328, Y: 0.234712, Z: 10.289004
+15:04:58.086 > X: 0.282612, Y: 0.258662, Z: 10.197993
+15:04:58.106 > X: 0.296982, Y: 0.170046, Z: 10.181228
+15:04:58.126 > X: 0.253872, Y: 0.273032, Z: 10.267448
+15:04:58.146 > X: 0.265847, Y: 0.289797, Z: 10.238708
+15:04:58.166 > X: 0.301772, Y: 0.225132, Z: 10.243499
+15:04:58.186 > X: 0.239502, Y: 0.244292, Z: 10.253078
+15:04:58.206 > X: 0.299377, Y: 0.251477, Z: 10.317744
+15:04:58.225 > X: 0.335303, Y: 0.325723, Z: 10.236314
+15:04:58.247 > X: 0.323328, Y: 0.193997, Z: 10.260263
+15:04:58.266 > X: 0.342488, Y: 0.299377, Z: 10.238708
+15:04:58.286 > X: 0.265847, Y: 0.265847, Z: 10.265054
+15:04:58.306 > X: 0.323328, Y: 0.258662, Z: 10.310559
+15:04:58.326 > X: 0.273032, Y: 0.234712, Z: 10.300979
+15:04:58.345 > X: 0.306563, Y: 0.277822, Z: 10.298584
+15:04:58.366 > X: 0.249082, Y: 0.301772, Z: 10.310559
+15:04:58.386 > X: 0.258662, Y: 0.296982, Z: 10.375225
+15:04:58.407 > X: 0.313748, Y: 0.265847, Z: 10.243499
+15:04:58.426 > X: 0.304167, Y: 0.311353, Z: 10.399175
+15:04:58.446 > X: 0.292192, Y: 0.227527, Z: 10.277029
+15:04:58.466 > X: 0.256267, Y: 0.237107, Z: 10.298584
+15:04:58.485 > X: 0.261057, Y: 0.205972, Z: 10.224339
+15:04:58.505 > X: 0.273032, Y: 0.270637, Z: 10.214758
+15:04:58.525 > X: 0.332908, Y: 0.239502, Z: 10.305769
+15:04:58.545 > X: 0.289797, Y: 0.205972, Z: 10.274633
+15:04:58.566 > X: 0.249082, Y: 0.292192, Z: 10.286609
+15:04:58.586 > X: 0.246687, Y: 0.325723, Z: 10.308164
+15:04:58.606 > X: 0.273032, Y: 0.193997, Z: 10.308164
+15:04:58.626 > X: 0.285007, Y: 0.237107, Z: 10.231524
+15:04:58.646 > X: 0.273032, Y: 0.239502, Z: 10.289004
+15:04:58.666 > X: 0.268242, Y: 0.277822, Z: 10.224339
+15:04:58.686 > X: 0.261057, Y: 0.282612, Z: 10.265054
+15:04:58.706 > X: 0.282612, Y: 0.253872, Z: 10.380014
+15:04:58.726 > X: 0.318538, Y: 0.292192, Z: 10.279424
+15:04:58.747 > X: 0.268242, Y: 0.241897, Z: 10.262659
+15:04:58.766 > X: 0.280217, Y: 0.239502, Z: 10.202784
+15:04:58.786 > X: 0.239502, Y: 0.256267, Z: 10.300979
+15:04:58.806 > X: 0.277822, Y: 0.299377, Z: 10.212363
+15:04:58.826 > X: 0.287402, Y: 0.270637, Z: 10.241103
+15:04:58.846 > X: 0.340093, Y: 0.292192, Z: 10.250684
+15:04:58.866 > X: 0.287402, Y: 0.292192, Z: 10.279424
+15:04:58.885 > X: 0.313748, Y: 0.229922, Z: 10.332114
+15:04:58.905 > X: 0.340093, Y: 0.265847, Z: 10.267448
+15:04:58.925 > X: 0.261057, Y: 0.217947, Z: 10.205178
+15:04:58.946 > X: 0.337698, Y: 0.296982, Z: 10.289004
+15:04:58.965 > X: 0.294587, Y: 0.270637, Z: 10.224339
+15:04:58.986 > X: 0.318538, Y: 0.244292, Z: 10.382410
+15:04:59.006 > X: 0.340093, Y: 0.263452, Z: 10.353669
+15:04:59.026 > X: 0.292192, Y: 0.277822, Z: 10.300979
+15:04:59.046 > X: 0.299377, Y: 0.273032, Z: 10.267448
+15:04:59.065 > X: 0.270637, Y: 0.249082, Z: 10.370435
+15:04:59.085 > X: 0.313748, Y: 0.261057, Z: 10.284214
+15:04:59.106 > X: 0.263452, Y: 0.277822, Z: 10.200388
+15:04:59.126 > X: 0.366438, Y: 0.258662, Z: 10.303374
+15:04:59.145 > X: 0.292192, Y: 0.249082, Z: 10.238708
+15:04:59.166 > X: 0.318538, Y: 0.205972, Z: 10.236314
+15:04:59.186 > X: 0.308958, Y: 0.244292, Z: 10.293794
+15:04:59.206 > X: 0.234712, Y: 0.301772, Z: 10.188413
+15:04:59.227 > X: 0.253872, Y: 0.201182, Z: 10.253078
+15:04:59.247 > X: 0.215552, Y: 0.265847, Z: 10.233918
+15:04:59.267 > X: 0.258662, Y: 0.220342, Z: 10.195599
+15:04:59.287 > X: 0.251477, Y: 0.241897, Z: 10.245893
+15:04:59.306 > X: 0.301772, Y: 0.241897, Z: 10.267448
+15:04:59.326 > X: 0.268242, Y: 0.292192, Z: 10.231524
+15:04:59.345 > X: 0.299377, Y: 0.249082, Z: 10.233918
+15:04:59.366 > X: 0.232317, Y: 0.263452, Z: 10.257869
+15:04:59.386 > X: 0.301772, Y: 0.241897, Z: 10.272239
+15:04:59.406 > X: 0.275427, Y: 0.237107, Z: 10.207573
+15:04:59.426 > X: 0.304167, Y: 0.256267, Z: 10.262659
+15:04:59.446 > X: 0.328118, Y: 0.220342, Z: 10.310559
+15:04:59.465 > X: 0.253872, Y: 0.256267, Z: 10.277029
+15:04:59.485 > X: 0.285007, Y: 0.189207, Z: 10.260263
+15:04:59.506 > X: 0.296982, Y: 0.241897, Z: 10.224339
+15:04:59.525 > X: 0.268242, Y: 0.256267, Z: 10.269844
+15:04:59.546 > X: 0.217947, Y: 0.273032, Z: 10.241103
+15:04:59.566 > X: 0.335303, Y: 0.285007, Z: 10.305769
+15:04:59.587 > X: 0.299377, Y: 0.285007, Z: 10.231524
+15:04:59.606 > X: 0.265847, Y: 0.189207, Z: 10.289004
+15:04:59.626 > X: 0.313748, Y: 0.198787, Z: 10.286609
+15:04:59.646 > X: 0.282612, Y: 0.273032, Z: 10.226733
+15:04:59.666 > X: 0.313748, Y: 0.273032, Z: 10.274633
+15:04:59.686 > X: 0.241897, Y: 0.253872, Z: 10.253078
+15:04:59.706 > X: 0.296982, Y: 0.268242, Z: 10.164463
+15:04:59.726 > X: 0.268242, Y: 0.287402, Z: 10.269844
+15:04:59.747 > X: 0.249082, Y: 0.244292, Z: 10.272239
+15:04:59.766 > X: 0.222737, Y: 0.217947, Z: 10.296189
+15:04:59.786 > X: 0.261057, Y: 0.244292, Z: 10.305769
+15:04:59.806 > X: 0.237107, Y: 0.239502, Z: 10.284214
+15:04:59.826 > X: 0.237107, Y: 0.191602, Z: 10.217154
+15:04:59.845 > X: 0.287402, Y: 0.285007, Z: 10.279424
+15:04:59.865 > X: 0.227527, Y: 0.282612, Z: 10.241103
+15:04:59.886 > X: 0.287402, Y: 0.249082, Z: 10.356065
+15:04:59.906 > X: 0.268242, Y: 0.258662, Z: 10.277029
+15:04:59.926 > X: 0.306563, Y: 0.244292, Z: 10.233918
+15:04:59.946 > X: 0.323328, Y: 0.256267, Z: 10.341694
+15:04:59.965 > X: 0.313748, Y: 0.246687, Z: 10.293794
+15:04:59.986 > X: 0.208367, Y: 0.208367, Z: 10.248288
+15:05:00.006 > X: 0.229922, Y: 0.318538, Z: 10.277029
+15:05:00.025 > X: 0.299377, Y: 0.222737, Z: 10.291399
+15:05:00.045 > X: 0.249082, Y: 0.265847, Z: 10.327324
+15:05:00.067 > X: 0.239502, Y: 0.213157, Z: 10.274633
+15:05:00.087 > X: 0.359253, Y: 0.251477, Z: 10.255474
+15:05:00.107 > X: 0.265847, Y: 0.253872, Z: 10.186018
+15:05:00.126 > X: 0.222737, Y: 0.311353, Z: 10.181228
+15:05:00.146 > X: 0.232317, Y: 0.258662, Z: 10.286609
+15:05:00.166 > X: 0.285007, Y: 0.294587, Z: 10.274633
+15:05:00.186 > X: 0.280217, Y: 0.261057, Z: 10.296189
+15:05:00.205 > X: 0.273032, Y: 0.277822, Z: 10.289004
+15:05:00.226 > X: 0.203577, Y: 0.277822, Z: 10.267448
+15:05:00.246 > X: 0.225132, Y: 0.289797, Z: 10.209969
+15:05:00.266 > X: 0.289797, Y: 0.280217, Z: 10.226733
+15:05:00.286 > X: 0.292192, Y: 0.265847, Z: 10.262659
+15:05:00.306 > X: 0.304167, Y: 0.215552, Z: 10.291399
+15:05:00.326 > X: 0.320933, Y: 0.201182, Z: 10.320139
+15:05:00.345 > X: 0.304167, Y: 0.275427, Z: 10.183623
+15:05:00.365 > X: 0.251477, Y: 0.258662, Z: 10.253078
+15:05:00.385 > X: 0.280217, Y: 0.213157, Z: 10.233918
+15:05:00.406 > X: 0.241897, Y: 0.239502, Z: 10.339299
+15:05:00.425 > X: 0.227527, Y: 0.265847, Z: 10.286609
+15:05:00.446 > X: 0.201182, Y: 0.258662, Z: 10.298584
+15:05:00.466 > X: 0.301772, Y: 0.277822, Z: 10.231524
+15:05:00.486 > X: 0.289797, Y: 0.220342, Z: 10.310559
+15:05:00.506 > X: 0.217947, Y: 0.268242, Z: 10.344090
+15:05:00.526 > X: 0.373623, Y: 0.275427, Z: 10.257869
+15:05:00.546 > X: 0.285007, Y: 0.289797, Z: 10.296189
+15:05:00.566 > X: 0.244292, Y: 0.246687, Z: 10.212363
+15:05:00.586 > X: 0.328118, Y: 0.241897, Z: 10.274633
+15:05:00.607 > X: 0.340093, Y: 0.263452, Z: 10.257869
+15:05:00.626 > X: 0.263452, Y: 0.261057, Z: 10.289004
+15:05:00.646 > X: 0.325723, Y: 0.220342, Z: 10.231524
+15:05:00.666 > X: 0.244292, Y: 0.249082, Z: 10.229129
+15:05:00.686 > X: 0.253872, Y: 0.261057, Z: 10.300979
+15:05:00.706 > X: 0.318538, Y: 0.256267, Z: 10.238708
+15:05:00.726 > X: 0.323328, Y: 0.320933, Z: 10.171648
+15:05:00.747 > X: 0.265847, Y: 0.198787, Z: 10.262659
+15:05:00.767 > X: 0.352068, Y: 0.220342, Z: 10.233918
+15:05:00.786 > X: 0.289797, Y: 0.289797, Z: 10.250684
+15:05:00.806 > X: 0.296982, Y: 0.239502, Z: 10.269844
+15:05:00.826 > X: 0.239502, Y: 0.287402, Z: 10.344090
+15:05:00.846 > X: 0.268242, Y: 0.205972, Z: 10.305769
+15:05:00.866 > X: 0.359253, Y: 0.323328, Z: 10.736873
+15:05:00.886 > X: 0.450264, Y: 0.287402, Z: 10.334509
+15:05:00.907 > X: -0.038320, Y: 0.275427, Z: 10.645862
+15:05:00.926 > X: 0.155676, Y: 0.318538, Z: 10.286609
+15:05:00.946 > X: 0.196392, Y: 0.325723, Z: 10.291399
+15:05:00.966 > X: 0.366438, Y: 0.308958, Z: 10.293794
+15:05:00.986 > X: 0.280217, Y: 0.253872, Z: 10.248288
+15:05:01.006 > X: 0.208367, Y: 0.217947, Z: 10.391990
+15:05:01.025 > X: 0.318538, Y: 0.301772, Z: 10.363250
+15:05:01.045 > X: 0.340093, Y: 0.301772, Z: 10.289004
+15:05:01.065 > X: 0.263452, Y: 0.268242, Z: 10.348880
+15:05:01.086 > X: 0.201182, Y: 0.191602, Z: 10.322535
+15:05:01.106 > X: 0.347278, Y: 0.275427, Z: 10.197993
+15:05:01.126 > X: 0.364043, Y: 0.301772, Z: 10.312954
+15:05:01.146 > X: 0.225132, Y: 0.227527, Z: 10.281818
+15:05:01.165 > X: 0.280217, Y: 0.251477, Z: 10.298584
+15:05:01.185 > X: 0.371228, Y: 0.215552, Z: 10.413545
+15:05:01.205 > X: 0.244292, Y: 0.201182, Z: 10.303374
+15:05:01.225 > X: 0.217947, Y: 0.241897, Z: 10.241103
+15:05:01.246 > X: 0.196392, Y: 0.232317, Z: 10.236314
+15:05:01.267 > X: 0.263452, Y: 0.280217, Z: 10.262659
+15:05:01.286 > X: 0.366438, Y: 0.244292, Z: 10.226733
+15:05:01.306 > X: 0.275427, Y: 0.217947, Z: 10.339299
+15:05:01.326 > X: 0.256267, Y: 0.301772, Z: 10.327324
+15:05:01.346 > X: 0.191602, Y: 0.198787, Z: 10.233918
+15:05:01.366 > X: 0.316143, Y: 0.335303, Z: 10.320139
+15:05:01.386 > X: 0.294587, Y: 0.265847, Z: 10.315350
+15:05:01.405 > X: 0.373623, Y: 0.249082, Z: 10.207573
+15:05:01.425 > X: 0.285007, Y: 0.270637, Z: 10.241103
+15:05:01.446 > X: 0.277822, Y: 0.256267, Z: 10.209969
+15:05:01.466 > X: 0.320933, Y: 0.273032, Z: 10.298584
+15:05:01.486 > X: 0.220342, Y: 0.217947, Z: 10.233918
+15:05:01.506 > X: 0.335303, Y: 0.213157, Z: 10.229129
+15:05:01.526 > X: 0.253872, Y: 0.261057, Z: 10.257869
+15:05:01.546 > X: 0.241897, Y: 0.277822, Z: 10.332114
+15:05:01.567 > X: 0.225132, Y: 0.222737, Z: 10.320139
+15:05:01.586 > X: 0.299377, Y: 0.201182, Z: 10.296189
+15:05:01.606 > X: 0.352068, Y: 0.222737, Z: 10.171648
+15:05:01.626 > X: 0.299377, Y: 0.232317, Z: 10.217154
+15:05:01.646 > X: 0.332908, Y: 0.299377, Z: 10.320139
+15:05:01.666 > X: 0.244292, Y: 0.249082, Z: 10.312954
+15:05:01.686 > X: 0.215552, Y: 0.229922, Z: 10.202784
+15:05:01.706 > X: 0.337698, Y: 0.220342, Z: 10.226733
+15:05:01.727 > X: 0.330513, Y: 0.239502, Z: 10.291399
+15:05:01.747 > X: 0.287402, Y: 0.234712, Z: 10.327324
+15:05:01.766 > X: 0.328118, Y: 0.292192, Z: 10.281818
+15:05:01.786 > X: 0.332908, Y: 0.296982, Z: 10.217154
+15:05:01.806 > X: 0.292192, Y: 0.285007, Z: 10.257869
+15:05:01.826 > X: 0.273032, Y: 0.227527, Z: 10.312954
+15:05:01.846 > X: 0.225132, Y: 0.222737, Z: 10.231524
+15:05:01.865 > X: 0.239502, Y: 0.294587, Z: 10.353669
+15:05:01.886 > X: 0.261057, Y: 0.249082, Z: 10.334509
+15:05:01.906 > X: 0.292192, Y: 0.308958, Z: 10.274633
+15:05:01.926 > X: 0.325723, Y: 0.222737, Z: 10.291399
+15:05:01.946 > X: 0.225132, Y: 0.253872, Z: 10.312954
+15:05:01.966 > X: 0.296982, Y: 0.296982, Z: 10.327324
+15:05:01.986 > X: 0.227527, Y: 0.253872, Z: 10.303374
+15:05:02.006 > X: 0.282612, Y: 0.232317, Z: 10.289004
+15:05:02.026 > X: 0.220342, Y: 0.270637, Z: 10.209969
+15:05:02.046 > X: 0.361648, Y: 0.251477, Z: 10.193203
+15:05:02.066 > X: 0.304167, Y: 0.323328, Z: 10.260263
+15:05:02.086 > X: 0.294587, Y: 0.313748, Z: 10.212363
+15:05:02.106 > X: 0.342488, Y: 0.220342, Z: 10.262659
+15:05:02.126 > X: 0.232317, Y: 0.182021, Z: 10.221943
+15:05:02.146 > X: 0.229922, Y: 0.167651, Z: 10.363250
+15:05:02.166 > X: 0.340093, Y: 0.275427, Z: 10.260263
+15:05:02.185 > X: 0.193997, Y: 0.217947, Z: 10.315350
+15:05:02.206 > X: 0.222737, Y: 0.261057, Z: 10.329720
+15:05:02.227 > X: 0.232317, Y: 0.189207, Z: 10.329720
+15:05:02.247 > X: 0.404758, Y: 0.256267, Z: 10.233918
+15:05:02.266 > X: 0.256267, Y: 0.368833, Z: 10.344090
+15:05:02.286 > X: 0.198787, Y: 0.244292, Z: 10.574011
+15:05:02.306 > X: 0.378413, Y: 0.234712, Z: 10.279424
+15:05:02.326 > X: 0.325723, Y: 0.241897, Z: 10.202784
+15:05:02.345 > X: 0.287402, Y: 0.227527, Z: 10.236314
+15:05:02.366 > X: 0.270637, Y: 0.316143, Z: 10.303374
+15:05:02.386 > X: 0.285007, Y: 0.246687, Z: 10.305769
+15:05:02.406 > X: 0.265847, Y: 0.251477, Z: 10.281818
+15:05:02.426 > X: 0.280217, Y: 0.342488, Z: 10.339299
+15:05:02.446 > X: 0.311353, Y: 0.237107, Z: 10.310559
+15:05:02.465 > X: 0.301772, Y: 0.263452, Z: 10.284214
+15:05:02.486 > X: 0.263452, Y: 0.306563, Z: 10.310559
+15:05:02.506 > X: 0.318538, Y: 0.203577, Z: 10.286609
+15:05:02.526 > X: 0.205972, Y: 0.201182, Z: 10.243499
+15:05:02.546 > X: 0.275427, Y: 0.244292, Z: 10.253078
+15:05:02.566 > X: 0.275427, Y: 0.239502, Z: 10.274633
+15:05:02.587 > X: 0.359253, Y: 0.294587, Z: 10.238708
+15:05:02.606 > X: 0.289797, Y: 0.292192, Z: 10.277029
+15:05:02.626 > X: 0.313748, Y: 0.285007, Z: 10.310559
+15:05:02.646 > X: 0.270637, Y: 0.232317, Z: 10.207573
+15:05:02.666 > X: 0.287402, Y: 0.335303, Z: 10.348880
+15:05:02.686 > X: 0.280217, Y: 0.196392, Z: 10.300979
+15:05:02.706 > X: 0.308958, Y: 0.239502, Z: 10.245893
+15:05:02.726 > X: 0.289797, Y: 0.251477, Z: 10.291399
+15:05:02.745 > X: 0.277822, Y: 0.280217, Z: 10.174043
+15:05:02.765 > X: 0.273032, Y: 0.205972, Z: 10.272239
+15:05:02.786 > X: 0.304167, Y: 0.186812, Z: 10.296189
+15:05:02.806 > X: 0.332908, Y: 0.311353, Z: 10.281818
+15:05:02.826 > X: 0.323328, Y: 0.237107, Z: 10.265054
+15:05:02.846 > X: 0.256267, Y: 0.249082, Z: 10.250684
+15:05:02.866 > X: 0.261057, Y: 0.311353, Z: 10.200388
+15:05:02.886 > X: 0.320933, Y: 0.239502, Z: 10.238708
+15:05:02.906 > X: 0.273032, Y: 0.270637, Z: 10.255474
+15:05:02.926 > X: 0.316143, Y: 0.273032, Z: 10.336905
+15:05:02.946 > X: 0.229922, Y: 0.265847, Z: 10.260263
+15:05:02.966 > X: 0.320933, Y: 0.268242, Z: 10.348880
+15:05:02.986 > X: 0.292192, Y: 0.241897, Z: 10.250684
+15:05:03.006 > X: 0.306563, Y: 0.287402, Z: 10.219548
+15:05:03.026 > X: 0.239502, Y: 0.265847, Z: 10.303374
+15:05:03.046 > X: 0.313748, Y: 0.189207, Z: 10.197993
+15:05:03.065 > X: 0.268242, Y: 0.275427, Z: 10.147697
+15:05:03.085 > X: 0.287402, Y: 0.275427, Z: 10.291399
+15:05:03.106 > X: 0.285007, Y: 0.277822, Z: 10.229129
+15:05:03.125 > X: 0.237107, Y: 0.237107, Z: 10.281818
+15:05:03.146 > X: 0.292192, Y: 0.285007, Z: 10.346484
+15:05:03.166 > X: 0.285007, Y: 0.241897, Z: 10.289004
+15:05:03.186 > X: 0.179626, Y: 0.287402, Z: 10.245893
+15:05:03.206 > X: 0.294587, Y: 0.265847, Z: 10.260263
+15:05:03.226 > X: 0.318538, Y: 0.225132, Z: 10.296189
+15:05:03.247 > X: 0.335303, Y: 0.213157, Z: 10.336905
+15:05:03.266 > X: 0.292192, Y: 0.285007, Z: 10.277029
+15:05:03.286 > X: 0.256267, Y: 0.265847, Z: 10.217154
+15:05:03.306 > X: 0.275427, Y: 0.215552, Z: 10.305769
+15:05:03.326 > X: 0.246687, Y: 0.222737, Z: 10.303374
+15:05:03.346 > X: 0.246687, Y: 0.208367, Z: 10.229129
+15:05:03.366 > X: 0.263452, Y: 0.234712, Z: 10.214758
+15:05:03.386 > X: 0.237107, Y: 0.301772, Z: 10.269844
+15:05:03.406 > X: 0.316143, Y: 0.289797, Z: 10.305769
+15:05:03.426 > X: 0.280217, Y: 0.246687, Z: 10.209969
+15:05:03.446 > X: 0.320933, Y: 0.265847, Z: 10.207573
+15:05:03.466 > X: 0.237107, Y: 0.198787, Z: 10.260263
+15:05:03.486 > X: 0.294587, Y: 0.234712, Z: 10.202784
+15:05:03.506 > X: 0.270637, Y: 0.277822, Z: 10.269844
+15:05:03.526 > X: 0.270637, Y: 0.251477, Z: 10.267448
+15:05:03.546 > X: 0.296982, Y: 0.285007, Z: 10.243499
+15:05:03.567 > X: 0.210762, Y: 0.273032, Z: 10.260263
+15:05:03.587 > X: 0.268242, Y: 0.239502, Z: 10.308164
+15:05:03.606 > X: 0.325723, Y: 0.244292, Z: 10.166858
+15:05:03.626 > X: 0.347278, Y: 0.371228, Z: 10.348880
+15:05:03.646 > X: 0.263452, Y: 0.296982, Z: 10.178833
+15:05:03.666 > X: 0.292192, Y: 0.203577, Z: 10.255474
+15:05:03.686 > X: 0.222737, Y: 0.234712, Z: 10.303374
+15:05:03.706 > X: 0.285007, Y: 0.280217, Z: 10.212363
+15:05:03.727 > X: 0.313748, Y: 0.225132, Z: 10.305769
+15:05:03.747 > X: 0.306563, Y: 0.296982, Z: 10.322535
+15:05:03.766 > X: 0.301772, Y: 0.313748, Z: 10.289004
+15:05:03.786 > X: 0.275427, Y: 0.299377, Z: 10.260263
+15:05:03.806 > X: 0.251477, Y: 0.220342, Z: 10.188413
+15:05:03.825 > X: 0.347278, Y: 0.241897, Z: 10.229129
+15:05:03.846 > X: 0.296982, Y: 0.273032, Z: 10.214758
+15:05:03.866 > X: 0.239502, Y: 0.270637, Z: 10.293794
+15:05:03.886 > X: 0.222737, Y: 0.265847, Z: 10.224339
+15:05:03.907 > X: 0.220342, Y: 0.299377, Z: 10.219548
+15:05:03.926 > X: 0.258662, Y: 0.203577, Z: 10.231524
+15:05:03.945 > X: 0.253872, Y: 0.294587, Z: 10.322535
+15:05:03.965 > X: 0.330513, Y: 0.263452, Z: 10.320139
+15:05:03.986 > X: 0.191602, Y: 0.251477, Z: 10.226733
+15:05:04.005 > X: 0.246687, Y: 0.292192, Z: 10.293794
+15:05:04.025 > X: 0.316143, Y: 0.304167, Z: 10.217154
+15:05:04.046 > X: 0.285007, Y: 0.232317, Z: 10.284214
+15:05:04.066 > X: 0.301772, Y: 0.205972, Z: 10.286609
+15:05:04.086 > X: 0.273032, Y: 0.277822, Z: 10.257869
+15:05:04.106 > X: 0.277822, Y: 0.280217, Z: 10.286609
+15:05:04.126 > X: 0.229922, Y: 0.263452, Z: 10.229129
+15:05:04.146 > X: 0.304167, Y: 0.229922, Z: 10.265054
+15:05:04.166 > X: 0.280217, Y: 0.215552, Z: 10.226733
+15:05:04.186 > X: 0.196392, Y: 0.256267, Z: 10.274633
+15:05:04.205 > X: 0.256267, Y: 0.323328, Z: 10.164463
+15:05:04.226 > X: 0.232317, Y: 0.249082, Z: 10.202784
+15:05:04.246 > X: 0.177231, Y: 0.239502, Z: 10.255474
+15:05:04.267 > X: 0.308958, Y: 0.249082, Z: 10.332114
+15:05:04.287 > X: 0.301772, Y: 0.253872, Z: 10.293794
+15:05:04.306 > X: 0.285007, Y: 0.299377, Z: 10.293794
+15:05:04.326 > X: 0.294587, Y: 0.239502, Z: 10.250684
+15:05:04.346 > X: 0.241897, Y: 0.285007, Z: 10.291399
+15:05:04.366 > X: 0.232317, Y: 0.208367, Z: 10.324929
+15:05:04.386 > X: 0.258662, Y: 0.229922, Z: 10.269844
+15:05:04.407 > X: 0.203577, Y: 0.258662, Z: 10.315350
+15:05:04.427 > X: 0.306563, Y: 0.215552, Z: 10.296189
+15:05:04.446 > X: 0.311353, Y: 0.328118, Z: 10.260263
+15:05:04.466 > X: 0.287402, Y: 0.258662, Z: 10.257869
+15:05:04.486 > X: 0.229922, Y: 0.287402, Z: 10.344090
+15:05:04.506 > X: 0.289797, Y: 0.268242, Z: 10.308164
+15:05:04.526 > X: 0.337698, Y: 0.304167, Z: 10.265054
+15:05:04.546 > X: 0.320933, Y: 0.253872, Z: 10.186018
+15:05:04.567 > X: 0.340093, Y: 0.311353, Z: 10.308164
+15:05:04.586 > X: 0.210762, Y: 0.273032, Z: 10.327324
+15:05:04.606 > X: 0.320933, Y: 0.229922, Z: 10.284214
+15:05:04.626 > X: 0.323328, Y: 0.289797, Z: 10.348880
+15:05:04.646 > X: 0.258662, Y: 0.220342, Z: 10.229129
+15:05:04.666 > X: 0.282612, Y: 0.222737, Z: 10.233918
+15:05:04.686 > X: 0.251477, Y: 0.244292, Z: 10.327324
+15:05:04.706 > X: 0.285007, Y: 0.253872, Z: 10.193203
+15:05:04.726 > X: 0.299377, Y: 0.234712, Z: 10.272239
+15:05:04.747 > X: 0.294587, Y: 0.220342, Z: 10.272239
+15:05:04.767 > X: 0.304167, Y: 0.241897, Z: 10.303374
+15:05:04.786 > X: 0.304167, Y: 0.249082, Z: 10.250684
+15:05:04.806 > X: 0.217947, Y: 0.292192, Z: 10.195599
+15:05:04.826 > X: 0.256267, Y: 0.285007, Z: 10.272239
+15:05:04.846 > X: 0.301772, Y: 0.244292, Z: 10.365644
+15:05:04.866 > X: 0.282612, Y: 0.277822, Z: 10.224339
+15:05:04.886 > X: 0.239502, Y: 0.256267, Z: 10.363250
+15:05:04.907 > X: 0.225132, Y: 0.251477, Z: 10.272239
+15:05:04.927 > X: 0.318538, Y: 0.220342, Z: 10.233918
+15:05:04.946 > X: 0.299377, Y: 0.251477, Z: 10.370435
+15:05:04.966 > X: 0.275427, Y: 0.282612, Z: 10.344090
+15:05:04.986 > X: 0.337698, Y: 0.270637, Z: 10.200388
+15:05:05.006 > X: 0.299377, Y: 0.282612, Z: 10.310559
+15:05:05.026 > X: 0.296982, Y: 0.270637, Z: 10.332114
+15:05:05.046 > X: 0.325723, Y: 0.205972, Z: 10.272239
+15:05:05.066 > X: 0.299377, Y: 0.280217, Z: 10.298584
+15:05:05.086 > X: 0.253872, Y: 0.277822, Z: 10.274633
+15:05:05.106 > X: 0.316143, Y: 0.244292, Z: 10.267448
+15:05:05.126 > X: 0.229922, Y: 0.217947, Z: 10.253078
+15:05:05.146 > X: 0.296982, Y: 0.292192, Z: 10.281818
+15:05:05.165 > X: 0.239502, Y: 0.289797, Z: 10.217154
+15:05:05.185 > X: 0.232317, Y: 0.227527, Z: 10.224339
+15:05:05.206 > X: 0.304167, Y: 0.196392, Z: 10.344090
+15:05:05.226 > X: 0.280217, Y: 0.244292, Z: 10.253078
+15:05:05.246 > X: 0.160466, Y: 0.296982, Z: 10.557246
+15:05:05.266 > X: 0.337698, Y: 0.249082, Z: 10.212363
+15:05:05.286 > X: 0.287402, Y: 0.232317, Z: 10.250684
+15:05:05.306 > X: 0.208367, Y: 0.311353, Z: 10.312954
+15:05:05.326 > X: 0.383203, Y: 0.241897, Z: 10.197993
+15:05:05.346 > X: 0.316143, Y: 0.383203, Z: 10.289004
+15:05:05.365 > X: 0.301772, Y: 0.143701, Z: 10.226733
+15:05:05.385 > X: 0.325723, Y: 0.215552, Z: 10.245893
+15:05:05.405 > X: 0.239502, Y: 0.265847, Z: 10.348880
+15:05:05.425 > X: 0.308958, Y: 0.280217, Z: 10.229129
+15:05:05.446 > X: 0.277822, Y: 0.337698, Z: 10.291399
+15:05:05.465 > X: 0.285007, Y: 0.150886, Z: 10.248288
+15:05:05.486 > X: 0.304167, Y: 0.165256, Z: 10.269844
+15:05:05.506 > X: 0.277822, Y: 0.311353, Z: 10.248288
+15:05:05.525 > X: 0.273032, Y: 0.285007, Z: 10.238708
+15:05:05.545 > X: 0.237107, Y: 0.296982, Z: 10.257869
+15:05:05.567 > X: 0.304167, Y: 0.213157, Z: 10.336905
+15:05:05.587 > X: 0.270637, Y: 0.189207, Z: 10.200388
+15:05:05.606 > X: 0.335303, Y: 0.177231, Z: 10.277029
+15:05:05.626 > X: 0.229922, Y: 0.287402, Z: 10.241103
+15:05:05.646 > X: 0.301772, Y: 0.265847, Z: 10.274633
+15:05:05.666 > X: 0.306563, Y: 0.306563, Z: 10.286609
+15:05:05.685 > X: 0.301772, Y: 0.182021, Z: 10.224339
+15:05:05.706 > X: 0.227527, Y: 0.220342, Z: 10.269844
+15:05:05.727 > X: 0.311353, Y: 0.227527, Z: 10.176438
+15:05:05.746 > X: 0.308958, Y: 0.292192, Z: 10.212363
+15:05:05.766 > X: 0.253872, Y: 0.292192, Z: 10.267448
+15:05:05.786 > X: 0.352068, Y: 0.220342, Z: 10.248288
+15:05:05.806 > X: 0.251477, Y: 0.273032, Z: 10.368039
+15:05:05.825 > X: 0.325723, Y: 0.251477, Z: 10.279424
+15:05:05.846 > X: 0.253872, Y: 0.217947, Z: 10.279424
+15:05:05.865 > X: 0.277822, Y: 0.213157, Z: 10.312954
+15:05:05.886 > X: 0.273032, Y: 0.227527, Z: 10.243499
+15:05:05.907 > X: 0.263452, Y: 0.261057, Z: 10.334509
+15:05:05.926 > X: 0.268242, Y: 0.256267, Z: 10.303374
+15:05:05.946 > X: 0.244292, Y: 0.239502, Z: 10.174043
+15:05:05.966 > X: 0.342488, Y: 0.292192, Z: 10.202784
+15:05:05.986 > X: 0.299377, Y: 0.229922, Z: 10.207573
+15:05:06.006 > X: 0.265847, Y: 0.275427, Z: 10.217154
+15:05:06.026 > X: 0.285007, Y: 0.308958, Z: 10.269844
+15:05:06.046 > X: 0.285007, Y: 0.251477, Z: 10.265054
+15:05:06.067 > X: 0.270637, Y: 0.241897, Z: 10.279424
+15:05:06.087 > X: 0.289797, Y: 0.265847, Z: 10.262659
+15:05:06.106 > X: 0.2
