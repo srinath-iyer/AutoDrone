@@ -24,10 +24,10 @@ class DronePIDTuner:
         
         # UART configuration
         self.Comms = OnboardComms()
-        self.recieved_log_queue = copy.copy(self.Comms.rx_queue)
+        self.Comms.listen_loop()
         self.Comms.test_signal()
         self.sent_log_queue = queue.Queue() # This is a queue that logs all commands sent to the ESP32. They will be timestamped strings and written to a file 
-        
+
         # Data storage
         self.time_data = np.linspace(0, 10, 100)  # Last 10 seconds with 100 data points
         self.roll_data = np.zeros(100)
@@ -192,16 +192,16 @@ class DronePIDTuner:
         self.pid_labels[axis][pid_type].set(f"{value:.2f}")
         
         # Send updated PID to ESP32
-        self.send_pid_command(axis, pid_type, value)
+        self.send_pid_command(axis)
         
-    def send_pid_command(self, axis, pid_type, value):
+    def send_pid_command(self, axis):
         """Format and send a PID command to the ESP32"""
         if not self.uart_connected:
-            self.log(f"Not connected, would send: SET_PID,{axis},{pid_type},{value:.2f}")
+            # self.log(f"Not connected, would send: SET_PID,{axis},{pid_type},{value:.2f}")
             return False
             
         # Format: "SET_PID,axis,type,value"
-        command = f"SET_PID,{axis},{pid_type},{value:.2f}"
+        command = f"/pid/{axis}/{self.pid_values[axis]["P"]:.2f},{self.pid_values[axis]["I"]:.2f},{self.pid_values[axis]["D"]:.2f}"
         self.Comms.send_command(command)
         self.command_queue.put(command)
         self.log(f"Sending command: {command}")
@@ -213,10 +213,7 @@ class DronePIDTuner:
             
         self.log("Sending all PID values to ESP32...")
         for axis in self.pid_values:
-            for pid_type in self.pid_values[axis]:
-                value = self.pid_values[axis][pid_type]
-                self.send_pid_command(axis, pid_type, value)
-        
+            self.send_pid_command(axis)
                 
     def process_imu_data(self, data_line):
         """Process a line of data received from the ESP32"""
