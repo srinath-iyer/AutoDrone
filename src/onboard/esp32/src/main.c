@@ -3,10 +3,7 @@
 #include "string.h"
 #include "driver/gpio.h"
 
-#define UART_NUM UART_NUM_1
-#define TXD_PIN (GPIO_NUM_17)
-#define RXD_PIN (GPIO_NUM_16)
-#define BUF_SIZE 1024
+
 
 void app_main() {
         // GPIO config structure

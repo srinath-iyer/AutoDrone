@@ -10,6 +10,10 @@ import serial
 import random
 import sys
 from datetime import datetime
+import os
+import copy
+
+from uart_esp32 import OnboardComms
 
 class DronePIDTuner:
     def __init__(self, master):
@@ -19,15 +23,10 @@ class DronePIDTuner:
         self.master.config(bg="#f0f0f0")
         
         # UART configuration
-        # TODO: Change for RPI to ESP32 UART Pins
-        self.uart_port = "COM3"  # Change to appropriate port
-        self.uart_baudrate = 115200
-        self.uart_connected = False
-        self.serial_conn = None
-        
-        # Operation mode
-        # TODO: Get rid of simulation mode
-        self.simulation_mode = True  # Set to False to use real UART
+        self.Comms = OnboardComms()
+        self.recieved_log_queue = copy.copy(self.Comms.rx_queue)
+        self.Comms.test_signal()
+        self.sent_log_queue = queue.Queue() # This is a queue that logs all commands sent to the ESP32. They will be timestamped strings and written to a file 
         
         # Data storage
         self.time_data = np.linspace(0, 10, 100)  # Last 10 seconds with 100 data points
@@ -52,35 +51,11 @@ class DronePIDTuner:
         # Create GUI
         self.setup_gui()
         
-        # Redirect print statements to our custom log
-        #TODO: This is so dumb. Get rid of it. Print to terminal, no need for log within a log.
-        self.original_stdout = sys.stdout
-        sys.stdout = self
-        
-        # Start UART communication thread
-        self.running = True
-        self.uart_thread = threading.Thread(target=self.uart_communication_loop)
-        self.uart_thread.daemon = True
-        self.uart_thread.start()
-        
         # Start plotting update loop
         self.master.after(100, self.update_plots)
         
         # Start log update loop
         self.master.after(100, self.update_logs)
-        
-    def write(self, text):
-        """Implement write method for print redirection"""
-        if text.strip():  # Ignore empty lines
-            timestamp = datetime.now().strftime("%H:%M:%S.%f")[:-3]
-            log_entry = f"[{timestamp}] {text}"
-            self.log_queue.put(log_entry)
-            # Also write to original stdout for console debugging
-            self.original_stdout.write(text)
-            
-    def flush(self):
-        """Required for stdout redirection"""
-        self.original_stdout.flush()
         
     def setup_gui(self):
         # Create main frame with two sections
@@ -137,62 +112,29 @@ class DronePIDTuner:
                 self.pid_inputs[axis][pid_type] = input
         
         # Add connection status and control buttons
-        #TODO: Read/Edit from here on down.
         control_frame = ttk.Frame(left_frame)
         control_frame.grid(row=len(self.pid_values), column=0, padx=10, pady=10, sticky="ew")
-        
-        # Simulation mode toggle
-        self.sim_mode_var = tk.BooleanVar(value=self.simulation_mode)
-        sim_check = ttk.Checkbutton(
-            control_frame, 
-            text="Simulation Mode",
-            variable=self.sim_mode_var,
-            command=self.toggle_simulation_mode
-        )
-        sim_check.grid(row=0, column=0, padx=5, pady=5, sticky="w")
-        
-        # Connection status and button
         
         # Send all PIDs button
         send_all_button = ttk.Button(control_frame, text="Send All PIDs", command=self.send_all_pids)
         send_all_button.grid(row=2, column=0, columnspan=2, padx=5, pady=5)
         
-        # Request PIDs button (for real hardware)
-        request_button = ttk.Button(control_frame, text="Request Current PIDs", command=self.request_current_pids)
-        request_button.grid(row=3, column=0, columnspan=2, padx=5, pady=5)
-        
-        # UART port entry
-        port_frame = ttk.Frame(control_frame)
-        port_frame.grid(row=4, column=0, columnspan=2, padx=5, pady=5, sticky="ew")
-        
-        ttk.Label(port_frame, text="UART Port:").grid(row=0, column=0, padx=5, pady=2)
-        self.port_var = tk.StringVar(value=self.uart_port)
-        port_entry = ttk.Entry(port_frame, textvariable=self.port_var, width=15)
-        port_entry.grid(row=0, column=1, padx=5, pady=2)
-        
-        # Clear log button
-        clear_log_button = ttk.Button(control_frame, text="Clear Log", command=self.clear_log)
-        clear_log_button.grid(row=5, column=0, columnspan=2, padx=5, pady=5)
-        
-        # Create log text area
-        self.log_text = scrolledtext.ScrolledText(log_frame, height=10, width=80, wrap=tk.WORD)
-        self.log_text.pack(fill=tk.BOTH, expand=True, padx=5, pady=5)
-        self.log_text.config(state=tk.DISABLED)  # Make read-only
-        
         # Create plots
         self.setup_plots(plot_frame)
-        
-    def clear_log(self):
-        """Clear the log display"""
-        self.log_text.config(state=tk.NORMAL)
-        self.log_text.delete(1.0, tk.END)
-        self.log_text.config(state=tk.DISABLED)
-        self.log("Log cleared")
-        
+
+    def init_log(self):
+        """Initialize the log file"""
+        directory_path = 'rpi/logs'
+        num = len(os.listdir(directory_path)) + 1
+        with open(directory_path + "/log" + str(num) + ".txt", 'w') as f:
+            self.log_path = f.name
+
     def log(self, message):
-        """Add a message to the log queue"""
-        timestamp = datetime.now().strftime("%H:%M:%S.%f")[:-3]
-        self.log_queue.put(f"[{timestamp}] {message}")
+        """Log a message to the log file and the console"""
+        print(message)
+        with open(self.log_path, 'a') as f:
+
+            f.write(message + "\n")
         
     def update_logs(self):
         """Update the log display with queued messages"""
@@ -204,11 +146,7 @@ class DronePIDTuner:
             try:
                 log_message = self.log_queue.get_nowait()
                 
-                # Update the text widget
-                self.log_text.config(state=tk.NORMAL)
-                self.log_text.insert(tk.END, log_message + "\n")
-                self.log_text.see(tk.END)  # Scroll to bottom
-                self.log_text.config(state=tk.DISABLED)
+                
                 
                 self.log_queue.task_done()
                 log_updated = True
@@ -247,16 +185,6 @@ class DronePIDTuner:
         self.canvas.draw()
         self.canvas.get_tk_widget().pack(fill=tk.BOTH, expand=True)
         
-    def toggle_simulation_mode(self):
-        """Toggle between simulation and real hardware mode"""
-        self.simulation_mode = self.sim_mode_var.get()
-        
-        # If switching to real mode, disconnect first
-        if not self.simulation_mode and self.uart_connected:
-            self.close_uart()
-            
-        self.log(f"Simulation mode: {'ON' if self.simulation_mode else 'OFF'}")
-        
     def update_pid(self, axis, pid_type, value):
         # Update PID value
         value = float(value)
@@ -289,149 +217,25 @@ class DronePIDTuner:
             for pid_type in self.pid_values[axis]:
                 value = self.pid_values[axis][pid_type]
                 self.send_pid_command(axis, pid_type, value)
-                
-    def request_current_pids(self):
-        """Request current PID values from ESP32"""
-        if not self.uart_connected:
-            self.log("Not connected to ESP32")
-            return False
-            
-        command = "GET_PIDS"
-        self.command_queue.put(command)
-        self.log(f"Requesting current PIDs from ESP32")
-        return True
-        
-    def setup_uart(self):
-        """Initialize the UART connection to the ESP32"""
-        # If in simulation mode, just pretend we're connected
-        if self.simulation_mode:
-            self.uart_connected = True
-            self.conn_status_var.set("Connected (Simulation)")
-            self.connect_button.config(text="Disconnect")
-            self.log("Connected in simulation mode")
-            return True
-            
-        # Otherwise, try to establish a real connection
-        try:
-            self.uart_port = self.port_var.get()  # Get current value from entry field
-            self.serial_conn = serial.Serial(
-                port=self.uart_port,
-                baudrate=self.uart_baudrate,
-                timeout=0.1,  # Short timeout for non-blocking reads
-                write_timeout=0.5
-            )
-            self.uart_connected = True
-            self.conn_status_var.set(f"Connected to {self.uart_port}")
-            self.connect_button.config(text="Disconnect")
-            self.log(f"Connected to ESP32 on {self.uart_port}")
-            return True
-        except serial.SerialException as e:
-            error_msg = f"Error connecting to {self.uart_port}: {e}"
-            self.log(error_msg)
-            self.conn_status_var.set(f"Error: {str(e)[:20]}...")
-            return False
-            
-    def close_uart(self):
-        """Close the UART connection"""
-        if not self.simulation_mode and self.serial_conn and self.serial_conn.is_open:
-            self.serial_conn.close()
-            
-        self.uart_connected = False
-        self.conn_status_var.set("Disconnected")
-        self.connect_button.config(text="Connect")
-        self.log("Disconnected from ESP32")
-        
-    def toggle_connection(self):
-        """Toggle the UART connection state"""
-        if self.uart_connected:
-            self.close_uart()
-        else:
-            self.setup_uart()
+    
             
     def uart_communication_loop(self):
         """UART communication thread - handles both simulation and real mode"""
         buffer = ""  # For real hardware mode
-        
-        while self.running:
-            # Check if connected
-            if not self.uart_connected:
-                time.sleep(0.1)
-                continue
+        try:
+            # --- READ DATA FROM ESP32 ---
+            if self.serial_conn.in_waiting > 0:
+                new_data = self.serial_conn.read(self.serial_conn.in_waiting).decode('utf-8', errors='replace')
+                buffer += new_data
                 
-            # === SIMULATION MODE ===
-            if self.simulation_mode:
-                # Generate random IMU data for simulation
-                roll = 10 * np.sin(time.time() * 0.5) + random.uniform(-2, 2)
-                pitch = 10 * np.cos(time.time() * 0.7) + random.uniform(-2, 2)
-                yaw = 5 * np.sin(time.time() * 0.3) + random.uniform(-1, 1)
-                thrust = 50 + 10 * np.sin(time.time() * 0.2) + random.uniform(-5, 5)
-                
-                # Put the data in the queue
-                imu_data = {
-                    "roll": roll,
-                    "pitch": pitch,
-                    "yaw": yaw,
-                    "thrust": thrust,
-                    "timestamp": time.time()
-                }
-                self.imu_data_queue.put(imu_data)
-                
-                # Check for commands to send to simulated ESP32
-                try:
-                    command = self.command_queue.get_nowait()
-                    self.log(f"[SIM] Sending to ESP32: {command}")
-                    
-                    # Simulate acknowledging the command
-                    if command.startswith("SET_PID"):
-                        self.log(f"[SIM] ESP32 acknowledged: ACK,{command}")
-                    elif command == "GET_PIDS":
-                        # Simulate ESP32 sending back current PIDs
-                        for axis in self.pid_values:
-                            for pid_type in self.pid_values[axis]:
-                                value = self.pid_values[axis][pid_type]
-                                self.log(f"[SIM] ESP32 sent: PID,{axis},{pid_type},{value:.2f}")
-                                
-                    self.command_queue.task_done()
-                except queue.Empty:
-                    pass
-                    
-                time.sleep(0.1)  # Simulate 10Hz data rate
-                
-            # === REAL HARDWARE MODE ===
-            else:
-                try:
-                    # --- READ DATA FROM ESP32 ---
-                    if self.serial_conn.in_waiting > 0:
-                        new_data = self.serial_conn.read(self.serial_conn.in_waiting).decode('utf-8', errors='replace')
-                        buffer += new_data
-                        
-                        # Process complete lines
-                        while '\n' in buffer:
-                            line, buffer = buffer.split('\n', 1)
-                            self.process_imu_data(line.strip())
-                            
-                    # --- SEND COMMANDS TO ESP32 ---
-                    # Check for commands to send
-                    if not self.command_queue.empty():
-                        command = self.command_queue.get_nowait()
-                        self.log(f"Sending to ESP32: {command}")
-                        
-                        # Add newline terminator to command
-                        command_bytes = (command + '\n').encode('utf-8')
-                        bytes_written = self.serial_conn.write(command_bytes)
-                        self.serial_conn.flush()  # Ensure data is sent immediately
-                        
-                        self.log(f"Sent {bytes_written} bytes")
-                        self.command_queue.task_done()
-                        
-                except serial.SerialException as e:
-                    self.log(f"Error with serial port: {e}")
-                    self.close_uart()
-                    time.sleep(1)  # Wait before retrying
-                except Exception as e:
-                    self.log(f"Unexpected error in UART thread: {e}")
+                # Process complete lines
+                while '\n' in buffer:
+                    line, buffer = buffer.split('\n', 1)
+                    self.process_imu_data(line.strip())
+            
                     
                 time.sleep(0.01)  # Small delay to prevent CPU hogging
+        
                 
     def process_imu_data(self, data_line):
         """Process a line of data received from the ESP32"""
@@ -519,6 +323,8 @@ class DronePIDTuner:
                     self.pitch_data[-1] = imu_data["pitch"]
                     self.yaw_data[-1] = imu_data["yaw"]
                     self.thrust_data[-1] = imu_data["thrust"]
+
+                    self.log()
                     
                     self.imu_data_queue.task_done()
                 except queue.Empty:

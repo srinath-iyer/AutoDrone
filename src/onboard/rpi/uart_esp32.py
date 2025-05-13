@@ -3,18 +3,59 @@ This file containts all methods for the ESP32 UART communication with the Raspbe
 """
 
 import serial
+import threading
+from queue import Queue
+from state import State
 import time
 
 class OnboardComms:
-
     def __init__(self):
-        pass
+        self.ser = serial.Serial('/dev/serial0', 115200, timeout=1)
+        self.ser.flush()
+        print("Serial port initialized")
+        self.rx_queue = Queue()
+        self.listener_thread = threading.Thread(target=self.listen_loop, daemon=True)
+        self.listener_thread.start()
+
+    def listen_loop(self):
+        while True:
+            if self.ser.in_waiting > 0:
+                line = self.ser.readline().decode('utf-8').strip()
+                self.rx_queue.put(line)
+            time.sleep(0.01) # Wait 10 ms.
+
+    def send_command(self, command: str):
+        self.ser.write(command.encode('utf-8'))
+        print(f"Command sent: {command}")
+
+    def send_state(self, state: State):
+        self.ser.write(str(state).encode('utf-8'))
+        print(f"State sent: {state}")
+
+    def get_latest_line(self):
+        """Non-blocking: Returns the latest UART line if available."""
+        if not self.rx_queue.empty():
+            return self.rx_queue.get()
+        return None
     
-    def send_test_signal():
-        pass
-
-    def send_command():
-        pass
-
-    def send_state():
-        pass
+    def test_signal(self):
+        self.send_command("/test_signal")
+        start_time = time.perf_counter()
+        elapsed_time = 0
+        while elapsed_time < 5: # 5 second timeout
+            get_latest_line = self.get_latest_line()
+            if get_latest_line is not None:
+                end_time = time.perf_counter()
+                elapsed_time = end_time - start_time
+                if get_latest_line == "/test_signal_received":
+                    print("Received successful message from ESP32:", get_latest_line)
+                    print("Latency:", elapsed_time)
+                    break
+                else:
+                    print("Received unexpected message from ESP32:", get_latest_line)
+                    print("Latency:", elapsed_time)
+                    break
+            else:
+                end_time = time.perf_counter()
+                elapsed_time = end_time - start_time
+        print("No response from ESP32")

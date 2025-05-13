@@ -80,6 +80,10 @@
 #define BACK_LEFT_MOTOR_PIN GPIO_
 
 // ESP32 to RPi Comms Pins:
+#define UART_NUM UART_NUM_1
+#define TXD_PIN (GPIO_NUM_17)
+#define RXD_PIN (GPIO_NUM_16)
+#define BUF_SIZE 1024
 
 // Miscellaneous Constants:
 #define PI_FLOAT 3.1415927f
