@@ -10,15 +10,17 @@
 
 #include <pose.h>
 #include <comms.h>
+#include <pid_controller.h>
 
 #define TAG "UART_COMM"
 #define UART_EVENT_QUEUE_SIZE 10
 
 QueueHandle_t uart_event_queue;
-QueueHandle_t command_queue; // Global command queue.
+// QueueHandle_t command_queue; // Global command queue.
 QueueHandle_t pose_queue; // Global pose queue.
 RingbufHandle_t uart_ringbuf;
 volatile atomic_bool emergency_stop;
+volatile atomic_bool comms_work = false; // A global boolean var that is set to true when /e-stop is received, which then triggers PID if/then to kill motors.
 
 void uart_init()
 {
@@ -41,6 +43,7 @@ void uart_init()
 
     // Initialize global queues and e_stop flag:
     emergency_stop = false;
+    comms_work = false;
     command_queue = xQueueCreate(10, sizeof(char *)); // Queue for commands
     pose_queue = xQueueCreate(10, sizeof(Pose)); // Queue for pose data
 
@@ -90,9 +93,42 @@ static void handle_uart_data(int len, uint8_t *data)
         return;
     }
 
+    else if(strncmp(str, "/pid/thrust/", 12) == 0){
+        float thrust_kp, thrust_ki, thrust_kd;
+        if (sscanf(str + 12, "%f,%f,%f", &thrust_kp, &thrust_ki, &thrust_kd) == 3) {
+            ESP_LOGI(TAG, "Thrust PID -> Kp: %.2f, Ki: %.2f, Kd: %.2f", thrust_kp, thrust_ki, thrust_kd);
+            thrust_pid.init_pid_controller(thrust_kp, thrust_ki, thrust_kd);
+        }
+    }
+
+    else if(strncmp(str, "/pid/roll/", 11) == 0){
+        float roll_kp, roll_ki, roll_kd;
+        if (sscanf(str + 11, "%f,%f,%f", &roll_kp, &roll_ki, &roll_kd) == 3) {
+            ESP_LOGI(TAG, "Roll PID -> Kp: %.2f, Ki: %.2f, Kd: %.2f", roll_kp, roll_ki, roll_kd);
+            roll_pid.init_pid_controller(roll_kp, roll_ki, roll_kd);
+        }
+    }
+
+    else if(strncmp(str, "/pid/pitch/", 12) == 0){
+        float pitch_kp, pitch_ki, pitch_kd;
+        if (sscanf(str + 12, "%f,%f,%f", &pitch_kp, &pitch_ki, &pitch_kd) == 3) {
+            ESP_LOGI(TAG, "Pitch PID -> Kp: %.2f, Ki: %.2f, Kd: %.2f", pitch_kp, pitch_ki, pitch_kd);
+            pitch_pid.init_pid_controller(pitch_kp, pitch_ki, pitch_kd);
+        }
+    }
+
+    else if(strncmp(str, "/pid/yaw/", 10) == 0){
+        float yaw_kp, yaw_ki, yaw_kd;
+        if (sscanf(str + 10, "%f,%f,%f", &yaw_kp, &yaw_ki, &yaw_kd) == 3) {
+            ESP_LOGI(TAG, "Yaw PID -> Kp: %.2f, Ki: %.2f, Kd: %.2f", yaw_kp, yaw_ki, yaw_kd);
+            yaw_pid.init_pid_controller(yaw_kp, yaw_ki, yaw_kd);
+        }
+    }
+
     else if (strncmp(str, "/test_signal", 11) == 0) {
         ESP_LOGI(TAG, "Test signal received");
         send_to_pi("/test_signal_received");
+        comms_work = true;
     }
 
 }

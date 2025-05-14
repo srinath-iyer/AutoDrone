@@ -13,6 +13,7 @@ class OnboardComms:
         self.ser = serial.Serial('/dev/serial0', 115200, timeout=1)
         self.ser.flush()
         print("Serial port initialized")
+        self.test_signal()
         self.rx_queue = Queue()
         self.listener_thread = threading.Thread(target=self.listen_loop, daemon=True)
         self.listener_thread.start()

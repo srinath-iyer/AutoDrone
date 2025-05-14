@@ -1,3 +1,5 @@
+// In general, this code is meant to read in PID constants from the UI, and not from constants.h
+
 #include <stdio.h>
 #include "pid_controller.h"
 
@@ -31,3 +33,5 @@ float calculate_pid(PIDController* pid_controller, float error){
 
     return output;
 }
+
+extern volatile PIDController thrust_pid, yaw_pid, roll_pid, pitch_pid; // Global PID controllers. This is a line specially for pid-tuning-ui. When we merge this branch, it should be deleted.

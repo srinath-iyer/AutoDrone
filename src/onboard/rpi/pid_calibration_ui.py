@@ -25,7 +25,6 @@ class DronePIDTuner:
         # UART configuration
         self.Comms = OnboardComms()
         self.Comms.listen_loop()
-        self.Comms.test_signal()
         self.sent_log_queue = queue.Queue() # This is a queue that logs all commands sent to the ESP32. They will be timestamped strings and written to a file 
 
         # Data storage
