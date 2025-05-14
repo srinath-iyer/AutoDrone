@@ -47,6 +47,9 @@ void app_main(){
 }
 
 void init_drone(){
+    //initialize motors
+    init_motor();
+
     // MPU6050:
     init_mpu6050_converted_data(&mpu6050);
     init_mpu6050();
@@ -75,9 +78,9 @@ void init_drone(){
     position_pitch_pid_error = 0.0;
 }
 
-void sensors_and_controls(){
+void sensors_and_controls(){ //this one
     TickType_t last_wake_time = xTaskGetTickCount();
-    update_mpu6050_measurements(&mpu6050);
+    mpu6050_read_all(&mpu6050);
     // Add sensor fusion and update pose function call here
     
     float cos_yaw = cosf(pose.yaw * PI_FLOAT / 180.0); // Convert yaw to radians for calculations.
@@ -95,21 +98,34 @@ void sensors_and_controls(){
     float thrust_output = calculate_pid(&thrust_pid, setpoint.z-pose.z); // Thrust error is in the z direction.
     float yaw_output = calculate_pid(&yaw_pid, yaw_error); // Yaw error is thr angle between the 
     float roll_output = calculate_pid(&roll_pid, setpoint.roll-pose.roll);
-    float pitch_error = calculate_pid(&pitch_pid, setpoint.pitch-pose.pitch);
+    float pitch_output = calculate_pid(&pitch_pid, setpoint.pitch-pose.pitch);
+
+    //PIDs
     
     // Motor Mixing Algo:
+    uint32_t motor2_pwm = thrust_output - roll_output + pitch_output + yaw_output;
+    uint32_t motor4_pwm = thrust_output + roll_output - pitch_output + yaw_output;
+    uint32_t motor3_pwm = thrust_output + roll_output + pitch_output - yaw_output;
+    uint32_t motor1_pwm = thrust_output - roll_output - pitch_output - yaw_output;
 
     // Motor Control:
+    set_motor_speed(1, motor1_pwm);
+    set_motor_speed(2, motor2_pwm);
+    set_motor_speed(3, motor3_pwm);
+    set_motor_speed(4, motor4_pwm);
     
     // Log or print_mpu6050_data(&mpu6050);
-    vTaskDelayUntil(&last_wake_time, 2 / portTICK_PERIOD_MS); // Trying 500 Hz.
+    //send mpu data to rpi
+
+    vTaskDelayUntil(&last_wake_time, 20 / portTICK_PERIOD_MS); // Trying 50 Hz.
 }
 
 void pid_controllers(){
     TickType_t last_wake_time = xTaskGetTickCount();
 }
 
-void motor_control(){
+void motor_control(){ //this one
+
     TickType_t last_wake_time = xTaskGetTickCount();
 }
 
