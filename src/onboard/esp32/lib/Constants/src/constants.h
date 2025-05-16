@@ -22,8 +22,6 @@
 
 // Motor control constants:
 
-// ── USER CONFIG ────────────────────────────────────────────────────────────────
-// Change these to the GPIOs wired to your ESC signal wires:
 #define MOTOR1_GPIO    4
 #define MOTOR2_GPIO    5
 #define MOTOR3_GPIO    18
@@ -84,16 +82,17 @@
 #define TEMP_OUT_L 0x42
 #define ACCEL_CONFIG 0x1C
 #define GYRO_CONFIG 0x1B
+#define DLPF_CONFIG 0x1A
 
 // mpu6050 Sample Rate:
 #define MPU6050_SAMPLE_RATE 4
 
 // MPU Sensitivity:
-#define ACCEL_SENSITIVITY_INPUT 0 // 1, 2, 3
-#define ACCEL_SENSITIVITY_OUTPUT (float)16384 // 8192, 16384, 32768
+#define ACCEL_SENSITIVITY_INPUT 3 // 0, 1, 2, 3
+#define ACCEL_SENSITIVITY_OUTPUT (float)32768 // 16384, 8192, 16384, 32768
 
-#define GYRO_SENSITIVITY_INPUT 0 // 1, 2, 3
-#define GYRO_SENSITIVITY_OUTPUT (float)131 // 65.5, 131, 262
+#define GYRO_SENSITIVITY_INPUT 1 // 0, 1, 2, 3
+#define GYRO_SENSITIVITY_OUTPUT (float)65.5 // 131 65.5, 131, 262
 
 // Motor PWM Pins:
 #define FRONT_RIGHT_MOTOR_PIN GPIO_
@@ -107,6 +106,12 @@
 #define RXD_PIN (GPIO_NUM_16)
 #define BUF_SIZE 1024
 
+// Motor Mixing Algorithm:
+// These constants are used in scaling different aspects of the motor mixing algorithm. This is because the drone, while symmetrical biaxially, it is not a perfect square.
+// Source: https://www.iforce2d.net/mixercalc
+#define K_ROLL 0.83f
+#define K_PITCH 1.0f
+#define MOTOR_MIXING_MAX 3.83f // This is the max possible value for the algorithm, and used to scale results down from -1 to 1.
 // Miscellaneous Constants:
 #define PI_FLOAT 3.1415927f
 #endif // CONSTANTS_C

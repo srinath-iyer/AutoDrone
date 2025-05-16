@@ -2,6 +2,11 @@
     "files.associations": {
         "pose.h": "c",
         "pid_controller.h": "c",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "motor_mixing.h": "c",
+        "constants.h": "c",
+        "i2c.h": "c",
+        "mpu6050.h": "c",
+        "gpio.h": "c"
     }
 }

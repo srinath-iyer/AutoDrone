@@ -44,9 +44,8 @@ void uart_init()
     // Initialize global queues and e_stop flag:
     emergency_stop = false;
     comms_work = false;
-    command_queue = xQueueCreate(10, sizeof(char *)); // Queue for commands
     pose_queue = xQueueCreate(10, sizeof(Pose)); // Queue for pose data
-
+    uart_mutex = xSemaphoreCreateMutex(); // Mutex for UART communication
     ESP_LOGI(TAG, "UART initialized");
 }
 
@@ -55,20 +54,19 @@ static void handle_uart_data(int len, uint8_t *data)
     data[len] = '\0';  // Null-terminate
     ESP_LOGI(TAG, "Received: %s", (char *)data);
     char *str = (char *)data;
-
+    printf(str);
     if (strncmp(str, "/e-stop", 7) == 0) {
         ESP_LOGW(TAG, "EMERGENCY STOP TRIGGERED!");
         emergency_stop = true;  // Set the emergency stop flag
-        // TODO: Stop motors, trigger fail-safe, etc.
-        // Issue URL: https://github.com/srinath-iyer/AutoDrone/issues/7
         return;
     }
 
     else if (strncmp(str, "S:", 2) == 0) {
-        float t, x, y, z, yaw, pitch, roll;
-        if (sscanf(str + 2, "%u,%f,%f,%f,%f,%f,%f", &t, &x, &y, &z, &yaw, &pitch, &roll) == 7) {
-            ESP_LOGI(TAG, "State Update -> t: %u, x: %.2f, y: %.2f, z: %.2f, yaw: %.2f, pitch: %.2f, roll: %.2f",
-                        t, x, y, z, yaw, pitch, roll);
+        uint32_t t;
+        float x, y, z, yaw, pitch, roll;
+        if (sscanf(str + 2, "%lu,%f,%f,%f,%f,%f,%f", &t, &x, &y, &z, &yaw, &pitch, &roll) == 7) {
+            ESP_LOGI(TAG, "State Update -> t: %lu, x: %.2f, y: %.2f, z: %.2f, yaw: %.2f, pitch: %.2f, roll: %.2f",
+                        (unsigned long)t, x, y, z, yaw, pitch, roll);
             Pose new_pose;
             init_pose(&new_pose, t, x, y, z, roll, pitch, yaw);
             xQueueSend(pose_queue, &new_pose, pdMS_TO_TICKS(2)); // Send the new pose/IMU reading to the pose queue
@@ -83,10 +81,10 @@ static void handle_uart_data(int len, uint8_t *data)
         float x, y, z;
         if (sscanf(str + 6, "%f,%f,%f", &x, &y, &z) == 3) {
             ESP_LOGI(TAG, "Move Command -> x: %.2f, y: %.2f, z: %.2f", x, y, z);
-            Pose new_setpoint;
-            init_pose(&new_setpoint, 0, x, y, z, 0, 0, 0);
-            xQueueSend(command_queue, &new_setpoint, pdMS_TO_TICKS(2)); // Send the new setpoint to the command queue
-            
+            xSemaphoreTake(uart_mutex, portMAX_DELAY); // Take the mutex
+            init_pose(&setpoint, 0, x, y, z, 0, 0, 0);
+            //xQueueSend(command_queue, &new_setpoint, pdMS_TO_TICKS(2)); // Send the new setpoint to the command queue
+            xSemaphoreGive(uart_mutex); // Give the mutex
         } else {
             ESP_LOGW(TAG, "Malformed /move/ command: %s", str);
         }
@@ -97,7 +95,7 @@ static void handle_uart_data(int len, uint8_t *data)
         float thrust_kp, thrust_ki, thrust_kd;
         if (sscanf(str + 12, "%f,%f,%f", &thrust_kp, &thrust_ki, &thrust_kd) == 3) {
             ESP_LOGI(TAG, "Thrust PID -> Kp: %.2f, Ki: %.2f, Kd: %.2f", thrust_kp, thrust_ki, thrust_kd);
-            thrust_pid.init_pid_controller(thrust_kp, thrust_ki, thrust_kd);
+            init_pid_controller(&thrust_pid, thrust_kp, thrust_ki, thrust_kd);
         }
     }
 
@@ -105,7 +103,7 @@ static void handle_uart_data(int len, uint8_t *data)
         float roll_kp, roll_ki, roll_kd;
         if (sscanf(str + 11, "%f,%f,%f", &roll_kp, &roll_ki, &roll_kd) == 3) {
             ESP_LOGI(TAG, "Roll PID -> Kp: %.2f, Ki: %.2f, Kd: %.2f", roll_kp, roll_ki, roll_kd);
-            roll_pid.init_pid_controller(roll_kp, roll_ki, roll_kd);
+            init_pid_controller(&roll_pid, roll_kp, roll_ki, roll_kd);
         }
     }
 
@@ -113,7 +111,7 @@ static void handle_uart_data(int len, uint8_t *data)
         float pitch_kp, pitch_ki, pitch_kd;
         if (sscanf(str + 12, "%f,%f,%f", &pitch_kp, &pitch_ki, &pitch_kd) == 3) {
             ESP_LOGI(TAG, "Pitch PID -> Kp: %.2f, Ki: %.2f, Kd: %.2f", pitch_kp, pitch_ki, pitch_kd);
-            pitch_pid.init_pid_controller(pitch_kp, pitch_ki, pitch_kd);
+            init_pid_controller(&pitch_pid, pitch_kp, pitch_ki, pitch_kd);
         }
     }
 
@@ -121,7 +119,7 @@ static void handle_uart_data(int len, uint8_t *data)
         float yaw_kp, yaw_ki, yaw_kd;
         if (sscanf(str + 10, "%f,%f,%f", &yaw_kp, &yaw_ki, &yaw_kd) == 3) {
             ESP_LOGI(TAG, "Yaw PID -> Kp: %.2f, Ki: %.2f, Kd: %.2f", yaw_kp, yaw_ki, yaw_kd);
-            yaw_pid.init_pid_controller(yaw_kp, yaw_ki, yaw_kd);
+            init_pid_controller(&yaw_pid, yaw_kp, yaw_ki, yaw_kd);
         }
     }
 
@@ -135,6 +133,7 @@ static void handle_uart_data(int len, uint8_t *data)
 
 void uart_event_task(void *pvParameters)
 {
+    printf("uart task started");
     uart_event_t event;
     uint8_t data[128];
 
@@ -175,9 +174,9 @@ void uart_event_task(void *pvParameters)
     }
 }
 
-void send_state_to_pi(Pose pose, uint_32_t timestamp) { // Timestamp uses esp_timer_get_time(). In the future, state will also include voltage.
-    char state_message[] = "S";
-    sprintf(state_message, "S:%u:%f,%f,%f,%f,%f,%f", timestamp, pose.x, pose.y, pose.z, pose.roll, pose.pitch, pose.yaw);
+void send_state_to_pi(Pose* pose, uint32_t timestamp) { // Timestamp uses esp_timer_get_time(). In the future, state will also include voltage.
+    char state_message[128];
+    sprintf(state_message, "S:%lu:%f,%f,%f,%f,%f,%f", (unsigned long)timestamp, pose->x, pose->y, pose->z, pose->roll, pose->pitch, pose->yaw);
     uart_write_bytes(UART_NUM, state_message, strlen(state_message));
     printf("Sending pose to Raspberry Pi: ");
     print_pose(pose);

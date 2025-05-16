@@ -5,7 +5,7 @@
 #include <motor_driver.h>
 #include <constants.h>
 
-void init_motor(void)
+void init_motor()
 {
     // 1) configure the timer for 50 Hz PWM
     ledc_timer_config_t timer_cfg = {

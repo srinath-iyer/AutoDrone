@@ -27,6 +27,7 @@ esp_err_t read_mpu6050(uint8_t reg, uint8_t *data);
 void set_sample_rate(uint8_t rate);
 void set_accel_sensitivity(uint8_t sensitivity);
 void set_gyro_sensitivity(uint8_t sensitivity);
+void set_dplf_config(uint8_t config);
 
 // Call these functions multiple times in main.c:
 void update_mpu6050_measurements(MPU6050 *mpu6050);

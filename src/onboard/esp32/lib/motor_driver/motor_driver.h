@@ -3,8 +3,9 @@
 
 #include <constants.h>
 
-void init_motor(void);
+void init_motor();
 void set_motor_speed(int motor, uint32_t pulse_us);
-static uint32_t pulse_us_to_duty(uint32_t pulse_us);
+
+
 
 #endif

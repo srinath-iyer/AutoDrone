@@ -22,6 +22,9 @@ void init_mpu6050() {
     printf("i2c_master_init() done!\n");
     wake_up_mpu6050();
     set_sample_rate(MPU6050_SAMPLE_RATE);
+    set_accel_sensitivity(ACCEL_SENSITIVITY_INPUT);
+    set_gyro_sensitivity(GYRO_SENSITIVITY_INPUT);
+    set_dplf_config(DLPF_CONFIG);
 }
 
 void wake_up_mpu6050(){
@@ -90,6 +93,15 @@ void set_gyro_sensitivity(uint8_t sensitivity) {
         printf("Gyro sensitivity set successfully.\n");
     } else {
         printf("Failed to set Gyro sensitivity.\n");
+    }
+}
+
+void set_dplf_config(uint8_t config) {
+    esp_err_t ret = write_mpu6050(DLPF_CONFIG, config);
+    if (ret == ESP_OK) {
+        printf("DLPF config set successfully.\n");
+    } else {
+        printf("Failed to set DLPF config.\n");
     }
 }
 

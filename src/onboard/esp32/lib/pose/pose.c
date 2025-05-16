@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include "pose.h"
+#include "constants.h"
+#include <math.h>
 
 void init_pose(Pose *pose, uint32_t timestamp, float x, float y, float z, float roll, float pitch, float yaw) {
     pose->timestamp = timestamp; // Useful for queued setpoints/sensor fusion stuff with the RPi.
@@ -40,7 +42,16 @@ Pose get_local_error_to_setpoint(Pose *global, Pose *setpoint, float cos_yaw, fl
      
 }
 
-void print_pose(const Pose *pose) {
-    printf("%u: Pose - X: %.2f, Y: %.2f, Z: %.2f, Roll: %.2f, Pitch: %.2f, Yaw: %.2f\n",
-           pose->timestamp, pose->x, pose->y, pose->z, pose->roll, pose->pitch, pose->yaw);
+void print_pose(Pose *pose) {
+    printf("%lu: Pose - X: %.2f, Y: %.2f, Z: %.2f, Roll: %.2f, Pitch: %.2f, Yaw: %.2f\n",
+           (unsigned long)pose->timestamp, pose->x, pose->y, pose->z, pose->roll, pose->pitch, pose->yaw);
+}
+
+float atan2f_to_angle(float y, float x) {
+    // Convert atan2f output to angle in degrees
+    float angle = atan2f(y, x) * (180.0 / PI_FLOAT);
+    if (angle < 0) {
+        angle += 360.0; // Normalize to [0, 360)
+    }
+    return angle;
 }

@@ -5,7 +5,7 @@
 
 #include <constants.h>
 
-void init_pid_controller(PIDController* pid_controller, float KP, float KI, float KD){
+void init_pid_controller( PIDController* pid_controller, float KP, float KI, float KD){
     pid_controller->KP = KP;
     pid_controller->KI = KI;
     pid_controller->KD = KD;
@@ -18,7 +18,7 @@ void init_pid_controller(PIDController* pid_controller, float KP, float KI, floa
     pid_controller->max_output = MAX_PULSE_US;
 }
 
-float calculate_pid(PIDController* pid_controller, float error){
+float calculate_pid( PIDController* pid_controller, float error){
     pid_controller->error = error;
     pid_controller->integral += pid_controller->error * pid_controller->dt;
     pid_controller->derivative = (pid_controller->error - pid_controller->previous_error) / pid_controller->dt;
@@ -34,4 +34,4 @@ float calculate_pid(PIDController* pid_controller, float error){
     return output;
 }
 
-extern volatile PIDController thrust_pid, yaw_pid, roll_pid, pitch_pid; // Global PID controllers. This is a line specially for pid-tuning-ui. When we merge this branch, it should be deleted.
+extern PIDController thrust_pid, yaw_pid, roll_pid, pitch_pid; // Global PID controllers. This is a line specially for pid-tuning-ui. When we merge this branch, it should be deleted.
