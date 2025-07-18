@@ -52,7 +52,7 @@ class DronePIDTuner:
         self.setup_gui()
         
         # Start plotting update loop
-        self.master.after(100, self.update_plots)
+        self.master.after(500, self.update_plots)
         
         # Start log update loop
         self.master.after(100, self.update_logs)
@@ -284,7 +284,7 @@ class DronePIDTuner:
         slider.set(value)
             
     def update_plots(self):
-        if self.uart_connected:
+        if True:
             # Process any available IMU data
             while not self.Comms.rx_queue.empty():
                 try:
@@ -302,7 +302,7 @@ class DronePIDTuner:
                     self.yaw_data[-1] = imu_data["yaw"]
                     self.thrust_data[-1] = imu_data["thrust"]
 
-                    self.log()
+                    # self.log()
                     
                     self.Comms.rx_queue.task_done()
                 except queue.Empty:
