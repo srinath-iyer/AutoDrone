@@ -4,5 +4,5 @@
 #include <MPU6050.h>
 
 void sensor_fuse();
-
+extern float past_accelerations[3];
 #endif

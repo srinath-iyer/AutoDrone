@@ -5,6 +5,7 @@
 #include "driver/gpio.h"
 #include "esp_log.h"
 #include "esp_err.h"
+#include "esp_timer.h"
 
 void init_mpu6050_converted_data(MPU6050 *mpu6050) {
     mpu6050->accel_x = 0.0;
@@ -78,7 +79,7 @@ void set_sample_rate(uint8_t rate) {
 
 void set_accel_sensitivity(uint8_t sensitivity) {
     sensitivity = ACCEL_SENSITIVITY_INPUT;
-    esp_err_t ret = write_mpu6050(ACCEL_CONFIG, sensitivity);
+    esp_err_t ret = write_mpu6050(ACCEL_CONFIG, sensitivity << 3);
     if (ret == ESP_OK) {
         printf("Acceleration sensitivity set successfully.\n");
     } else {
@@ -179,7 +180,10 @@ void mpu6050_read_all(MPU6050 *mpu6050)
 {
     uint8_t data[14];
     // Read ACCEL_XOUT_H through GYRO_ZOUT_L
-    ESP_ERROR_CHECK(mpu6050_read_bytes(0x3B, data, sizeof(data)));
+    esp_err_t err = mpu6050_read_bytes(0x3B, data, sizeof(data));
+    if (err != ESP_OK) {
+        ESP_LOGE("MPU6050", "I2C read failed: %s", esp_err_to_name(err));
+}
 
     // Helper to combine two bytes
     #define TO_INT16(h,l)  ((int16_t)(((uint16_t)(h) << 8) | (l)))
@@ -196,9 +200,10 @@ void mpu6050_read_all(MPU6050 *mpu6050)
     int16_t raw_gz = TO_INT16(data[12], data[13]); //yaw
 
     // Convert to m/s²
-    mpu6050->accel_x = (float) (raw_ax / ACCEL_SENSITIVITY_OUTPUT) * 9.81;
-    mpu6050->accel_y = (raw_ay / ACCEL_SENSITIVITY_OUTPUT) * 9.81;
-    mpu6050->accel_z = (raw_az / ACCEL_SENSITIVITY_OUTPUT) * 9.81;
+    mpu6050->accel_x = ((float)raw_ax / ACCEL_SENSITIVITY_OUTPUT) * 9.81f;
+    mpu6050->accel_y = ((float)raw_ay / ACCEL_SENSITIVITY_OUTPUT) * 9.81f;
+    mpu6050->accel_z = ((float)raw_az / ACCEL_SENSITIVITY_OUTPUT) * 9.81f;
+
 
     // Convert to °C (per datasheet: Temp = raw/340 + 3s6.53)
     mpu6050->temp    = (raw_temp / 340.0f) + 36.53f;
@@ -207,6 +212,7 @@ void mpu6050_read_all(MPU6050 *mpu6050)
     mpu6050->gyro_x  = raw_gx / GYRO_SENSITIVITY_OUTPUT;
     mpu6050->gyro_y  = raw_gy / GYRO_SENSITIVITY_OUTPUT;
     mpu6050->gyro_z  = raw_gz / GYRO_SENSITIVITY_OUTPUT;
+    mpu6050->timestamp = esp_timer_get_time();
 
     #undef TO_INT16
 }
