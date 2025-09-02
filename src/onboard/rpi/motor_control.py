@@ -19,6 +19,7 @@ def set_motor():
     motor_position = data.get('value')
     comms.send_command(f"/motor-pwm/{motor_position}\n")
     # TODO: Interface with actual motor controller here
+    # Issue URL: https://github.com/srinath-iyer/AutoDrone/issues/8
     # Example: pwm.set_duty_cycle(motor_position) or send via serial, etc.
     print(f"[DEBUG] Motor position set to: {motor_position}")
 
