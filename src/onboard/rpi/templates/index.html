@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Motor Control</title>
+    <style>
+        /* Basic styling for slider and layout */
+        body {
+            font-family: sans-serif;
+            padding: 40px;
+        }
+
+        .slider-container {
+            width: 400px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Motor Control Panel</h1>
+
+    <div class="slider-container">
+        <!-- Input range to simulate motor control (0-200) -->
+        <input type="range" min="0" max="2000" value="995" class="slider" id="motorSlider">
+        <p>Value: <span id="sliderValue">995</span></p>
+    </div>
+
+    <script>
+        const slider = document.getElementById('motorSlider');
+        const valueDisplay = document.getElementById('sliderValue');
+
+        // Update text label and send value to Flask when slider changes
+        slider.oninput = function() {
+            const value = this.value;
+            valueDisplay.textContent = value;
+
+            // Send updated value to Flask backend via POST
+            fetch('/set_motor', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ value: value }),
+            })
+            .then(response => response.json())
+            .then(data => {
+                console.log('[INFO] Motor value sent:', data);
+            })
+            .catch((error) => {
+                console.error('[ERROR] Failed to send value:', error);
+            });
+        };
+    </script>
+
+</body>
+</html>

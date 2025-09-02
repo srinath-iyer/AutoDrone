@@ -14,7 +14,7 @@ class OnboardComms:
         self.ser = serial.Serial('/dev/serial0', 115200, timeout=0)
         self.ser.flush()
         print("Serial port initialized")
-        self.test_signal()
+        #self.test_signal()
         self.rx_queue = Queue()
         self.listener_thread = threading.Thread(target=self.listen_loop, daemon=True)
         self.listener_thread.start()
@@ -37,7 +37,9 @@ class OnboardComms:
                     while b'\n' in buffer:
                         line, buffer = buffer.split(b'\n', 1)
                         line = line.decode('utf-8').strip()
-                        self.rx_queue.put(line)
+                        #print("[RX]", line)
+                        #self.rx_queue.put(line)
+
                 except Exception as e:
                     print(f"[UART] Exception in listener: {e}")
 
@@ -80,3 +82,4 @@ class OnboardComms:
                 time.sleep(0.001)
         if elapsed_time > 5:
             print("No response from ESP32")
+

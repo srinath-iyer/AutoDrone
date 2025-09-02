@@ -1,3 +1,5 @@
 *.pem
 hostname.txt
 network.c
+.venv/
+__pycache__/

@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Drone Vision Dashboard</title>
+    <style>
+      body { font-family: sans-serif; text-align: center; }
+      img { border: 2px solid #333; }
+    </style>
+  </head>
+  <body>
+    <h1>Optical Flow Visual Debug</h1>
+    <img src="{{ url_for('video_feed') }}" width="640" />
+  </body>
+</html>
