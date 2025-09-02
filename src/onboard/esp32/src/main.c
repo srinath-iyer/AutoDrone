@@ -35,8 +35,6 @@
 //     uart_set_pin(UART_NUM, TXD_PIN, RXD_PIN, UART_PIN_NO_CHANGE, UART_PIN_NO_CHANGE);
 
 //     while (1) {
-//         char message[] = "Hello from ESP32\n";
-//         uart_write_bytes(UART_NUM, message, strlen(message));
 
 //         uint8_t data[BUF_SIZE];
 //         int len = uart_read_bytes(UART_NUM, data, BUF_SIZE, 100 / portTICK_PERIOD_MS);
@@ -44,11 +42,10 @@
 //             gpio_set_level(GPIO_NUM_2, 1); // Set GPIO pin high
 //             data[len] = '\0';
 //             ESP_LOGI(TAG, "Received: %s", (char *)data);
-//             vTaskDelay(1000 / portTICK_PERIOD_MS); // Delay for 1 second
+//             char message[] = "/test_signal_received\n";
+//             uart_write_bytes(UART_NUM, message, strlen(message));
 //             gpio_set_level(GPIO_NUM_2, 0); // Set GPIO pin low
 //         }
-
-//         vTaskDelay(pdMS_TO_TICKS(2000));
 //     }
 // }
 
@@ -58,6 +55,8 @@
 #include <math.h>
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
+#include "esp_timer.h"
+
 
 // Custom Imports
 #include <mpu6050.h>
@@ -81,7 +80,7 @@ SemaphoreHandle_t uart_mutex = NULL;
 
 // Forward Declarations:
 void sensors_and_controls();
-void send_pose_to_pi();
+void send_to_pi();
 void correct_pose();
 void check_for_enable();
 void init_drone();
@@ -100,8 +99,8 @@ void app_main(){
 
     init_drone();
     xTaskCreatePinnedToCore(uart_event_task, "UART Task", 4096, NULL, 10, NULL, 0);
-    xTaskCreate(sensors_and_controls, "Sensors and Controls", 2048, NULL, 10, NULL);
-    xTaskCreate(send_pose_to_pi, "Send Data to Pi", 2048, NULL, 9, NULL);
+    xTaskCreatePinnedToCore(sensors_and_controls, "Sensors and Controls", 8192, NULL, 10, NULL, 1);
+    xTaskCreate(send_to_pi, "Send Data to Pi", 8192, NULL, 9, NULL);
     xTaskCreate(motor_control, "Motor Control", 2048, NULL, 10, NULL);
 }
 void init_drone(){
@@ -121,8 +120,12 @@ void init_drone(){
     init_pid_controller(&position_pitch_pid, POSITION_PITCH_KP, POSITION_PITCH_KI, POSITION_PITCH_KD);
 
     // Pose:
-    init_pose(&setpoint, 0, 0, 0, 0, 0, 0, 0); // Setpoint is initialized to the origin.
-    init_pose(&pose, 0, 0, 0, 0, 0, 0, 0); // Pose is initialized to the origin.
+    init_pose(&setpoint, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0); // Setpoint is initialized to the origin.
+    init_pose(&pose, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0); // Pose is initialized to the origin.
+
+    past_accelerations[0] = 0.0; // Used for acceleration LPF for position sensor fusion.
+    past_accelerations[1] = 0.0;
+    past_accelerations[2] = 0.0;
 
     // UART Comms:
     uart_init();
@@ -141,33 +144,29 @@ void init_drone(){
     motor_mixing_results[2] = 0.0;
     motor_mixing_results[3] = 0.0;
     printf("drone initialized\n");
-    send_to_pi("ESP32 says: drone initialized");
+    //send_to_pi("ESP32 says: drone initialized\n");
 }
 
-void sensors_and_controls(){ //this one
+void sensors_and_controls(){
     while(1){
     TickType_t last_wake_time = xTaskGetTickCount();
     mpu6050_read_all(&mpu6050);
-    // print_mpu6050_data(&mpu6050);
-    // Add sensor fusion and update pose function call here
+    sensor_fuse();
     
-    float cos_yaw = cosf(pose.yaw * PI_FLOAT / 180.0); // Convert yaw to radians for calculations.
-    float sin_yaw = sinf(pose.yaw * PI_FLOAT / 180.0); // Convert yaw to radians for calculations.
     // PID loops:
 
     // For position PID, we first convert to local drone coordinates to remove yaw effects. Then we calculate the error.
-    Pose local_pose_error = get_local_error_to_setpoint(&pose, &setpoint, cos_yaw, sin_yaw); 
 
     // Provide position errors, output is roll and pitch angles for the drone.
-    setpoint.roll = calculate_pid(&position_roll_pid, local_pose_error.x);
-    setpoint.pitch = calculate_pid(&position_pitch_pid, local_pose_error.y);
+    // setpoint.roll = calculate_pid(&position_roll_pid, local_pose_error.x);
+    // setpoint.pitch = calculate_pid(&position_pitch_pid, local_pose_error.y);
     
-    setpoint.yaw = atan2f(setpoint.y-pose.y, setpoint.x-pose.x); // Needs to have some trig in it.
-    float yaw_error = setpoint.yaw - pose.yaw; // Yaw error is the difference between the setpoint and the current yaw.
-    float thrust_output = calculate_pid(&thrust_pid, setpoint.z-pose.z); // Thrust error is in the z direction.
-    float yaw_output = calculate_pid(&yaw_pid, yaw_error); // Yaw error is thr angle between the 
-    float roll_output = calculate_pid(&roll_pid, setpoint.roll-pose.roll);
-    float pitch_output = calculate_pid(&pitch_pid, setpoint.pitch-pose.pitch);
+    // setpoint.yaw = atan2f(setpoint.y-pose.y, setpoint.x-pose.x); // Needs to have some trig in it.
+    // float yaw_error = setpoint.yaw - pose.yaw; // Yaw error is the difference between the setpoint and the current yaw.
+    // float thrust_output = calculate_pid(&thrust_pid, setpoint.z-pose.z); // Thrust error is in the z direction.
+    // float yaw_output = calculate_pid(&yaw_pid, yaw_error); // Yaw error is thr angle between the 
+    // float roll_output = calculate_pid(&roll_pid, setpoint.roll-pose.roll);
+    // float pitch_output = calculate_pid(&pitch_pid, setpoint.pitch-pose.pitch);
 
     //PIDs
     
@@ -183,40 +182,41 @@ void sensors_and_controls(){ //this one
     // Log or print_mpu6050_data(&mpu6050);
     //send mpu data to rpi
 
-    vTaskDelayUntil(&last_wake_time, pdMS_TO_TICKS(4)); // Trying 50 Hz.
+    vTaskDelayUntil(&last_wake_time, pdMS_TO_TICKS(4)); // Trying 250 Hz.
     }
 }
 
-void pid_controllers(){
-    TickType_t last_wake_time = xTaskGetTickCount();
+void pid_controllers(){ 
     while (1) {
+        TickType_t last_wake_time = xTaskGetTickCount();
         // Your code to send pose to Pi here
         vTaskDelayUntil(&last_wake_time, pdMS_TO_TICKS(100)); // e.g., 10 Hz
     }
 }
 
 void motor_control(){ //this one
-
-    TickType_t last_wake_time = xTaskGetTickCount();
     while (1) {
+        TickType_t last_wake_time = xTaskGetTickCount();
         // Your code to send pose to Pi here
         vTaskDelayUntil(&last_wake_time, pdMS_TO_TICKS(100)); // e.g., 10 Hz
     }
 }
 
 void check_safety(){
-     TickType_t last_wake_time = xTaskGetTickCount();
     while (1) {
+        TickType_t last_wake_time = xTaskGetTickCount();
         // Your code to send pose to Pi here
         vTaskDelayUntil(&last_wake_time, pdMS_TO_TICKS(100)); // e.g., 10 Hz
     }
 }
 
-void send_pose_to_pi() {
-    TickType_t last_wake_time = xTaskGetTickCount();
+void send_to_pi() {
     while (1) {
+        TickType_t last_wake_time = xTaskGetTickCount();
         // Your code to send pose to Pi here
-        vTaskDelayUntil(&last_wake_time, pdMS_TO_TICKS(100)); // e.g., 10 Hz
+        // send_pose_to_pi(&pose, esp_timer_get_time());
+        //send_imu_to_pi(&mpu6050, esp_timer_get_time());
+        vTaskDelayUntil(&last_wake_time, pdMS_TO_TICKS(50)); // e.g., 20 Hz
     }
 }
 

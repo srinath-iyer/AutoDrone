@@ -88,8 +88,8 @@
 #define MPU6050_SAMPLE_RATE 4
 
 // MPU Sensitivity:
-#define ACCEL_SENSITIVITY_INPUT 3 // 0, 1, 2, 3
-#define ACCEL_SENSITIVITY_OUTPUT (float)32768 // 16384, 8192, 16384, 32768
+#define ACCEL_SENSITIVITY_INPUT 1 // 0, 1, 2, 3
+#define ACCEL_SENSITIVITY_OUTPUT (float)8192 // 16384, 8192, 4096, 2048
 
 #define GYRO_SENSITIVITY_INPUT 1 // 0, 1, 2, 3
 #define GYRO_SENSITIVITY_OUTPUT (float)65.5 // 131 65.5, 131, 262
@@ -105,6 +105,14 @@
 #define TXD_PIN (GPIO_NUM_17)
 #define RXD_PIN (GPIO_NUM_16)
 #define BUF_SIZE 1024
+
+// Sensor Fusion:
+#define ACCEL_X_BIAS 0.121782f
+#define ACCEL_Y_BIAS 0.453024f
+#define ACCEL_Z_BIAS 10.15124f
+#define GYRO_X_BIAS -3.129174f
+#define GYRO_Y_BIAS -0.2857094f
+#define GYRO_Z_BIAS 1.41215402f
 
 // Motor Mixing Algorithm:
 // These constants are used in scaling different aspects of the motor mixing algorithm. This is because the drone, while symmetrical biaxially, it is not a perfect square.

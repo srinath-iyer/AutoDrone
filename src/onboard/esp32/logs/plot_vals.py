@@ -3,7 +3,7 @@ import datetime
 import re
 
 # Change this to your actual filename
-filename = 'logs\device-monitor-250515-193158.log'
+filename = 'logs\device-monitor-250714-190901.log'
 
 # Lists to store data
 times = []

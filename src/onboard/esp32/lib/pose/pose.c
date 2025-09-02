@@ -3,22 +3,28 @@
 #include "constants.h"
 #include <math.h>
 
-void init_pose(Pose *pose, uint32_t timestamp, float x, float y, float z, float roll, float pitch, float yaw) {
+void init_pose(Pose *pose, uint32_t timestamp, float x, float y, float z, float v_x, float v_y, float v_z, float roll, float pitch, float yaw) {
     pose->timestamp = timestamp; // Useful for queued setpoints/sensor fusion stuff with the RPi.
     pose->x = x;
     pose->y = y;
     pose->z = z;
+    pose->v_x = v_x;
+    pose->v_y = v_y;
+    pose->v_z = v_z;
     pose->roll = roll;
     pose->pitch = pitch;
     pose->yaw = yaw;
 }
 
-void update_pose(Pose *pose, uint32_t updated_timestamp, float dx, float dy, float dz, float droll, float dpitch, float dyaw) { // Update pose with deltas.
+void update_pose(Pose *pose, uint32_t updated_timestamp, float dx, float dy, float dz, float droll, float dpitch, float dyaw, float dv_x, float dv_y, float dv_z) { // Update pose with deltas.
     // Update pose is meant to be only used for the drone pose Pose struct, which is initizlied at origin and updated to the drone's current position.
     pose->timestamp = updated_timestamp;
     pose->x += dx;
     pose->y += dy;
     pose->z += dz;
+    pose->v_x += dv_x;
+    pose->v_y += dv_y;
+    pose->v_z += dv_z;
     pose->roll += droll;
     pose->pitch += dpitch;
     pose->yaw += dyaw;

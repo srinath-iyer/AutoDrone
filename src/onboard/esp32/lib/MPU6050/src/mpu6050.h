@@ -12,7 +12,10 @@ typedef struct{
     float gyro_y;
     float gyro_z;
     float temp;
+    uint32_t timestamp;
 } MPU6050;
+
+extern MPU6050 mpu6050;
 
 
 // Call these following in main.c

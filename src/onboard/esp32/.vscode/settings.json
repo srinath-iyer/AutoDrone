@@ -7,6 +7,7 @@
         "constants.h": "c",
         "i2c.h": "c",
         "mpu6050.h": "c",
-        "gpio.h": "c"
+        "gpio.h": "c",
+        "motor_driver.h": "c"
     }
 }
