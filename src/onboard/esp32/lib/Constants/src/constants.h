@@ -63,8 +63,8 @@
 
 // MPU6050 IMU Registers:
 // https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Register-Map1.pdf
-#define DEVICE_ADDRESS 0x68
-#define PWR_MGMT_1_REG 0x6B
+#define MPU6050_DEVICE_ADDRESS 0x68
+#define MPU6050_PWR_MGMT_1_REG 0x6B
 #define SMPLRT_DIV 0x19
 #define ACCEL_XOUT_H 0x3B
 #define ACCEL_XOUT_L 0x3C
@@ -84,6 +84,8 @@
 #define GYRO_CONFIG 0x1B
 #define DLPF_CONFIG 0x1A
 
+// BMP390 Registers:
+#define BMP390_I2C_ADDRESS 0x77
 // mpu6050 Sample Rate:
 #define MPU6050_SAMPLE_RATE 4
 
@@ -113,6 +115,7 @@
 #define GYRO_X_BIAS -3.129174f
 #define GYRO_Y_BIAS -0.2857094f
 #define GYRO_Z_BIAS 1.41215402f
+#define BMP390_ALT_BIAS 52.12f
 
 // Motor Mixing Algorithm:
 // These constants are used in scaling different aspects of the motor mixing algorithm. This is because the drone, while symmetrical biaxially, it is not a perfect square.

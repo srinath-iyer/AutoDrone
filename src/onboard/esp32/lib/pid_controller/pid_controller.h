@@ -10,7 +10,7 @@ typedef struct{
     float derivative;
     float previous_error;
     float dt;
-    float min_ouput;
+    float min_output;
     float max_output;
 
 } PIDController;

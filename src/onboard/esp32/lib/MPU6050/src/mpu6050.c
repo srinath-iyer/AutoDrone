@@ -30,7 +30,7 @@ void init_mpu6050() {
 
 void wake_up_mpu6050(){
     uint8_t data = 0x00;
-    esp_err_t ret = write_mpu6050(PWR_MGMT_1_REG, data);
+    esp_err_t ret = write_mpu6050(MPU6050_PWR_MGMT_1_REG, data);
     if (ret == ESP_OK) {
         printf("MPU6050 woken up successfully.\n");
         gpio_set_level(2, 1);
@@ -58,7 +58,7 @@ void i2c_master_init() {
 esp_err_t write_mpu6050(uint8_t reg_addr, uint8_t data) {
     i2c_cmd_handle_t cmd = i2c_cmd_link_create();
     i2c_master_start(cmd);
-    i2c_master_write_byte(cmd, (DEVICE_ADDRESS << 1) | I2C_MASTER_WRITE, true);
+    i2c_master_write_byte(cmd, (MPU6050_DEVICE_ADDRESS << 1) | I2C_MASTER_WRITE, true);
     i2c_master_write_byte(cmd, reg_addr, true);
     i2c_master_write_byte(cmd, data, true);
     i2c_master_stop(cmd);
@@ -162,10 +162,10 @@ void update_mpu6050_measurements(MPU6050 *mpu6050) {
 esp_err_t mpu6050_read_bytes(uint8_t reg_addr, uint8_t *data, size_t length) {
     i2c_cmd_handle_t cmd = i2c_cmd_link_create();
     i2c_master_start(cmd);
-    i2c_master_write_byte(cmd, (DEVICE_ADDRESS << 1) | I2C_MASTER_WRITE, true);
+    i2c_master_write_byte(cmd, (MPU6050_DEVICE_ADDRESS << 1) | I2C_MASTER_WRITE, true);
     i2c_master_write_byte(cmd, reg_addr, true);
     i2c_master_start(cmd);
-    i2c_master_write_byte(cmd, (DEVICE_ADDRESS << 1) | I2C_MASTER_READ, true);
+    i2c_master_write_byte(cmd, (MPU6050_DEVICE_ADDRESS << 1) | I2C_MASTER_READ, true);
     if (length > 1) {
         i2c_master_read(cmd, data, length - 1, I2C_MASTER_ACK);
     }
@@ -213,7 +213,10 @@ void mpu6050_read_all(MPU6050 *mpu6050)
     mpu6050->gyro_y  = raw_gy / GYRO_SENSITIVITY_OUTPUT;
     mpu6050->gyro_z  = raw_gz / GYRO_SENSITIVITY_OUTPUT;
     mpu6050->timestamp = esp_timer_get_time();
-
+    // printf("MPU6050_READING:%.2f,%.2f,%.2f,%.2f,%.2f,%.2f,%.2f\n",
+    //         mpu6050->accel_x, mpu6050->accel_y, mpu6050->accel_z,
+    //         mpu6050->gyro_x, mpu6050->gyro_y, mpu6050->gyro_z,
+    //         mpu6050->temp);
     #undef TO_INT16
 }
 

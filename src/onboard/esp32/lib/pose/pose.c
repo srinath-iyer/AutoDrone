@@ -49,8 +49,8 @@ Pose get_local_error_to_setpoint(Pose *global, Pose *setpoint, float cos_yaw, fl
 }
 
 void print_pose(Pose *pose) {
-    printf("%lu: Pose - X: %.2f, Y: %.2f, Z: %.2f, Roll: %.2f, Pitch: %.2f, Yaw: %.2f\n",
-           (unsigned long)pose->timestamp, pose->x, pose->y, pose->z, pose->roll, pose->pitch, pose->yaw);
+    printf("POSE_READING:%.2f,%.2f,%.2f,%.2f,%.2f,%.2f\n",
+           pose->x, pose->y, pose->z, pose->roll, pose->pitch, pose->yaw);
 }
 
 float atan2f_to_angle(float y, float x) {
